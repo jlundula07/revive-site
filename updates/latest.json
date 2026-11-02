@@ -1,6 +1,6 @@
 {
-  "version": "3.0.54",
-  "notes": "- Updates now come from revivestudio.app: every copy of Revive gets them, no GitHub sign-in needed. Each update is checked against Revive's signature before it installs.",
-  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.54/Revive-3.0.54.dmg",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFHVUY1VVpSQWJTYUxiamUxd3hacnk4UkVzTnV3WUd4eVdMTnBXT0syOW5CeFIwdDg1U3Z0a1RxNm1RZW1VR2tucDBUT2UxbXh1Z2lxRmdSRUJqd0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjYzMTY4CWZpbGU6UmV2aXZlLTMuMC41NC5kbWcKUGw5cWJNNVJKRjhVZ1JvckRjL29xY0hoNkwyNnFXaUpiU2lpQWJsRWd1Zkk5dWNKb2RNOVJPcXZsUTVUNFhpRlM4Z1lFdnhBZG95WkpDam1aOUF5RFE9PQo="
+  "version": "3.0.56",
+  "notes": "- Carousel arrows now sit on the edge of the slide, so they never cover the words.",
+  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.56/Revive-3.0.56.dmg",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFEU0RDSlJ4WHVkN2FWa2xadldlZit0ZnMwaXNxdVcyZ2xhd3p6QmhJNEg2aEgxb3J5WmdScmdXc0tVajV6WDJVMW5YQkx3cHkzUkwySVZNcm1Rc2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjYzNjQzCWZpbGU6UmV2aXZlLTMuMC41Ni5kbWcKMHY5NDdpNkhJWEtjUnBvendEekJmVUl3THpENnl1SUtjcmVReEUzaElYOG5pQ0Q3U1FMejV1TkZUenVucUJuMXVpSlNiU3FYRGV0aGo5UjN3cEZyQlE9PQo="
 }
