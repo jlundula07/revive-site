@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><title>Revive</title>
+<style>
+.done { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 20px; }
+.done img { display: block; margin: 0 auto 26px; }
+.done h1 { font-size: clamp(32px, 6vw, 44px); letter-spacing: -0.035em; margin-bottom: 10px; }
+.done p { margin: 0; font-size: 18px; }
+</style></head><body>
+<main class="done"><div>
+<img src="revive-mark-offwhite.svg" alt="" width="56" height="56">
+<h1 id="t">You're in.</h1>
+<p id="s">Close this tab and go back to Revive.</p>
+</div></main>
+<script>
+// The app sends the browser here after sign-in. ?failed means it didn't finish.
+if (new URLSearchParams(location.search).has("failed")) {
+  document.getElementById("t").textContent = "That didn't finish.";
+  document.getElementById("s").textContent = "Go back to Revive and try again.";
+}
+history.replaceState(null, "", location.pathname.replace(/\.html$/, ""));
+</script>
+</body></html>
