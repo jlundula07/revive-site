@@ -1,6 +1,6 @@
 {
-  "version": "3.0.57",
-  "notes": "- Blocks on Account, Creators and Brand DNA no longer touch: there is a little space between each one.",
-  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.57/Revive-3.0.57.dmg",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZTenlaT3ZaNVFpdW9rL3VaY1ZtWnpWejRzU1JYbkxxaDEwNHVFWEZpZlZVQlllWDVORnRwN0R2RmVTVVlvOGlOYTg2bktETG1MRHBXVm9rTkVqUWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzExNzE2CWZpbGU6UmV2aXZlLTMuMC41Ny5kbWcKQ2ZEZFBRVUFwaEdZTENlcXdHS09la3QyMTZnVk1IZklKd3RBWHFwYlZNZm9YWE4vbmU1UU1kVXZYRkZGaG1ZZTlQQ3ZhMUUxVWI5Z2JoR0R1TTgvQVE9PQo="
+  "version": "3.0.58",
+  "notes": "- The colour picker fits inside its panel again, and the panel is solid, so nothing behind it shows through.\n- The colour picker has an eyedropper: press it, then click any colour on your screen, like a logo, a website or a photo. Escape cancels.\n- Tweet and Boxed tweet carousels show a blue checkmark after the creator's name, for every creator.\n- The caption preview and a few messages still said splittr. They all say Revive now.",
+  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.58/Revive-3.0.58.dmg",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRGbGZiZS9QRHBMREpwZlQrYXJFeEc3WXQwVHV3d1p0Tms0OWREWTkwQzdxK0w5WXlZMm90S2xQMHdqTW4wdTRMTG9YLy8xUEJLczhrMDNFaWNOZVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzEyNTcwCWZpbGU6UmV2aXZlLTMuMC41OC5kbWcKMjFsMVppRDJidUJPZ01jbGZxRzdJNXU2QW9vUDBEUGg1a0gvOWpNeGx0b3pEUWhXd0VJVjBuNEc1WFJRMmppSG5UWHROdEhRSkkyemRCcGFtSHVURHc9PQo="
 }
