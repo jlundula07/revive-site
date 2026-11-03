@@ -1,6 +1,6 @@
 {
-  "version": "3.0.59",
-  "notes": "- Annotation words stay white on a light brand colour like a soft blue, instead of turning black. They only go dark when white really can't be read, like on a pale yellow.",
-  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.59/Revive-3.0.59.dmg",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVhySGZ1YmRMS1ZIZTQ0VnIyaHc1S2c2ZWk5OTNLRFl6TlhrTCttY2MrNndxd2JhYzkwODRSMHRrN2tLUlljUlQ3dXRWZDJCWUNBazJXSk13Rk1zVlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzEzMDIyCWZpbGU6UmV2aXZlLTMuMC41OS5kbWcKV2Q1cFZQc3hKSUpmdDgyOE90MXM4dGNZL00wTkhPNzE1NFVFZ1Vxd0JHRUZkWHRwMCtHeWExTjIzRVBUNCtlbnFpSDM5QWw1cC83d21KZklKZjJ0Q3c9PQo="
+  "version": "3.0.60",
+  "notes": "- Long-form moments are open. Each one is a whole topic of your recording (or two or three that build one idea), usually 5 to 12 minutes, with a title written for your ideal customer.\n- Long-form plays as you recorded it, except your recording's own ads and calls to action, fumbles with the screen or setup, and side chatter, which come out.\n- New in Creators, Editing: Outro. A short video of you that goes at the end of every long-form moment.\n- Drop more than one file (a second camera, a screen recording, a call): the next question asks what each one is. Revive lines them up by their sound, shows a screen recording side by side with you while it shows something, a call only while the other person talks, and cuts between cameras to whoever is speaking.",
+  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.60/Revive-3.0.60.dmg",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlxaFQ3cWdGbHFzTEg1K3daVGFsTWxyMHkyRnJ1Mi9vVWE2QjZESG4zQk1DV2NIZUJoaDEzYWE1SGUrZmdLS2FWQzR5d3ZIaTJ1S3VpRHUrTXExdmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzI0MjQxCWZpbGU6UmV2aXZlLTMuMC42MC5kbWcKZ0ZvTGxuQWE3eklMTnAzZWVkdGxSZVNXYmFaNGhkeklpdEVoNHZRdmh6MFdrUjE2aXdpN05yeXovU1ZXbHlZMWxnb0ZQZFliWk1QY1k2eTRYNlNCQ2c9PQo="
 }
