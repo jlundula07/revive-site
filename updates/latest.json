@@ -1,6 +1,6 @@
 {
-  "version": "3.0.56",
-  "notes": "- Carousel arrows now sit on the edge of the slide, so they never cover the words.",
-  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.56/Revive-3.0.56.dmg",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFEU0RDSlJ4WHVkN2FWa2xadldlZit0ZnMwaXNxdVcyZ2xhd3p6QmhJNEg2aEgxb3J5WmdScmdXc0tVajV6WDJVMW5YQkx3cHkzUkwySVZNcm1Rc2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjYzNjQzCWZpbGU6UmV2aXZlLTMuMC41Ni5kbWcKMHY5NDdpNkhJWEtjUnBvendEekJmVUl3THpENnl1SUtjcmVReEUzaElYOG5pQ0Q3U1FMejV1TkZUenVucUJuMXVpSlNiU3FYRGV0aGo5UjN3cEZyQlE9PQo="
+  "version": "3.0.57",
+  "notes": "- Blocks on Account, Creators and Brand DNA no longer touch: there is a little space between each one.",
+  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.57/Revive-3.0.57.dmg",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZTenlaT3ZaNVFpdW9rL3VaY1ZtWnpWejRzU1JYbkxxaDEwNHVFWEZpZlZVQlllWDVORnRwN0R2RmVTVVlvOGlOYTg2bktETG1MRHBXVm9rTkVqUWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzExNzE2CWZpbGU6UmV2aXZlLTMuMC41Ny5kbWcKQ2ZEZFBRVUFwaEdZTENlcXdHS09la3QyMTZnVk1IZklKd3RBWHFwYlZNZm9YWE4vbmU1UU1kVXZYRkZGaG1ZZTlQQ3ZhMUUxVWI5Z2JoR0R1TTgvQVE9PQo="
 }
