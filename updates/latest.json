@@ -1,9 +1,9 @@
 {
-  "version": "3.0.76",
-  "notes": "- Picking a format no longer restarts every preview with a flash of black: only the card you picked lights up, and the videos keep playing.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.76.dmg",
+  "version": "3.0.77",
+  "notes": "- Picks stay when you switch tabs: the bar at the bottom shows every kind you've picked (\\\"14 shorts selected \u00b7 4 long-form moments selected \u00b7 7 carousels selected\\\") and one button with the total credits makes them all at once. Clear empties all three.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.77.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.76/Revive-3.0.76.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.77/Revive-3.0.77.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRBVERSOTA3NEhXaVkrTVQrN1VycHRmQy9NY0ZVQXp1NGVyNW05OXlIaHBjWmxMZUFHSjA2aUFpdUw5NVAwVXYvQUZiYnF3L2tPUFhXSEJuaEFzSUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE4NjYzCWZpbGU6UmV2aXZlLTMuMC43Ni5kbWcKSTJ4Y0dWTWE1YXh1c2NXVkZlUzNmUzlGeWdHTHVuTDUyV21IdkYxUVJMQUNZUVVtc1Z6U2hKcW1hY1pJa1lhMVB6d0Q3alk3dVNUUlFlTm1iK0VOQ2c9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJSUjFSbENIckVsOVNtbHF0d2ZYNk5kUmpMU1Jwd3o4Nm8yMVJEb0ZFOSs2Y3QwVytQTHVFL25UeGU1cGNPZlBKSmpPaVdPejQ2OHFsTGtpSUNFeGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI2Mzk5CWZpbGU6UmV2aXZlLTMuMC43Ny5kbWcKM0RsYnZrc3Rxb3pyb29BYk0wOVFPTDJIb2NPTzZzc1piZDZWQTNKcTZqdEIxdGdzRUFxcFBRVjhXQmlVTVd6RHNXeUVzY2lOcEJjOWtOVVh6Vk1EQ2c9PQo="
 }
