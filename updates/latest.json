@@ -1,9 +1,9 @@
 {
-  "version": "3.0.75",
-  "notes": "- Studio Podcast: no opening title.\n- Studio Podcast: compositions come about every 8 to 10 seconds and in six layouts (stack, sandwich, cascade, pair, giant number, sentence), never the same one twice in a row.\n- Studio Podcast: a composition keeps the last words of its sentence and is always gone before the next caption appears.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.75.dmg",
+  "version": "3.0.76",
+  "notes": "- Picking a format no longer restarts every preview with a flash of black: only the card you picked lights up, and the videos keep playing.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.76.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.75/Revive-3.0.75.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.76/Revive-3.0.76.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRSZG51bHhqM0UreTVJUUd4YWpNNVVrWWxVR3J0WW9SQkdTcHJhdnBlV3g1bnpjRXpOeG03TWUzR3JNbzFxUmY3d2lTK1NmQVFvVlE1SGtnamxRbFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE3NDkzCWZpbGU6UmV2aXZlLTMuMC43NS5kbWcKUDRmYzdid0NDUTRWYmk2TXh2OVZVWTlPZWtSa0wrVGNFMDY2eGk4N1lUU3JqNG1nSFpnYnRaRktOd0tCeWd0UXp2SU1BWlAvelBTNnpzcFJ1VHpBRHc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRBVERSOTA3NEhXaVkrTVQrN1VycHRmQy9NY0ZVQXp1NGVyNW05OXlIaHBjWmxMZUFHSjA2aUFpdUw5NVAwVXYvQUZiYnF3L2tPUFhXSEJuaEFzSUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE4NjYzCWZpbGU6UmV2aXZlLTMuMC43Ni5kbWcKSTJ4Y0dWTWE1YXh1c2NXVkZlUzNmUzlGeWdHTHVuTDUyV21IdkYxUVJMQUNZUVVtc1Z6U2hKcW1hY1pJa1lhMVB6d0Q3alk3dVNUUlFlTm1iK0VOQ2c9PQo="
 }
