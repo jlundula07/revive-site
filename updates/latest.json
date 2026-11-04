@@ -1,9 +1,9 @@
 {
-  "version": "3.0.67",
-  "notes": "- New short-form format: Studio Podcast. Captions appear a line at a time, written word by word as they are said, with the words that carry the point in your accent colour and a soft glow.\n- A few big words per clip ripple in, slide up and stay on screen long enough to read, and two or three lines that matter get a stacked layout with three sizes of type. The picture punches in between sentences, and the show's own wide shots push in slowly.\n- No title card, no B-roll, no call to action at the end and no name card. It uses your brand font, and your secondary colour when you have one (otherwise your accent).",
-  "url": "https://revivestudio.app/updates/Revive-3.0.67.dmg",
+  "version": "3.0.68",
+  "notes": "- Every song in the music library has been listened to again, start to finish, and re-tagged. Dance and house tracks (Turn Echo, AKAI, starly, Night Rider and others) are now tagged as fast, high-energy dance music.\n- A song whose pace or energy is the opposite of the clip's is almost never chosen, however many other tags match. A quiet personal story never gets a dance track.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.68.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.67/Revive-3.0.67.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.68/Revive-3.0.68.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRFTXNEODNWQXVHd2d6WDkzWUhPakJkNy81TVl4OFYzamhGUEhBa3YyZ09VamxkZ0UwWnRzSmQwQlJCVDN6UkN3N3NiYzVGZHlORFpHRkJBQXVLNHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY2MjE5CWZpbGU6UmV2aXZlLTMuMC42Ny5kbWcKYXlQYjJ6dDNQNkoxeW1ZTmZ4c01ZanVzeU9SeEdNSzdtUFdtRDRIeFJpL3I3QWxhSDNvZXRUcnYwbnJjOTltcDBDSk1Rei9IZkJscElyVTN1aXhVQXc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVTU014eU1GY2d5WlY4bmhyVHJ6UzZDbzA1SHlRTDN3dXdhUnJlYlB6dUViRDJqZXNWc3V0L3RnTDFsZWhrSml5NXJzTGJkMlBwSjhMQUp6b2pRWGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODA5NTU2CWZpbGU6UmV2aXZlLTMuMC42OC5kbWcKWXlyeU5zZ3dhWmQrckQyZVhLY3lKVFFnbkZyTmNycHZzVnV1b3poczNLOTJvbmVkdG8yNHpwWHV3clpKbkRNSm4vN0JrYWlwUmxkS1BhLzloU3lQQ0E9PQo="
 }
