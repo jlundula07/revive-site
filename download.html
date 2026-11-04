@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revive · Download</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>html,body{margin:0;min-height:100vh;background:#03050c;color:#f4f1ea;font:500 17px "Inter Tight",system-ui,-apple-system,sans-serif;display:grid;place-items:center;text-align:center}a{color:#f4f1ea}</style>
+</head>
+<body>
+  <!-- Always the newest build: every release replaces updates/Revive-<version>.dmg and rewrites updates/latest.json
+       (splittr/desktop/scripts/release.sh), so links point here instead of at a versioned file. -->
+  <p id="msg">Starting your download…</p>
+  <script>
+    fetch("updates/latest.json", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((j) => {
+        document.getElementById("msg").innerHTML = `Downloading Revive ${j.version}. <a href="./">Back to Revive</a>`;
+        location.replace(j.url);
+      })
+      .catch(() => { document.getElementById("msg").innerHTML = 'The download didn\'t start. <a href="mailto:john@odysseymedia.io">Tell us</a> and we\'ll send it.'; });
+  </script>
+</body>
+</html>

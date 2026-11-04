@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20261104" />
+  <link rel="stylesheet" href="style.css?v=20261104b" />
   <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
@@ -33,7 +33,7 @@
       <li><span>3</span><div><b>Bring your footage.</b><small>Set up your creator once, then drop in your first recording.</small></div></li>
     </ol>
     <div class="cta r" style="--d:4" id="cta" hidden>
-      <a class="btn" href="https://revivestudio.app/updates/Revive-3.0.76.dmg">Download for Mac</a>
+      <a class="btn" href="download.html">Download for Mac</a>
       <a class="btn btn-ghost" href="mailto:john@odysseymedia.io">Need help?</a>
     </div>
     <p class="fine r" style="--d:5" id="fine"></p>
@@ -49,7 +49,7 @@
       $("plan").textContent = `Your ${PLAN_NAMES[row.plan] || ""} plan is active.`.replace("  ", " ");
       $("acct").textContent = `Log in as ${email}. Your plan and credits are already on it.`;
       $("steps").hidden = false; $("cta").hidden = false;
-      $("fine").textContent = "Version 3.0.76 · Apple silicon Macs";
+      $("fine").textContent = "Revive for Mac · Apple silicon";
     };
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) {

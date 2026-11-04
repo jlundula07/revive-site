@@ -447,3 +447,6 @@ html:not(.js) .faq .a { grid-template-rows: 1fr; }
 #paneWait h1 { font-size: 30px; }
 .gate:has(#paneWait:not([hidden])) > .final-mark { display: none; }
 .lead a { color: var(--off); text-decoration: underline; text-underline-offset: 3px; }
+.btn.soon { justify-content: center; cursor: default; opacity: 0.55; box-shadow: none; }
+.btn.soon:hover { transform: none; background: inherit; }
+.plan .btn.soon:not(.btn-ghost) { background: var(--off); }
