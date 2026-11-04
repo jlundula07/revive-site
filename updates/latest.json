@@ -1,9 +1,9 @@
 {
-  "version": "3.0.74",
-  "notes": "- Margin Vertical's preview in the format picker loops again like the others.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.74.dmg",
+  "version": "3.0.75",
+  "notes": "- Studio Podcast: no opening title.\n- Studio Podcast: compositions come about every 8 to 10 seconds and in six layouts (stack, sandwich, cascade, pair, giant number, sentence), never the same one twice in a row.\n- Studio Podcast: a composition keeps the last words of its sentence and is always gone before the next caption appears.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.75.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.74/Revive-3.0.74.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.75/Revive-3.0.75.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlUL3ZPQXVxOHBicjlYNmx1VThlRVgzU2FsZ2Q4L0k3dDQrbmx2cmdWMitVOUwyTmtPNXQvREFpelorQTVkdktIWFdZbUk5WWVsMTZiUGdWbEg1MWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE1ODUxCWZpbGU6UmV2aXZlLTMuMC43NC5kbWcKVUllMHdIdXZZR1RvdW84L0tMdjNlTW83RVRGUUpVakFYVUx4WDBmdHA2UDhRL2QxSENqOXpoSG44enM2QUsxREJkTFUzbmIySDFHQkU5VldqRzV5Qnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRSZG51bHhqM0UreTVJUUd4YWpNNVVrWWxVR3J0WW9SQkdTcHJhdnBlV3g1bnpjRXpOeG03TWUzR3JNbzFxUmY3d2lTK1NmQVFvVlE1SGtnamxRbFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE3NDkzCWZpbGU6UmV2aXZlLTMuMC43NS5kbWcKUDRmYzdid0NDUTRWYmk2TXh2OVZVWTlPZWtSa0wrVGNFMDY2eGk4N1lUU3JqNG1nSFpnYnRaRktOd0tCeWd0UXp2SU1BWlAvelBTNnpzcFJ1VHpBRHc9PQo="
 }
