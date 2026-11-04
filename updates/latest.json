@@ -1,9 +1,9 @@
 {
-  "version": "3.0.70",
-  "notes": "- Studio Podcast: big words are on screen for about a second, like the reference, and slide down and fade out instead of cutting.\n- Studio Podcast: all text sits a little below the speaker's chin, on punch-ins too.\n- Studio Podcast: captions are one clean line cut at a phrase, and fewer, better words light up.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.70.dmg",
+  "version": "3.0.71",
+  "notes": "- The format picker now plays each format's original reference video (Hook Box is Hormozi, Colour Block is Tom Noske, and so on), not clips made in Revive. Studio Podcast has a preview now too.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.71.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.70/Revive-3.0.70.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.71/Revive-3.0.71.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZGRUNqTFliSEhIdThpL2I1ckRBZGJ0Y2ZkQk9IWVQwUTZ2UTVpbitWWE5ueHFIVjZGanFqelBQY1F6SmpYM1BtbWxEYU1OcHBUamRTNkprMEdSTHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE0MTExCWZpbGU6UmV2aXZlLTMuMC43MC5kbWcKV3NDd3ZGQnRkVENFakxiYnR5bGgvRzFibEJ4M3RRZWo5eUNwRGhiWXVRWUNUMHkzMVRzMHRJYlhqTDJWNTJaM3RyaDgxSjc1TGdHdGsyQzR4RkZrQnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFqaDJIbWtPSWlpRlNpdkxpMnZmTGNmL1lOWW1rdnBPQVhlMU1TdmE2L1NYMjY4Q0szK0Q3UmF2dmVFOWhRcWFSYzBQeW56bUkyZlZyL0wrTitwWmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE0MzYwCWZpbGU6UmV2aXZlLTMuMC43MS5kbWcKRDQxMUNNeWtvRXF0VUdQVXlIZTRlekdIOEJGNFl2bFZxdVA1clcvR2lNWGUwOWljbGhlVTEyejlza1JBZ1ozd2ZlUGpEMERkeDdxZnFJSmMrSDZHQUE9PQo="
 }
