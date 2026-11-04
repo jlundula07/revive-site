@@ -1,9 +1,9 @@
 {
-  "version": "3.0.63",
-  "notes": "- Updates download from revivestudio.app's fast server, with GitHub as the backup, so \\\"Downloading the new version\\\" no longer sits for minutes.\n- The update window shows how far the download has got (MB so far of the total).\n- A download that slows down or drops picks up where it stopped instead of starting over, and switches to the backup if one server crawls.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.63.dmg",
+  "version": "3.0.64",
+  "notes": "- You can drop MP3, WAV and other audio files in with your videos, for podcasts recorded on a separate recorder. Each file can be up to 2 TB.\n- Every file has a \\\"Use this file's sound\\\" box. Tick one or several (they're lined up and mixed); with none ticked, Revive uses the file that sounds clearest.\n- Every clip and long-form moment is now mono, so a podcast with one mic on each channel plays both voices in both ears.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.64.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.63/Revive-3.0.63.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.64/Revive-3.0.64.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVIxNlJVaDdpeHlWaUtkM3oxOWVXaC9QOTJYRDFYUU1XeTgvVGF2c3dxYW5VT0k0aE0zckJPYmprWE85UjFIUFVmUThsVXpIdXpDQ1gwUlgvOTE0OEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU5NDg4CWZpbGU6UmV2aXZlLTMuMC42My5kbWcKbXA5MnNMc2R5Wk1FZmluYlJnejlXcnJxQU91d3Jaakx3L3Y0ZVowanh0K2tWQ0dTTHhMM2JuMFc3V3o3RUEvWThXOVJxMkNzcFM2Q2U0d0NBS29vQ3c9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQ0UXp0MlFzUDE0cXpBc1lOeEFIM0k1KzVlWFJ1Uk12WnBMc2dpazZCT1BaSnBYM3JtM2NleVBCK2dqYW1QY040cFBvNGF0YlM0TzBhSGdOb1FwOXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU5ODA5CWZpbGU6UmV2aXZlLTMuMC42NC5kbWcKZ3RTb3lRVTdPODdJWnBVbzZzaGlBT004SUVVb3hvREJVTkt5NGt0bXd5YWVjcW1iYkdMRG9paDl3S3FiS20raHZWcS9mbUlFVnNJS25UcnlxZlkvRHc9PQo="
 }
