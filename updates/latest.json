@@ -1,9 +1,9 @@
 {
-  "version": "3.0.71",
-  "notes": "- The format picker now plays each format's original reference video (Hook Box is Hormozi, Colour Block is Tom Noske, and so on), not clips made in Revive. Studio Podcast has a preview now too.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.71.dmg",
+  "version": "3.0.72",
+  "notes": "- Margin Vertical's preview in the format picker is vertical again: it has no vertical reference video, so it shows Revive's own Margin Vertical clip.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.72.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.71/Revive-3.0.71.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.72/Revive-3.0.72.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFqaDJIbWtPSWlpRlNpdkxpMnZmTGNmL1lOWW1rdnBPQVhlMU1TdmE2L1NYMjY4Q0szK0Q3UmF2dmVFOWhRcWFSYzBQeW56bUkyZlZyL0wrTitwWmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE0MzYwCWZpbGU6UmV2aXZlLTMuMC43MS5kbWcKRDQxMUNNeWtvRXF0VUdQVXlIZTRlekdIOEJGNFl2bFZxdVA1clcvR2lNWGUwOWljbGhlVTEyejlza1JBZ1ozd2ZlUGpEMERkeDdxZnFJSmMrSDZHQUE9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVhhZVkwL2doRGhtWTVlU1RXdmtDM2tXYnFDUFdXMmp4OXJQdUl0TVFRZmk1UVlnVXFxZ1dHS3lOQnhtNTJEUHFSWHBnbmQyQ21LZ29qTDU0K1VaWGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE0ODQ0CWZpbGU6UmV2aXZlLTMuMC43Mi5kbWcKaWNTdjlKREJGZXV0SjlRK0RRdy93RVE2cEVFTFc0WjlBL0FnYUlSQUUxTDFQUXpqTXhIdkxoSFNQcDRhMmZ2QW50aVhic2QzZ3pSeGFQUERLbUFaQ2c9PQo="
 }
