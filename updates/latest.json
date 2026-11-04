@@ -1,9 +1,9 @@
 {
-  "version": "3.0.66",
-  "notes": "- Short-form clips now have music. Revive reads what is said in each clip and picks an instrumental from its library whose mood, energy, pace, instruments and style fit: a personal story gets something intimate, a lesson something calm and steady.\n- The music sits quietly under the voice and fades in and out. Clips made at the same time get different songs where they can. Long-form moments and carousels have no music.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.66.dmg",
+  "version": "3.0.67",
+  "notes": "- New short-form format: Studio Podcast. Captions appear a line at a time, written word by word as they are said, with the words that carry the point in your accent colour and a soft glow.\n- A few big words per clip ripple in, slide up and stay on screen long enough to read, and two or three lines that matter get a stacked layout with three sizes of type. The picture punches in between sentences, and the show's own wide shots push in slowly.\n- No title card, no B-roll, no call to action at the end and no name card. It uses your brand font, and your secondary colour when you have one (otherwise your accent).",
+  "url": "https://revivestudio.app/updates/Revive-3.0.67.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.66/Revive-3.0.66.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.67/Revive-3.0.67.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRPVXFoY1hobytwS0NLTjZ5MFhWL2E1Y0NUTzV5cnRXRVNrVTljNXZGdHN2bm5xaUYzWG1BZlU3M1Vjcmgwd25ZYmVjWGQremtQMHZ0cW9LZHVaRHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY1NDIzCWZpbGU6UmV2aXZlLTMuMC42Ni5kbWcKTU83L0hzUHlKbzNnMVA3UXk1WERrd2pvNWYyZmppL2VTZHZTb3daNVdUV0tscHozaUJSVjFMVzJJcElJQnFyanBRTmtyOUdVbDlxNEtHRWpoc2w5REE9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRFTXNEODNWQXVHd2d6WDkzWUhPakJkNy81TVl4OFYzamhGUEhBa3YyZ09VamxkZ0UwWnRzSmQwQlJCVDN6UkN3N3NiYzVGZHlORFpHRkJBQXVLNHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY2MjE5CWZpbGU6UmV2aXZlLTMuMC42Ny5kbWcKYXlQYjJ6dDNQNkoxeW1ZTmZ4c01ZanVzeU9SeEdNSzdtUFdtRDRIeFJpL3I3QWxhSDNvZXRUcnYwbnJjOTltcDBDSk1Rei9IZkJscElyVTN1aXhVQXc9PQo="
 }
