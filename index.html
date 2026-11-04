@@ -1,5 +1,284 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><title>Revive</title><meta name="description" content="Revive turns your long recordings into a studio's worth of short-form content."></head><body><div class="wrap"><header><a href="./"><img src="revive-mark-offwhite.svg" alt="" width="34" height="34">Revive</a></header>
-<h1>Bring your footage.<br>We've got you.</h1>
-<p class="lead">Revive is a studio on your Mac. Drop in a long recording and it finds your best moments and cuts them into finished short-form posts in your brand's look: captions, B-roll and colour included.</p>
-<div class="card"><h2 style="margin-top:0">How it works</h2><p>Your recording stays on your Mac. Transcription, cutting and rendering run locally. You sign in with your email or Google so your brands (colours, fonts, logos) are saved to your account and follow you to a new Mac.</p><p>Revive is in private alpha. Questions: <a href="mailto:john@odysseymedia.io">john@odysseymedia.io</a>.</p></div>
-<footer><span>© 2026 Revive, by Odyssey Media</span><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="mailto:john@odysseymedia.io">john@odysseymedia.io</a></footer></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revive · Your next month of content is already recorded.</title>
+  <meta name="description" content="Bring one long recording. Revive finds the moments your buyers care about and hands back finished clips, long-form moments and carousels in your brand's look." />
+  <meta name="theme-color" content="#03050C" />
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#0A1231" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta property="og:title" content="Revive · Your next month of content is already recorded." />
+  <meta property="og:description" content="Bring one long recording. Get back a month of finished posts." />
+  <meta property="og:image" content="assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#top">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav-in">
+      <a class="brand" href="#top" aria-label="Revive home"><img src="assets/logo.svg" alt="revive" width="108" height="32" /></a>
+      <nav class="links" aria-label="Sections">
+        <a href="#how">How it works</a>
+        <a href="#formats">Formats</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">Questions</a>
+        <a href="start.html?mode=login">Log in</a>
+      </nav>
+      <a class="btn btn-sm" href="start.html">Get started</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <h1 class="r" style="--d:1">Your next month of content<br />is already recorded.</h1>
+      <p class="lead r" style="--d:2">Revive is the content repurposing platform. Bring one podcast, interview or talk. It finds the moments your buyers care about and hands back finished posts in your brand's look.</p>
+      <div class="cta r" style="--d:3">
+        <a class="btn" href="start.html">Get started</a>
+        <a class="btn btn-ghost" href="#how">See how it works</a>
+      </div>
+      <p class="fine r" style="--d:4">Revive for Mac · Apple silicon</p>
+
+      <!-- Real clips made in Revive's formats. Swap for the VSL when it exists. -->
+      <div class="reel r" style="--d:5" id="reel" aria-hidden="true">
+        <video class="c c1" src="media/broll.mp4" muted loop playsinline preload="metadata"></video>
+        <video class="c c2" src="media/annotation.mp4" muted loop playsinline preload="metadata"></video>
+        <video class="c c3" src="media/speaker.mp4" muted loop playsinline preload="metadata"></video>
+        <video class="c c4" src="media/studio.mp4" muted loop playsinline preload="metadata"></video>
+        <video class="c c5" src="media/clean.mp4" muted loop playsinline preload="metadata"></video>
+      </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="band narrow">
+      <h2 class="statement r"><span>Clipping tools cut videos.</span> Revive repurposes them.</h2>
+      <p class="statement-sub r" style="--d:1">You already did the hard part. Revive gives every recording a second life: clips, long-form moments and carousels, picked for the people who buy from you.</p>
+    </section>
+
+    <!-- How it works: pinned window, steps scroll past -->
+    <section class="story" id="how">
+      <div class="story-head">
+        <h2 class="r" style="--d:1">Walk in with footage.<br />Walk out with a set.</h2>
+      </div>
+      <div class="story-grid">
+        <div class="story-steps">
+          <article class="step" data-step="0">
+            <span class="num">01</span>
+            <h3>Bring your footage.</h3>
+            <p>Drop a recording or paste a YouTube link. Two cameras and a screen recording? Drop them all together. Revive lines them up by sound, up to 100 GB.</p>
+          </article>
+          <article class="step" data-step="1">
+            <span class="num">02</span>
+            <h3>Answer a few questions.</h3>
+            <p>One at a time. Who it's for, what the posts should do, and what to make. No timeline, no prompts.</p>
+          </article>
+          <article class="step" data-step="2">
+            <span class="num">03</span>
+            <h3>We find the moments.</h3>
+            <p>Revive listens to the whole recording, reads every word and picks the moments that make your buyers trust you. Each one comes back as a draft with a score.</p>
+          </article>
+          <article class="step" data-step="3">
+            <span class="num">04</span>
+            <h3>Your set, delivered.</h3>
+            <p>Pick the drafts you like. Revive cuts them tight, keeps the camera on the speaker and adds captions, your B-roll, music and colours. Download them, or post and schedule them straight to your accounts.</p>
+          </article>
+        </div>
+
+        <div class="story-pin">
+          <div class="window story-window">
+            <div class="chrome"><i></i><i></i><i></i></div>
+            <div class="screens">
+              <!-- 1: footage -->
+              <div class="screen sc on" data-sc="0">
+                <h3 class="s-title">Tell us about each file.</h3>
+                <div class="files">
+                  <div class="file"><b>A-cam.mp4</b><small>47.2 GB</small><span class="chip on">Main camera</span></div>
+                  <div class="file"><b>B-cam.mp4</b><small>46.8 GB</small><span class="chip on">Second camera</span></div>
+                  <div class="file"><b>screen.mov</b><small>3.1 GB</small><span class="chip on">Screen recording</span></div>
+                </div>
+                <div class="sync"><span>Lined up by sound</span><i></i></div>
+              </div>
+              <!-- 2: questions -->
+              <div class="screen sc" data-sc="1">
+                <div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+                <h3 class="s-title">What should these posts do?</h3>
+                <div class="picks">
+                  <div class="pick"><strong>Connection</strong><small>Trust before they buy</small></div>
+                  <div class="pick lit"><strong>Conversion</strong><small>Speak to the decision</small></div>
+                  <div class="pick"><strong>Both</strong><small>A mix of the two</small></div>
+                </div>
+                <div class="s-row"><span class="ghost">Back</span><span class="solid">Next</span></div>
+              </div>
+              <!-- 3: moments -->
+              <div class="screen sc" data-sc="2">
+                <div class="working">
+                  <img class="ring spin" src="assets/mark.svg" alt="" width="40" height="40" />
+                  <span>Finding your moments…</span>
+                </div>
+                <div class="drafts">
+                  <div class="draft"><em>9.2</em><div><b>Why I almost quit in year two</b><small>12:04 · Connection</small></div><span class="tick on"></span></div>
+                  <div class="draft"><em>8.6</em><div><b>The system behind our first big client</b><small>31:10 · Conversion</small></div><span class="tick on"></span></div>
+                  <div class="draft"><em>8.1</em><div><b>How we price without discounting</b><small>1:29:03 · Conversion</small></div><span class="tick"></span></div>
+                  <div class="draft"><em>7.4</em><div><b>What I'd tell myself on day one</b><small>1:02:11 · Connection</small></div><span class="tick on"></span></div>
+                </div>
+              </div>
+              <!-- 4: delivery -->
+              <div class="screen sc" data-sc="3">
+                <h3 class="s-title">Your set is ready.</h3>
+                <p class="s-sub">Everything the studio made from one recording.</p>
+                <p class="s-label">Clips</p>
+                <div class="tiles">
+                  <i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i>
+                </div>
+                <p class="s-label">Carousels</p>
+                <div class="tiles sq">
+                  <i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i>
+                </div>
+              </div>
+            </div>
+            <div class="progress"><i id="storyBar"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outputs -->
+    <section class="band" id="outputs">
+      <h2 class="r" style="--d:1">Three kinds of post.<br />One recording.</h2>
+      <div class="bento">
+        <article class="tile big r" style="--d:0">
+          <div class="art art-short" aria-hidden="true"><video src="media/documentary.mp4" muted loop playsinline preload="none"></video><video src="media/studio.mp4" muted loop playsinline preload="none"></video><video src="media/headline.mp4" muted loop playsinline preload="none"></video></div>
+          <h3>Short-form clips</h3>
+          <p>Vertical clips for Reels, TikTok and Shorts. Cut tight, captioned, a music bed under the voice, in any of fourteen formats.</p>
+        </article>
+        <article class="tile r" style="--d:1">
+          <div class="art art-long" aria-hidden="true"><video src="media/longform.mp4" muted loop playsinline preload="none"></video><i></i></div>
+          <h3>Long-form moments</h3>
+          <p>Whole topics from the episode, usually three to ten minutes, played as recorded. Built to start a second channel.</p>
+        </article>
+        <article class="tile r" style="--d:2">
+          <div class="art art-car" aria-hidden="true"><img src="media/carousel-frames.png" alt="" /><img src="media/carousel-tweet.png" alt="" /><img src="media/carousel-boxed.png" alt="" /></div>
+          <h3>Carousels</h3>
+          <p>Framed stills, tweet cards and boxed tweets, written from your own words and laid out in the order you said them.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Formats gallery -->
+    <section class="gallery" id="formats">
+      <div class="gallery-head">
+        <div>
+          <h2 class="r" style="--d:1">Fourteen ways to cut a clip.</h2>
+          <p class="sub r" style="--d:2">Pick one or several. Each is built from how the best creators actually post.</p>
+        </div>
+        <div class="arrows r" style="--d:2">
+          <button class="arrow" id="prev" aria-label="Previous formats"><svg viewBox="0 0 20 20"><path d="M12.5 4.5 7 10l5.5 5.5" /></svg></button>
+          <button class="arrow" id="next" aria-label="Next formats"><svg viewBox="0 0 20 20"><path d="M7.5 4.5 13 10l-5.5 5.5" /></svg></button>
+        </div>
+      </div>
+      <div class="rail" id="rail" tabindex="0" aria-label="Short-form formats"></div>
+    </section>
+
+    <!-- Your look -->
+    <section class="band" id="look">
+      <h2 class="r" style="--d:1">Made in your look.<br />Every time.</h2>
+      <p class="sub r" style="--d:2">Set up a creator once. Every clip after that knows who they are and who buys from them.</p>
+      <div class="grid3">
+        <article class="cell r" style="--d:0"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" /><circle cx="12" cy="12" r="3" class="fill" /></svg></div><h3>Your business</h3><p>Who you sell to, what they struggle with, what you offer. Revive picks moments for your buyers, not for views.</p></article>
+        <article class="cell r" style="--d:1"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 18 10 6h1l5 12M7 14h7" /><path d="M17 9v9" /></svg></div><h3>Fonts and colours</h3><p>Your own font files and colours on every caption and title. Log footage gets your colour grade.</p></article>
+        <article class="cell r" style="--d:2"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3.5" y="6" width="17" height="12" rx="3" /><path d="m10 9.5 4.5 2.5-4.5 2.5z" class="fill" /></svg></div><h3>Your B-roll</h3><p>Point Revive at a folder of your own footage. It cuts away to it where the words call for it. Never generated.</p></article>
+        <article class="cell r" style="--d:0"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="3.5" /><path d="M5.5 19c1.2-3.2 3.6-4.8 6.5-4.8s5.3 1.6 6.5 4.8" /></svg></div><h3>The camera stays on you</h3><p>The frame follows the person speaking and holds there. No random cuts to whoever is listening.</p></article>
+        <article class="cell r" style="--d:1"><div class="ico"><svg viewBox="0 0 24 24"><path d="M9 17V6l10-2v11" /><circle cx="6.5" cy="17" r="2.5" /><circle cx="16.5" cy="15" r="2.5" /></svg></div><h3>Music that fits</h3><p>Revive reads what each clip is about and lays an instrumental under it, quiet enough that the voice leads.</p></article>
+        <article class="cell r" style="--d:2"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3.5 19 6v5.5c0 4.3-3 7.6-7 9-4-1.4-7-4.7-7-9V6z" /></svg></div><h3>Stays on your Mac</h3><p>Your recordings never leave your computer. Finding, cutting and rendering run on your Mac. Only your brand settings sync to your account.</p></article>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="band" id="compare">
+      <h2 class="r" style="--d:1">Not an editor. Not a clipper.<br />Not another AI tool.</h2>
+      <div class="versus">
+        <div class="vs r" style="--d:0"><h3>Editors</h3><p>Days per batch, rounds of revisions, and a bill that grows with every clip.</p></div>
+        <div class="vs r" style="--d:1"><h3>Clippers</h3><p>Paid on views, so they chase views. Not the people who buy from you.</p></div>
+        <div class="vs r" style="--d:2"><h3>AI clipping tools</h3><p>Built for creators. They don't know your business, so most clips aren't usable.</p></div>
+        <div class="vs us r" style="--d:3"><img src="assets/mark-navy.svg?v=2" alt="" width="28" height="28" /><h3>Revive</h3><p>Knows your business, finds the moments your buyers care about, and you approve every one before it is made.</p></div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="band" id="pricing">
+      <h2 class="r" style="--d:1">More content.<br />No more editors.</h2>
+      <div class="seg r" style="--d:2" role="group" aria-label="Billing period">
+        <span class="seg-pill" id="segPill"></span>
+        <button class="on" data-bill="m">Monthly</button>
+        <button data-bill="y">Yearly <small>2 months free</small></button>
+      </div>
+      <div class="plans">
+        <article class="plan r" style="--d:0">
+          <h3>Hobbyist</h3><p class="for">For getting consistent.</p>
+          <p class="price"><span data-m="49" data-y="41">$49</span><small>/mo</small></p><p class="billed" data-m="Billed monthly" data-y="$490 billed yearly">Billed monthly</p>
+          <ul><li>30 clips a month</li><li>Short-form, long-form and carousels</li><li>Captions in your fonts and colours</li><li>1 creator</li></ul>
+          <a data-plan="hobbyist" class="btn btn-ghost" href="start.html?plan=hobbyist&amp;billing=monthly">Get Hobbyist</a>
+        </article>
+        <article class="plan pop r" style="--d:1">
+          <span class="badge">Most popular</span>
+          <h3>Creator</h3><p class="for">For building a real second channel.</p>
+          <p class="price"><span data-m="249" data-y="208">$249</span><small>/mo</small></p><p class="billed" data-m="Billed monthly" data-y="$2,490 billed yearly">Billed monthly</p>
+          <ul><li>150 clips a month</li><li>Everything in Hobbyist</li><li>Your B-roll and music</li><li>Post and schedule to your accounts</li><li>Up to 3 creators</li></ul>
+          <a data-plan="creator" class="btn" href="start.html?plan=creator&amp;billing=monthly">Get Creator</a>
+        </article>
+        <article class="plan r" style="--d:2">
+          <h3>Agency</h3><p class="for">For teams and client work.</p>
+          <p class="price"><span data-m="699" data-y="583">$699</span><small>/mo</small></p><p class="billed" data-m="Billed monthly" data-y="$6,990 billed yearly">Billed monthly</p>
+          <ul><li>500 clips a month</li><li>Everything in Creator</li><li>Up to 15 creators</li><li>Priority processing</li></ul>
+          <a data-plan="agency" class="btn btn-ghost" href="start.html?plan=agency&amp;billing=monthly">Get Agency</a>
+        </article>
+      </div>
+      <p class="fine center r">You only spend a credit on the drafts you choose to make. Top up any time.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="band narrow" id="faq">
+      <h2 class="r" style="--d:1">Good to know.</h2>
+      <div class="faq">
+        <details class="r"><summary>Who is Revive for?<i></i></summary><div class="a"><div><p>Business owners, creators and personal brands who already record long-form, like podcasts, interviews, YouTube videos or webinars, and want far more out of each one without hiring another editor.</p></div></div></details>
+        <details class="r"><summary>Do I need to edit anything?<i></i></summary><div class="a"><div><p>No. Clips come back ready to post. You choose which drafts get made, and you can open any finished clip to adjust it.</p></div></div></details>
+        <details class="r"><summary>Will the clips fit my business?<i></i></summary><div class="a"><div><p>Yes. Revive learns who you sell to before it picks a single moment, and each project asks whether the posts are for connection, conversion or both.</p></div></div></details>
+        <details class="r"><summary>Can I use more than one camera?<i></i></summary><div class="a"><div><p>Yes. Drop every camera and any screen or call recording together. Revive lines them up by sound and keeps the frame on whoever is speaking.</p></div></div></details>
+        <details class="r"><summary>Does my footage get uploaded?<i></i></summary><div class="a"><div><p>No. Your recordings stay on your Mac and everything is made there. Your account only holds your creators' brand settings, so they follow you to a new Mac.</p></div></div></details>
+        <details class="r"><summary>How do I get started?<i></i></summary><div class="a"><div><p>Pick a plan and pay. Then download Revive for Mac and sign in with the same email you paid with. Your plan and credits are waiting for you.</p></div></div></details>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final">
+      <img class="final-mark r" src="assets/mark.svg" alt="" width="72" height="72" />
+      <h2 class="r" style="--d:1">Bring your footage.<br />We've got you.</h2>
+      <div class="cta r" style="--d:2">
+        <a class="btn" href="start.html">Get started</a>
+        <a class="btn btn-ghost" href="mailto:john@odysseymedia.io">Talk to us</a>
+      </div>
+      <p class="fine r" style="--d:3">Revive for Mac · Apple silicon</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-in">
+      <img src="assets/logo.svg" alt="revive" width="88" height="26" />
+      <span>the content repurposing platform.</span><span>© 2026 Revive, by Odyssey Media</span>
+      <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:john@odysseymedia.io">Contact</a></nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

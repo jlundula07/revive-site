@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revive · Get started</title>
+  <meta name="theme-color" content="#03050C" />
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="nav-in">
+      <a class="brand" href="./" aria-label="Revive home"><img src="assets/logo.svg" alt="revive" width="108" height="32" /></a>
+      <span class="who" id="who" hidden></span>
+    </div>
+  </header>
+
+  <!-- Sign in first, then pay: the payment is tied to this account, whatever email is typed at checkout. -->
+  <main class="gate">
+    <img class="final-mark" src="assets/mark.svg" alt="" width="56" height="56" />
+
+    <!-- step 1: the account -->
+    <section class="pane" id="paneAuth" hidden>
+      <h1 id="authTitle">Create your account.</h1>
+      <p class="lead" id="authSub">The same account signs you in to the Revive app.</p>
+      <div class="seg auth-seg" role="tablist">
+        <span class="seg-pill" id="authPill"></span>
+        <button class="on" data-mode="signup" role="tab">Create account</button>
+        <button data-mode="login" role="tab">Log in</button>
+      </div>
+      <button class="btn btn-ghost wide" id="google"><svg viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92c1.7-1.57 2.68-3.88 2.68-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.8.54-1.84.86-3.04.86-2.34 0-4.33-1.58-5.04-3.7H.96v2.33A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.96 10.72a5.4 5.4 0 0 1 0-3.44V4.95H.96a9 9 0 0 0 0 8.1l3-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.58A9 9 0 0 0 .96 4.95l3 2.33C4.67 5.16 6.66 3.58 9 3.58z"/></svg>Continue with Google</button>
+      <div class="or-line"><span>or</span></div>
+      <form id="authForm" novalidate>
+        <label class="field"><span>Email</span><input type="email" id="email" autocomplete="email" required /></label>
+        <label class="field"><span>Password</span><input type="password" id="password" autocomplete="new-password" minlength="8" required /><small id="pwHint">At least 8 characters.</small></label>
+        <p class="error" id="authErr" role="alert"></p>
+        <button class="btn wide" type="submit" id="authGo">Create account</button>
+      </form>
+    </section>
+
+    <!-- step 2: the plan -->
+    <section class="pane" id="panePlan" hidden>
+      <h1>Choose your plan.</h1>
+      <p class="lead">Your credits are ready the moment payment goes through.</p>
+      <div class="seg" role="group" aria-label="Billing period" id="billSeg">
+        <span class="seg-pill" id="billPill"></span>
+        <button class="on" data-billing="monthly">Monthly</button>
+        <button data-billing="yearly">Yearly <small>2 months free</small></button>
+      </div>
+      <div class="choices" id="choices">
+        <button class="choice" data-plan="hobbyist"><b>Hobbyist</b><small>30 clips a month · 1 creator</small><em data-m="$49/mo" data-y="$490/yr">$49/mo</em></button>
+        <button class="choice on" data-plan="creator"><b>Creator</b><small>150 clips a month · up to 3 creators</small><em data-m="$249/mo" data-y="$2,490/yr">$249/mo</em></button>
+        <button class="choice" data-plan="agency"><b>Agency</b><small>500 clips a month · up to 15 creators</small><em data-m="$699/mo" data-y="$6,990/yr">$699/mo</em></button>
+      </div>
+      <p class="error" id="planErr" role="alert"></p>
+      <button class="btn wide" id="pay">Continue to payment</button>
+      <p class="fine">Secure checkout by Commas. Use any card and any email for your receipt.</p>
+      <button class="link" id="signout">Not you? Sign out</button>
+    </section>
+
+    <!-- working -->
+    <section class="pane" id="paneWait" hidden>
+      <img class="ring spin big-ring" src="assets/mark.svg" alt="" width="64" height="64" />
+      <h1 id="waitTitle">One moment.</h1>
+    </section>
+  </main>
+
+  <script type="module" src="start.js"></script>
+</body>
+</html>

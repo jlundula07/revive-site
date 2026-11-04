@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revive · Welcome to the studio</title>
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#03050C" />
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="nav-in">
+      <a class="brand" href="./" aria-label="Revive home"><img src="assets/logo.svg" alt="revive" width="108" height="32" /></a>
+    </div>
+  </header>
+
+  <!-- Where Commas sends buyers after they pay. The page itself proves nothing: it waits until the signed payment notice
+       has marked this account's plan active (subscriptions table), then shows the download. -->
+  <main class="final welcome">
+    <img class="final-mark r ring" id="mark" src="assets/mark.svg" alt="" width="72" height="72" />
+    <h1 class="r" style="--d:1" id="title">Confirming your payment.</h1>
+    <p class="lead r" style="--d:2" id="plan">This takes a few seconds.</p>
+    <ol class="next r" style="--d:3" id="steps" hidden>
+      <li><span>1</span><div><b>Download Revive for Mac.</b><small>Open the file and drag Revive into Applications.</small></div></li>
+      <li><span>2</span><div><b>Log in with this account.</b><small id="acct">Your plan and credits are already on it.</small></div></li>
+      <li><span>3</span><div><b>Bring your footage.</b><small>Set up your creator once, then drop in your first recording.</small></div></li>
+    </ol>
+    <div class="cta r" style="--d:4" id="cta" hidden>
+      <a class="btn" href="https://revivestudio.app/updates/Revive-3.0.76.dmg">Download for Mac</a>
+      <a class="btn btn-ghost" href="mailto:john@odysseymedia.io">Need help?</a>
+    </div>
+    <p class="fine r" style="--d:5" id="fine"></p>
+  </main>
+
+  <script type="module">
+    import { supabase, PLAN_NAMES, planActive, mySubscription } from "./account.js";
+    const $ = (id) => document.getElementById(id);
+    requestAnimationFrame(() => document.querySelectorAll(".r").forEach((el) => el.classList.add("in")));
+    const ready = (row, email) => {
+      $("mark").classList.remove("spin");
+      $("title").textContent = "Welcome to the studio.";
+      $("plan").textContent = `Your ${PLAN_NAMES[row.plan] || ""} plan is active.`.replace("  ", " ");
+      $("acct").textContent = `Log in as ${email}. Your plan and credits are already on it.`;
+      $("steps").hidden = false; $("cta").hidden = false;
+      $("fine").textContent = "Version 3.0.76 · Apple silicon Macs";
+    };
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session) {
+      $("title").textContent = "Log in to see your plan.";
+      $("plan").innerHTML = 'Your payment is tied to your Revive account. <a href="start.html?mode=login">Log in</a>';
+    } else {
+      $("mark").classList.add("spin");
+      // the notice usually lands within seconds; keep checking for two minutes, slower as time goes on
+      let row = null;
+      for (let i = 0; i < 30 && !planActive(row); i++) {
+        row = await mySubscription().catch(() => null);
+        if (!planActive(row)) await new Promise((r) => setTimeout(r, i < 10 ? 2000 : 5000));
+      }
+      if (planActive(row)) ready(row, session.user.email);
+      else {
+        $("mark").classList.remove("spin");
+        $("title").textContent = "Still confirming your payment.";
+        $("plan").textContent = "It can take a few minutes. You can download Revive now: your plan appears as soon as it's confirmed.";
+        $("steps").hidden = false; $("cta").hidden = false;
+        $("acct").textContent = `Log in as ${session.user.email}.`;
+      }
+    }
+  </script>
+</body>
+</html>
