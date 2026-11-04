@@ -1,9 +1,9 @@
 {
-  "version": "3.0.77",
-  "notes": "- Picks stay when you switch tabs: the bar at the bottom shows every kind you've picked (\\\"14 shorts selected \u00b7 4 long-form moments selected \u00b7 7 carousels selected\\\") and one button with the total credits makes them all at once. Clear empties all three.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.77.dmg",
+  "version": "3.0.78",
+  "notes": "- Account settings save the moment you change them. There is no Save settings button any more, and Balance formats stays on after you leave the page.\n- Outputs at a time set to 0 stays automatic when you change another setting, instead of quietly dropping to one at a time.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.78.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.77/Revive-3.0.77.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.78/Revive-3.0.78.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJSUjFSbENIckVsOVNtbHF0d2ZYNk5kUmpMU1Jwd3o4Nm8yMVJEb0ZFOSs2Y3QwVytQTHVFL25UeGU1cGNPZlBKSmpPaVdPejQ2OHFsTGtpSUNFeGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI2Mzk5CWZpbGU6UmV2aXZlLTMuMC43Ny5kbWcKM0RsYnZrc3Rxb3pyb29BYk0wOVFPTDJIb2NPTzZzc1piZDZWQTNKcTZqdEIxdGdzRUFxcFBRVjhXQmlVTVd6RHNXeUVzY2lOcEJjOWtOVVh6Vk1EQ2c9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVdaeTZJVVBmSWwrK01pZkZ4UE1QNHE3MEcybG45N2JRd1ZCejlrTzhrYkZ2NzhBOG44My8vK3BKb050c0hMRnQxZi9NZ1cvOGJZUHovYlhoTTBTOXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI3NjY2CWZpbGU6UmV2aXZlLTMuMC43OC5kbWcKa2FtdUFMWGtQd1F3YVFza1VSMFBZem9meUFsUlJ2L255N3RJUGxDNUkxcHNEK2tKanA0MXlHbjJpWDRaVUlZTzQ3UmszaXVzVG1LaW1pc2UvQU4wQ1E9PQo="
 }
