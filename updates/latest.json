@@ -1,9 +1,9 @@
 {
-  "version": "3.0.73",
-  "notes": "- Studio Podcast opens on the clip's title: the small words fade up one by one and its point lands big in your accent, the way the reference editor opens almost every clip.\n- Studio Podcast: if your brand has a second (special) font, the highlighted and big words use it. Highlighted words ripple in as they appear.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.73.dmg",
+  "version": "3.0.74",
+  "notes": "- Margin Vertical's preview in the format picker loops again like the others.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.74.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.73/Revive-3.0.73.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.74/Revive-3.0.74.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWJPSlRjV3lOQm1lRHJycE1BdlFLV0dzZXpicVM0em4rc25MazlYcVJDR3h6enlzMWFpRVB2Y3NmY1FzbnBzWTUwY1NtQjFqazFEVUQ1dUxKUTJ5d0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE1MDI5CWZpbGU6UmV2aXZlLTMuMC43My5kbWcKTUFwRzRPenpLRnRKK2xtWnc4K0NOaTRodURXelpjZWpoRGtuMFdYeFZGU21oVDVwMHluUlJqMms2NFhFcG1YaTRvU0ZaeFNnLzhJcTRPYmwvNFRTRHc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlUL3ZPQXVxOHBicjlYNmx1VThlRVgzU2FsZ2Q4L0k3dDQrbmx2cmdWMitVOUwyTmtPNXQvREFpelorQTVkdktIWFdZbUk5WWVsMTZiUGdWbEg1MWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE1ODUxCWZpbGU6UmV2aXZlLTMuMC43NC5kbWcKVUllMHdIdXZZR1RvdW84L0tMdjNlTW83RVRGUUpVakFYVUx4WDBmdHA2UDhRL2QxSENqOXpoSG44enM2QUsxREJkTFUzbmIySDFHQkU5VldqRzV5Qnc9PQo="
 }
