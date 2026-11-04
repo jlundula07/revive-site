@@ -1,9 +1,9 @@
 {
-  "version": "3.0.79",
-  "notes": "- Annotation format rebuilt to the Colour Block study (50 reels of the reference creator, frame by frame): big caption text now comes in blocks, the whole meaningful phrase of a sentence, never scattered single words.\n- A few highlight words a video in your special font and brand colour; colours and fonts always come from your Brand DNA.\n- Annotations only cover a phrase of 4 or more spoken words, never one to three; an annotation can carry a bracket label (\\\"[UNPREPARED]\\\") with the spoken words small under it.\n- Big words low in the frame stay clear of the platform's buttons.\n- Two annotations never sit back to back, and an annotation's last word no longer shows on the next picture when a breath follows it.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.79.dmg",
+  "version": "3.0.80",
+  "notes": "- Made clips have room to breathe: more space between and inside each card, one quiet row for score, format and length, and at most two lines of why. Internal checks are off the cards.\n- Carousels: the arrows and dots sit in a small row under the slide, so nothing covers the slide's text or picture.\n- The tab labels always show their own numbers. Before, the Short-form tab showed the numbers of whichever tab was open.\n- Music is now a setting in Account, off by default.\n- Music is chosen pacing first, then energy, then the clip's emotion, then instruments and style, using your answers (connection or conversion, who it's for). A personal or emotional clip never gets trap, dance or a fast song.\n- Every song's big downbeats are marked, and the music starts so one lands on the clip's biggest moment.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.80.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.79/Revive-3.0.79.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.80/Revive-3.0.80.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQ0dUdiM3VIZFFHSlovT2tGNWcxU1FlT3BHZ0lqZGlGZ2UzZ1NIS1RrRDRnK05JWitsY21MRTV4SnlqTEtRalZwYUhmQjlpOEZZdHpSUm5aSmFRS1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI4Nzg2CWZpbGU6UmV2aXZlLTMuMC43OS5kbWcKQmpiZTN1Z1pLTjVqVmVUVHRvMTJFMXR6MVJzMFp1Zm00aFovdWFOYkYvOFYxMW9FM2ZEL015MGwzMHNOejBkalZUbHlxeEErS2M1bXlWNjZDVWNSQVE9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJEbmp4aEV4dEVxeWdOWTBNZnFCdkZQcEZWOWFWUUJ0N0VKRVdZUyt0SDNob00zTGJ6TWRhNldRMHVWcGovNGdvVnZpeVJsc21SY2VtNmpRUmxZdmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI4OTk1CWZpbGU6UmV2aXZlLTMuMC44MC5kbWcKeGhoSHZvMzJuTldadktlR3dHRFdjTDR0V2NhR0xRa1V4ZFkzUUVUUjlQb3Q1RlhHZUNiZEllSHpBa21xTGxJNDVIVW9qdVRGbjdSV3JNU3JxRTJEREE9PQo="
 }
