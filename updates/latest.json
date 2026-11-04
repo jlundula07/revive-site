@@ -1,9 +1,9 @@
 {
-  "version": "3.0.69",
-  "notes": "- Account has a new View Music Library button, just above credit history. It opens the music library as a sheet: each song on the left, and its mood, energy, pacing, BPM, instruments, style, the kind of clip it suits, key and vocals across the top.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.69.dmg",
+  "version": "3.0.70",
+  "notes": "- Studio Podcast: big words are on screen for about a second, like the reference, and slide down and fade out instead of cutting.\n- Studio Podcast: all text sits a little below the speaker's chin, on punch-ins too.\n- Studio Podcast: captions are one clean line cut at a phrase, and fewer, better words light up.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.70.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.69/Revive-3.0.69.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.70/Revive-3.0.70.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZKakF3YzdXYm5nU0o5dEcxZFA1dnIzQ3p4SjV0Y3JlS2dzMUt3cHZTdUIyamEvWkJpU2kvRStCdFUwVXdsV3I1eUQ5M3VDb2dabk1qbTlkNGE1OWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODEwMDYwCWZpbGU6UmV2aXZlLTMuMC42OS5kbWcKQlJCN2ROMkV0TTFmNjVORFRQdDhYUUMwbGlBaDd0S1pCYW9CKzhIMUI5a2JvbXRPYXRjbzB3MlJNcCsvOXJHL1B6VGpzVksrNllYTkNObjFpTC9LQnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZGRUNqTFliSEhIdThpL2I1ckRBZGJ0Y2ZkQk9IWVQwUTZ2UTVpbitWWE5ueHFIVjZGanFqelBQY1F6SmpYM1BtbWxEYU1OcHBUamRTNkprMEdSTHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE0MTExCWZpbGU6UmV2aXZlLTMuMC43MC5kbWcKV3NDd3ZGQnRkVENFakxiYnR5bGgvRzFibEJ4M3RRZWo5eUNwRGhiWXVRWUNUMHkzMVRzMHRJYlhqTDJWNTJaM3RyaDgxSjc1TGdHdGsyQzR4RkZrQnc9PQo="
 }
