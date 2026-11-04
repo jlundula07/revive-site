@@ -1,6 +1,6 @@
 {
-  "version": "3.0.61",
-  "notes": "- Multi-camera shoots of any size: Revive reads your footage where it is (nothing is copied), lines every camera up by its sound across the whole recording, and keeps them in step even when a camera's clock slowly drifts.\n- A camera is only shown where it actually has footage, and a file that can't be lined up is left out rather than shown out of sync.",
-  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.61/Revive-3.0.61.dmg",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNITmw1RFpmei9oZDV0dGxRb3Ntc3VWZkhYeUxYbEhxMXIxUmloRXdjVjhleG5zTm1rbmVQZ2JzeWlSMkpmOWtmcndXVjNuaWQ0aU5TbmlWSUl3Y0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU0MDg2CWZpbGU6UmV2aXZlLTMuMC42MS5kbWcKMWRML1dMTVNaNnkvT3IwdXZzSzlsMkJRalRVRWp0WEFlc3RwZGQ0Rk1ZYjBOYnRPeVl4WmMzbGtnQ0ZINGFKQjQ2UkRUdFBiQ1drOTJjSHJ4MU1OQWc9PQo="
+  "version": "3.0.62",
+  "notes": "- With more than one file, Revive listens to each and uses the sound from the one with your mics (the clearest voices over the quietest room) for the transcript and long-form moments, whichever camera you call the main one.\n- Long-form sound is brought to a steady listening level, so a quiet mic track doesn't come out quiet.",
+  "url": "https://github.com/jlundula07/revive-site/releases/download/v3.0.62/Revive-3.0.62.dmg",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVF0NWVXOWFHbmh1c2JQQlRnWDh5c2F2VDRkVmJnNll5U3dkdTRyVTV0bHd0UTJZQ1p4blhUUkdPQUNpdzBPay93UWhKcjBPQ2VpYU1JRHcyeTZ2ZEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU1NTYyCWZpbGU6UmV2aXZlLTMuMC42Mi5kbWcKMGJTTVErMmUwbVRrbXhRc2JKZDBlTklrR2s4MUcydG10aFRlVnVQOXc4UkQ1OWZGNUcxK2w4MlIzZjFJbC9WMFdYTWh5QXRLbW1xc211eEFlc2U1QXc9PQo="
 }
