@@ -1,9 +1,9 @@
 {
-  "version": "3.0.64",
-  "notes": "- You can drop MP3, WAV and other audio files in with your videos, for podcasts recorded on a separate recorder. Each file can be up to 2 TB.\n- Every file has a \\\"Use this file's sound\\\" box. Tick one or several (they're lined up and mixed); with none ticked, Revive uses the file that sounds clearest.\n- Every clip and long-form moment is now mono, so a podcast with one mic on each channel plays both voices in both ears.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.64.dmg",
+  "version": "3.0.65",
+  "notes": "- New short-form formats: Headline, Cinema Box, Wraparound, Documentary, Margin, Margin Vertical, Clean and Movie Captions. The annotation format is now called Colour Block. Open Space and Soft Serif are gone (clips already made in them keep their names).\n- Every format is vertical. Formats with a horizontal picture (Headline, Cinema Box, Margin, Wraparound, Movie Captions) sit in the vertical frame with black above and below.\n- Captions and titles sit where you placed them, inside Instagram's guardrails, and captions always end at punctuation.\n- Wide shots zoom in on the people and the table and fill the frame. Captions move on the exact frame the shot changes and never cover anyone: they sit in the gap between people, or above their heads.\n- Captions have no drop shadow by default. Turn it on in Creators, Captions.\n- New Account setting: Balance formats. When it's on, the drafts you produce are split evenly across your chosen short-form formats.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.65.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.64/Revive-3.0.64.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.65/Revive-3.0.65.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQ0UXp0MlFzUDE0cXpBc1lOeEFIM0k1KzVlWFJ1Uk12WnBMc2dpazZCT1BaSnBYM3JtM2NleVBCK2dqYW1QY040cFBvNGF0YlM0TzBhSGdOb1FwOXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzU5ODA5CWZpbGU6UmV2aXZlLTMuMC42NC5kbWcKZ3RTb3lRVTdPODdJWnBVbzZzaGlBT004SUVVb3hvREJVTkt5NGt0bXd5YWVjcW1iYkdMRG9paDl3S3FiS20raHZWcS9mbUlFVnNJS25UcnlxZlkvRHc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVhDcFZINWhDZklJQy9RcUNOVytmRmtKQzNObHg0WnpFOXc2eU12U2tMWTJQUGwrelNLdDN0VHdmZDVpZzQ0QnZJaUM1d0VCeDZiOGdNeHdPbHpiWGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzYwODUzCWZpbGU6UmV2aXZlLTMuMC42NS5kbWcKZS93aDlrZU94Q2tTeHZFaHY1b2h2N1RNKytPWEU3NG80VmVYYTBVYWtSRkUzdkZnbnlHWk85aUh6WkljMSt4UGFLZFhRQXh4UkNqR2wrMVREMEFzQWc9PQo="
 }
