@@ -1,9 +1,9 @@
 {
-  "version": "3.0.89",
-  "notes": "- A title that leaves after a few seconds leaves on a camera change when one is close, and the first caption comes in on the very frame it goes: no empty frames, no overlap.\n- The camera never jumps for a moment when a face is missed for a frame, never shows one frame of the old framing on a cut, and goes straight to the new person on a cut instead of holding on an empty place.\n- No clip shows a single frame of the shot before or after one of its cuts.\n- Studio Podcast: caption lines stop at every cut and change of speaker, and punch-ins land on the camera cut instead of a frame after it.\n- A wide shot whose only faces are on the screen behind the people is still a wide of those people, zoomed on them.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.89.dmg",
+  "version": "3.0.90",
+  "notes": "- The Retention format is removed. It is no longer offered for new clips; clips already made with it still open and re-render.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.90.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.89/Revive-3.0.89.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.90/Revive-3.0.90.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVduL21ZWWc4bHNvOXlJWjd4ZUIzM0t6dG9BM3JXMWE4OVJ3ZGk3ei8wTU1neEV1T3JIVitwblhMZVl5L0RPemZKVm4yZFZVLzVWcFNqQ09Ubko3cHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ5NTIyCWZpbGU6UmV2aXZlLTMuMC44OS5kbWcKZzRtczlscUpMSFczaWJEcnJJVmFhamdaUEhkWHc1SUQ1L1I1MkxDYjhrNDFzWGZLRy9sTnExM3ROQ1dKb2N0WmFzSkYzUExkc3Z4NjdFNEpVYmhCQkE9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRMVTJqQVBPRUIxdlo0cHJKZmJqc2tVNlIyL1R1eFpJN3dUQlU5VXUrZXlsaTI3bXc1UWlSRnVXSTFDTGVsbnJuQnJtSldYdkozazVhVmRpWUJBY2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODcyNTcyCWZpbGU6UmV2aXZlLTMuMC45MC5kbWcKTUhoWC9kWmcwTm9BSUhpeGg2YXNOUzhHZU5yZkc5YitkZ0poRFZsSGlaYjFWOWRxQ2YwU3FlWEJaRnlEc0xhNC9PUnJ3UXBuTnZ5amlPendqSWZkRHc9PQo="
 }
