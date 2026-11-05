@@ -1,9 +1,9 @@
 {
-  "version": "3.0.90",
-  "notes": "- The Retention format is removed. It is no longer offered for new clips; clips already made with it still open and re-render.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.90.dmg",
+  "version": "3.0.91",
+  "notes": "- Head camera off now keeps the camera on the person, centred on them exactly as the head camera frames them; it just doesn't move. A medium shot and a close-up of the same person each get their own still framing (before, they shared one between the two, which pushed the person to the edge of the medium shot).",
+  "url": "https://revivestudio.app/updates/Revive-3.0.91.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.90/Revive-3.0.90.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.91/Revive-3.0.91.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRMVTJqQVBPRUIxdlo0cHJKZmJqc2tVNlIyL1R1eFpJN3dUQlU5VXUrZXlsaTI3bXc1UWlSRnVXSTFDTGVsbnJuQnJtSldYdkozazVhVmRpWUJBY2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODcyNTcyCWZpbGU6UmV2aXZlLTMuMC45MC5kbWcKTUhoWC9kWmcwTm9BSUhpeGg2YXNOUzhHZU5yZkc5YitkZ0poRFZsSGlaYjFWOWRxQ2YwU3FlWEJaRnlEc0xhNC9PUnJ3UXBuTnZ5amlPendqSWZkRHc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZXdkNUbEI4akVEWXVQNTg5a3lKbEJydk51SWN5M25hR24yaWF5RFdxb3MzdlE2eFQzdUROY0hVcldxeDZJdVh4Y1JlWjFsY1FjWXJaVUFvSDljakFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODczNjU1CWZpbGU6UmV2aXZlLTMuMC45MS5kbWcKUk10d2tsN2dqVmdFcUpNYXMvMlY1aGhReDlwL0xuRzBsR3VwT2RBaGMrY0Q3ZmNxQ2dySnN0WWhyS1RmSW9qRU9ENU9FTGRoU3hXQm8xcnBZNVVFQlE9PQo="
 }
