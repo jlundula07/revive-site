@@ -1,9 +1,9 @@
 {
-  "version": "3.0.94",
-  "notes": "- New short-form format: Type Stack. Your B-roll cutaways carry stacked type (a small lead line, one big word, an italic line under it), each word landing as it is said, plus a few stacked lines on the speaker. Plain captions in between, held until the next words.\n- The stacks are chosen the way the approved lab edit chose them; the italic line is Playfair Display. The camera pushes in slowly on every shot, one way only, and the clip is made at 60 frames a second. Needs a B-roll folder in Creators, Editing.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.94.dmg",
+  "version": "3.0.95",
+  "notes": "- Onboarding now opens on a two-minute video: how to use Revive. Watch it, then press Next to carry on with the same walkthrough and questions as before.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.95.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.94/Revive-3.0.94.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.95/Revive-3.0.95.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVIclladXU5dDk4aTljcVJ2SXY2ZWRqdDNEOC9mdU9neFFDM2dsNHY3bUZ5YzlmTmRBaTZ4Q096bTB0MUJXU0dhN2lPRVFLWVFMYkxjTTNjNW5BZFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgxNzMyCWZpbGU6UmV2aXZlLTMuMC45NC5kbWcKa2cvWktURWlqWHF4MjVrK1BFWFY5bncvc2l4ZjFVYi83Y0lKdmt5MWQ2VlNJVlg2SHdSMEdwSFFKWDFIaFR1NVU5cHl6MVh4RDRBKzFrU0wraUNPQnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFib2xOTG9WVjAzbHVqZkgzaU5GME5BUGUwRmg3UWczRTJuaUpFMVovYU14djh1MjIxSEJCOVNtbUloQzRYMlVrZWRvUHdFYlhES2JmbDQ3QSs3OHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk1NzM2CWZpbGU6UmV2aXZlLTMuMC45NS5kbWcKdGJxSWc2aTEzV3hJSU5INnYydzltY0lzckZXZXpib2NCaTExSGVNeFZFVmkvZVVKbzcxaWRURlBzMjM3ZDFLTVJRalk3TjdyblpYWTJNYTlrcXNQQ3c9PQo="
 }
