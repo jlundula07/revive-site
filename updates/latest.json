@@ -1,9 +1,9 @@
 {
-  "version": "3.0.87",
-  "notes": "- Retention is calmer. Its cuts are planned around the footage's own: never a few frames off one of the recording's camera cuts or jump cuts (a cutaway ends on the recording's own cut instead), B-roll covers the jump cuts, the speaker holds at least 1.6 s between cutaways and each cutaway runs 1.2 to 2.2 s.\n- Retention's punch-in changes only on a jump cut no B-roll covers, instead of flipping on every speaker shot, and its words stay on one line for the whole clip instead of moving to each shot's face.\n- A close-up is never treated as a wide shot because someone stands behind the speaker (a close-up with a body behind it could be read as a wide, and its captions went above the head).",
-  "url": "https://revivestudio.app/updates/Revive-3.0.87.dmg",
+  "version": "3.0.88",
+  "notes": "- New in Account: Head camera. On (the default), the picture follows the speaker's head as before. Off, the camera stays still, the way Diary of a CEO and Colin and Samir frame their podcast clips: each camera angle gets one framing for the whole clip with room for the speaker to lean and gesture inside it, the same angle always comes back to the exact same framing, and it only reframes on a cut, never with a pan.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.88.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.87/Revive-3.0.87.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.88/Revive-3.0.88.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWN5TTlUWEhBMFBFM21QZUZXSmJ5RG9MZDJ0K2FrTVJTeE0wdUlzMzhMb3BOeUhLM3ZocWMyVy80L3RUeFN0SXRSM0dvcWZjTjAwK3p6MzM2UVJlMEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0Mzk5CWZpbGU6UmV2aXZlLTMuMC44Ny5kbWcKWkJyRGNSSjhHdUtyeCtPZEorQXBUOXNNSUFobWY5RGk4dDVaN2FmM3BYeHZJNjdaYkpZNnJ2d2NRczgwWkVNblhXQzhMUjlmSjloWmw4NzhOaHc5RGc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFVYVIwak51VG1DS2hScU1sMzdHMFZhQ2h5V01CeTV3alNoWHRnc285YjcrR3NlK2E3dW0zL0d0bHV1RzZCYjduQWNLZHNhckFhWHdjWVZxU05ENEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0NTg1CWZpbGU6UmV2aXZlLTMuMC44OC5kbWcKS2tuVWx5bmZIb2VlUDBwRzRnbnRYVUhEZ2dlNWpHc1RnRzRCYUU4Wjl0Nlc0Wk9FekwvbzVKRkF5dm5EbmdlUm9iQkExRm5rSE5jTm1mTklVd1k0Q0E9PQo="
 }
