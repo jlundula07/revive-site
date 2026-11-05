@@ -71,17 +71,29 @@ h3 { font-size: 21px; font-weight: 600; line-height: 1.2; letter-spacing: -0.03e
 .hero { overflow-x: clip; padding: 168px var(--gut) 40px; text-align: center; display: flex; flex-direction: column; align-items: center; }
 .hero h1 { margin-bottom: 26px; max-width: 1100px; }
 .hero .lead { margin: 0 auto 34px; }
-/* the promo film sits where the lead line was, the buttons under it */
-.promo { position: relative; width: 100%; max-width: 1040px; margin: 10px 0 40px; border-radius: 28px; overflow: hidden; border: 1px solid var(--line-strong); background: var(--dnavy); box-shadow: 0 50px 120px rgba(3, 5, 12, 0.6); aspect-ratio: 16 / 9; }
-.promo video { display: block; width: 100%; height: 100%; object-fit: cover; }
-.sound {
-  position: absolute; right: 16px; bottom: 16px; height: 38px; padding: 0 16px; border-radius: 999px; font: inherit; font-size: 14px; font-weight: 500; letter-spacing: -0.02em; cursor: pointer;
-  color: var(--off); background: rgba(10, 18, 49, 0.55); border: 1px solid var(--line-strong); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease), background 0.3s var(--ease);
-}
-.sound:hover { background: rgba(10, 18, 49, 0.75); transform: translateY(-1px); }
-.promo.loud .sound { opacity: 0; pointer-events: none; }
-.promo.loud:hover .sound { opacity: 1; pointer-events: auto; }
+/* the promo film sits where the lead line was, the buttons under it. Its player is the app's own (.rvp, copied from splittr/desktop/ui/style.css) */
+.promo { width: 100%; max-width: 1040px; margin: 10px 0 40px; }
+.rvp { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 28px; overflow: hidden; background: #000; border: 1px solid var(--line-strong); box-shadow: 0 50px 120px rgba(3, 5, 12, 0.6); container-type: inline-size; outline: none; user-select: none; -webkit-user-select: none; }
+.rvp video { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; cursor: pointer; }
+.rvp:fullscreen { border-radius: 0; border: 0; aspect-ratio: auto; }
+.rv-spin img { width: 40px; height: 40px; }
+.rv-big { position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; padding: 0; border-radius: 50%; color: var(--off); display: grid; place-items: center; cursor: pointer; background: rgba(6, 10, 28, 0.5); border: 1px solid rgba(244, 241, 234, 0.3); -webkit-backdrop-filter: blur(16px) saturate(1.1); backdrop-filter: blur(16px) saturate(1.1); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 12px 36px rgba(3, 5, 12, 0.4); transition: opacity 0.5s var(--ease), transform 0.6s var(--ease), background 0.4s var(--ease), border-color 0.4s var(--ease); }
+.rv-big svg { width: 20px; height: 20px; margin-left: 1.5px; }
+.rv-big:hover { background: rgba(10, 18, 49, 0.56); border-color: rgba(244, 241, 234, 0.5); transform: scale(1.08); }
+.rv-big:active { transform: scale(0.95); transition-duration: 0.15s; }
+.rvp[data-state="playing"] .rv-big { opacity: 0; transform: scale(0.78); pointer-events: none; }
+.rvp[data-state="ended"] .rv-big svg { margin-left: 0; }
+.rv-spin { position: absolute; left: 50%; top: 50%; margin: -20px 0 0 -20px; opacity: 0; pointer-events: none; transition: opacity 0.4s var(--ease); }
+.rvp.buffering .rv-spin { opacity: 1; }
+.rvp.buffering .rv-big { opacity: 0; }
+
+.rv-ui { position: absolute; inset: auto 0 0 0; padding: 0 10px 10px; opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity 0.45s var(--ease), transform 0.55s var(--ease); }
+.rvp:hover .rv-ui, .rvp:focus-visible .rv-ui, .rvp.touched[data-state="paused"] .rv-ui, .rvp[data-state="ended"] .rv-ui, @container (max-width: 340px) { .rv-cur { display: none; } .rv-snd:hover .rv-vol { width: 0; margin: 0; opacity: 0; } .rv-dur { margin-left: 4px; } }
+/* landing only: before the first press it is a muted preview, the play button stays up and the pill stays away */
+.rvp.preview .rv-big { opacity: 1; transform: none; pointer-events: auto; }
+.rvp.preview .rv-ui { display: none; }
+.rv-big { width: 80px; height: 80px; margin: -40px 0 0 -40px; } .rv-big svg { width: 28px; height: 28px; margin-left: 2px; }
+.rv-pill { height: 48px; } .rv-cur, .rv-dur { font-size: 12px; }
 /* "See how it works" lands with the clip fan and the line under it in view */
 .anchor { display: block; height: 0; scroll-margin-top: 0; }
 .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
@@ -381,8 +393,10 @@ html:not(.js) .faq .a { grid-template-rows: 1fr; }
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .hero { padding-top: 130px; }
-  .promo { border-radius: 18px; margin-bottom: 28px; }
-  .sound { right: 10px; bottom: 10px; height: 32px; padding: 0 12px; font-size: 13px; }
+  .promo { margin-bottom: 28px; }
+  .rvp { border-radius: 18px; }
+  .rv-big { width: 60px; height: 60px; margin: -30px 0 0 -30px; } .rv-big svg { width: 22px; height: 22px; margin-left: 2px; }
+  .rv-pill { height: 42px; }
   .stage { margin-top: 44px; }
   .window { border-radius: 22px; }
   .chrome { padding: 13px 15px; }
