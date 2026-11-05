@@ -29,23 +29,22 @@
     if (e.isIntersecting) { if (v.preload === "none") v.preload = "auto"; if (!reduce) v.play().catch(() => {}); }
     else v.pause();
   }), { threshold: 0.25 });
-  document.querySelectorAll("video:not(#promo)").forEach((v) => vio.observe(v));
+  document.querySelectorAll("video:not([data-player])").forEach((v) => vio.observe(v));
 
-  // ---- the promo film, in the app's own player (enhanceVideo in splittr/desktop/ui/app.js) ----
+  // ---- the promo film and the long-form sample, in the app's own player (enhanceVideo in splittr/desktop/ui/app.js) ----
   // Before the first press it is a muted, looping preview with the play button up. Play starts it over with sound;
   // from then on it is the app's player: the glass pill, scrub with the time under the pointer, volume, fullscreen and keys.
-  const promo = document.getElementById("promo");
-  if (promo) {
-    const RV = {
-      play: `<svg viewBox="0 0 16 16"><path d="M5.6 3.9 11.9 8l-6.3 4.1Z" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
-      pause: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5.8 4.2v7.6M10.2 4.2v7.6"/></svg>`,
-      vol: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.7 6.3h2l3-2.5v8.4l-3-2.5h-2Z"/><path d="M10.5 6a3 3 0 0 1 0 4M12.2 4.2a5.5 5.5 0 0 1 0 7.6"/></svg>`,
-      mute: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.7 6.3h2l3-2.5v8.4l-3-2.5h-2Z"/><path d="m10.6 6.2 3 3.6m0-3.6-3 3.6"/></svg>`,
-      replay: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M13 8a5 5 0 1 1-1.55-3.6"/><path d="M13.1 2.8v2.9H10.2"/></svg>`,
-      expand: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.2V3h3.2M9.8 3H13v3.2M13 9.8V13H9.8M6.2 13H3V9.8"/></svg>`,
-      shrink: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3v3.2H3M13 6.2H9.8V3M9.8 13V9.8H13M3 9.8h3.2V13"/></svg>`,
-    };
-    const v = promo, rvTime = (x) => (Number.isFinite(x) ? `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, "0")}` : "0:00");
+  const RV = {
+    play: `<svg viewBox="0 0 16 16"><path d="M5.6 3.9 11.9 8l-6.3 4.1Z" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+    pause: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5.8 4.2v7.6M10.2 4.2v7.6"/></svg>`,
+    vol: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.7 6.3h2l3-2.5v8.4l-3-2.5h-2Z"/><path d="M10.5 6a3 3 0 0 1 0 4M12.2 4.2a5.5 5.5 0 0 1 0 7.6"/></svg>`,
+    mute: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.7 6.3h2l3-2.5v8.4l-3-2.5h-2Z"/><path d="m10.6 6.2 3 3.6m0-3.6-3 3.6"/></svg>`,
+    replay: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M13 8a5 5 0 1 1-1.55-3.6"/><path d="M13.1 2.8v2.9H10.2"/></svg>`,
+    expand: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.2V3h3.2M9.8 3H13v3.2M13 9.8V13H9.8M6.2 13H3V9.8"/></svg>`,
+    shrink: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3v3.2H3M13 6.2H9.8V3M9.8 13V9.8H13M3 9.8h3.2V13"/></svg>`,
+  };
+  const rvTime = (x) => (Number.isFinite(x) ? `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, "0")}` : "0:00");
+  const player = (v) => {
     const w = document.createElement("div");
     w.className = "rvp preview"; w.tabIndex = 0; w.dataset.state = "paused";
     v.parentNode.insertBefore(w, v);
@@ -86,6 +85,7 @@
     const sound = () => { $('[data-a="mute"]').innerHTML = v.muted || v.volume === 0 ? RV.mute : RV.vol; vol.value = v.muted ? 0 : v.volume; vol.style.setProperty("--v", `${(v.muted ? 0 : v.volume) * 100}%`); };
     const buffered = () => { const d = dur(); let e = 0; for (let i = 0; i < v.buffered.length; i++) if (v.buffered.start(i) <= v.currentTime + 0.5) e = Math.max(e, v.buffered.end(i)); buf.style.transform = `scaleX(${d ? e / d : 0})`; };
     ["timeupdate", "loadedmetadata", "durationchange", "seeked"].forEach((n) => v.addEventListener(n, draw));
+    v.addEventListener("play", () => live && document.querySelectorAll(".rvp video").forEach((o) => o !== v && o.pause()));
     ["progress", "loadedmetadata", "timeupdate"].forEach((n) => v.addEventListener(n, buffered));
     ["play", "pause", "ended", "playing"].forEach((n) => v.addEventListener(n, () => { state(); w.classList.remove("buffering"); }));
     v.addEventListener("waiting", () => live && w.classList.add("buffering"));
@@ -133,7 +133,8 @@
     // the muted preview rests off screen; once they press play it is theirs to stop
     new IntersectionObserver(([e]) => { if (live) return; if (e.isIntersecting) { if (!reduce) v.play().catch(() => {}); } else v.pause(); }, { threshold: 0.25 }).observe(w);
     draw(); state(); sound();
-  }
+  };
+  document.querySelectorAll("video[data-player]").forEach(player);
 
   // ---- reveal on arrival ----
   const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -10% 0px", threshold: 0.12 });

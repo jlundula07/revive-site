@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20261105d" />
+  <link rel="stylesheet" href="style.css?v=20261105f" />
   <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
@@ -40,17 +40,20 @@
   <main id="top">
     <!-- Hero -->
     <section class="hero">
+      <!-- First screen: headline, film and buttons only; the clip fan waits below the fold -->
+      <div class="hero-top">
       <h1 class="r" style="--d:1">Your next month of content<br />is already recorded.</h1>
-      <p class="lead r" style="--d:2">Revive is the content repurposing platform.</p>
+      <p class="lead r" style="--d:2">Revive turns hours of footage into months of finished, on-brand content, ready to post.</p>
       <!-- The promo film, in the app's player: a muted preview until they press play, then it starts over with sound -->
       <div class="promo r" style="--d:3">
-        <video id="promo" src="media/promo.mp4" poster="media/promo-poster.jpg" muted loop playsinline autoplay preload="auto" aria-label="Revive promo film"></video>
+        <video id="promo" data-player src="media/promo.mp4" poster="media/promo-poster.jpg" muted loop playsinline autoplay preload="auto" aria-label="Revive promo film"></video>
       </div>
       <div class="cta r" style="--d:4">
         <a class="btn" href="download.html">Download for Mac</a>
         <a class="btn btn-ghost" href="#start">See how it works</a>
       </div>
       <p class="fine r" style="--d:5">Revive for Mac · Apple silicon</p>
+      </div>
 
       <!-- Real clips made in Revive's formats -->
       <span class="anchor" id="start"></span>
@@ -166,7 +169,7 @@
           <p>Vertical clips for Reels, TikTok and Shorts. Cut tight, captioned, a music bed under the voice, in any of fourteen formats.</p>
         </article>
         <article class="tile r" style="--d:1">
-          <div class="art art-long" aria-hidden="true"><video src="media/longform.mp4" muted loop playsinline preload="none"></video><i></i></div>
+          <div class="art art-long"><video data-player src="media/longform.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Long-form moment example"></video></div>
           <h3>Long-form moments</h3>
           <p>Whole topics from the episode, usually three to ten minutes, played as recorded. Built to start a second channel.</p>
         </article>
@@ -283,6 +286,6 @@
     </div>
   </footer>
 
-  <script src="main.js?v=20261105d"></script>
+  <script src="main.js?v=20261105f"></script>
 </body>
 </html>

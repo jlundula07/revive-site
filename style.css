@@ -71,6 +71,7 @@ h3 { font-size: 21px; font-weight: 600; line-height: 1.2; letter-spacing: -0.03e
 .hero { overflow-x: clip; padding: 168px var(--gut) 40px; text-align: center; display: flex; flex-direction: column; align-items: center; }
 .hero h1 { margin-bottom: 26px; max-width: 1100px; }
 .hero .lead { margin: 0 auto 34px; }
+.hero-top { width: 100%; min-height: calc(100vh - 168px); min-height: calc(100svh - 168px); display: flex; flex-direction: column; align-items: center; }
 /* the promo film sits where the lead line was, the buttons under it. Its player is the app's own (.rvp, copied from splittr/desktop/ui/style.css) */
 .promo { width: 100%; max-width: 1040px; margin: 10px 0 40px; }
 .rvp { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 28px; overflow: hidden; background: #000; border: 1px solid var(--line-strong); box-shadow: 0 50px 120px rgba(3, 5, 12, 0.6); container-type: inline-size; outline: none; user-select: none; -webkit-user-select: none; }
@@ -145,10 +146,9 @@ h3 { font-size: 21px; font-weight: 600; line-height: 1.2; letter-spacing: -0.03e
 .tile:hover .art-short video:nth-child(2) { transform: translateY(-8px); }
 .tile:hover .art-short video:nth-child(3) { transform: translate(10px, 10px) rotate(9deg); }
 .art-long { position: relative; }
-.art-long video { width: 84%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; border: 1px solid var(--line-strong); background: var(--dnavy); }
-.art-long i { position: absolute; left: 12%; right: 12%; bottom: 10%; height: 3px; border-radius: 2px; background: rgba(244, 241, 234, 0.25); overflow: hidden; }
-.art-long i::after { content: ""; position: absolute; inset: 0; background: var(--off); transform-origin: 0 50%; animation: lf 8s linear infinite; }
-@keyframes lf { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.art-long .rvp { width: 84%; border-radius: 16px; box-shadow: none; }
+.art-long .rvp video { object-fit: cover; }
+.art-long .rv-big { width: 56px; height: 56px; margin: -28px 0 0 -28px; } .art-long .rv-big svg { width: 20px; height: 20px; margin-left: 1.5px; }
 .art-car img { width: 34%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; border: 1px solid var(--line-strong); margin-left: -10%; box-shadow: 0 20px 40px rgba(3, 5, 12, 0.45); transition: transform 0.9s var(--ease); }
 .art-car img:first-child { margin-left: 0; position: relative; z-index: 3; }
 .art-car img:nth-child(2) { z-index: 2; position: relative; }
@@ -393,6 +393,7 @@ html:not(.js) .faq .a { grid-template-rows: 1fr; }
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .hero { padding-top: 130px; }
+  .hero-top { min-height: calc(100vh - 130px); min-height: calc(100svh - 130px); }
   .promo { margin-bottom: 28px; }
   .rvp { border-radius: 18px; }
   .rv-big { width: 60px; height: 60px; margin: -30px 0 0 -30px; } .rv-big svg { width: 22px; height: 22px; margin-left: 2px; }
