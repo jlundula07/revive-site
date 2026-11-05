@@ -1,9 +1,9 @@
 {
-  "version": "3.0.93",
-  "notes": "- Brand DNA has a Podcast logo section: switch it on, upload your podcast's logo and pick top left or top right. A preview shows it on a vertical and a horizontal video.\n- Once it's on, the logo sits in that corner of every short clip and long-form video, sized for each format and kept clear of titles and the app buttons.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.93.dmg",
+  "version": "3.0.94",
+  "notes": "- New short-form format: Type Stack. Your B-roll cutaways carry stacked type (a small lead line, one big word, an italic line under it), each word landing as it is said, plus a few stacked lines on the speaker. Plain captions in between, held until the next words.\n- The stacks are chosen the way the approved lab edit chose them; the italic line is Playfair Display. The camera pushes in slowly on every shot, one way only, and the clip is made at 60 frames a second. Needs a B-roll folder in Creators, Editing.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.94.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.93/Revive-3.0.93.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.94/Revive-3.0.94.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWV1Z1ZIdUpXNmdicTdOMUt1Z285NktaRC9Oa0VaeDR2a1F4eEpGczhENWxHM1ZvZ3ozSjB1ZVNUUHk0c1RpZHlIcWw4b3lrU3J5OFcyazgyZnlGZmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODc2NTU2CWZpbGU6UmV2aXZlLTMuMC45My5kbWcKWmZxQ2RCZ1g4MDRmRkhsQmwzbHJqZ3hyWEYxbkVta1oyWUlta3FQRzVyUFJOSTk0YWpjYS9HdlpQWjdNRkRtekk4aEFWd0poQng4ZnhTTisvSlpMRGc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVIclladXU5dDk4aTljcVJ2SXY2ZWRqdDNEOC9mdU9neFFDM2dsNHY3bUZ5YzlmTmRBaTZ4Q096bTB0MUJXU0dhN2lPRVFLWVFMYkxjTTNjNW5BZFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgxNzMyCWZpbGU6UmV2aXZlLTMuMC45NC5kbWcKa2cvWktURWlqWHF4MjVrK1BFWFY5bncvc2l4ZjFVYi83Y0lKdmt5MWQ2VlNJVlg2SHdSMEdwSFFKWDFIaFR1NVU5cHl6MVh4RDRBKzFrU0wraUNPQnc9PQo="
 }
