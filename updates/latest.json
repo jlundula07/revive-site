@@ -1,9 +1,9 @@
 {
-  "version": "3.0.88",
-  "notes": "- New in Account: Head camera. On (the default), the picture follows the speaker's head as before. Off, the camera stays still, the way Diary of a CEO and Colin and Samir frame their podcast clips: each camera angle gets one framing for the whole clip with room for the speaker to lean and gesture inside it, the same angle always comes back to the exact same framing, and it only reframes on a cut, never with a pan.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.88.dmg",
+  "version": "3.0.89",
+  "notes": "- A title that leaves after a few seconds leaves on a camera change when one is close, and the first caption comes in on the very frame it goes: no empty frames, no overlap.\n- The camera never jumps for a moment when a face is missed for a frame, never shows one frame of the old framing on a cut, and goes straight to the new person on a cut instead of holding on an empty place.\n- No clip shows a single frame of the shot before or after one of its cuts.\n- Studio Podcast: caption lines stop at every cut and change of speaker, and punch-ins land on the camera cut instead of a frame after it.\n- A wide shot whose only faces are on the screen behind the people is still a wide of those people, zoomed on them.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.89.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.88/Revive-3.0.88.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.89/Revive-3.0.89.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFVYVIwak51VG1DS2hScU1sMzdHMFZhQ2h5V01CeTV3alNoWHRnc285YjcrR3NlK2E3dW0zL0d0bHV1RzZCYjduQWNLZHNhckFhWHdjWVZxU05ENEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ0NTg1CWZpbGU6UmV2aXZlLTMuMC44OC5kbWcKS2tuVWx5bmZIb2VlUDBwRzRnbnRYVUhEZ2dlNWpHc1RnRzRCYUU4Wjl0Nlc0Wk9FekwvbzVKRkF5dm5EbmdlUm9iQkExRm5rSE5jTm1mTklVd1k0Q0E9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVduL21ZWWc4bHNvOXlJWjd4ZUIzM0t6dG9BM3JXMWE4OVJ3ZGk3ei8wTU1neEV1T3JIVitwblhMZVl5L0RPemZKVm4yZFZVLzVWcFNqQ09Ubko3cHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ5NTIyCWZpbGU6UmV2aXZlLTMuMC44OS5kbWcKZzRtczlscUpMSFczaWJEcnJJVmFhamdaUEhkWHc1SUQ1L1I1MkxDYjhrNDFzWGZLRy9sTnExM3ROQ1dKb2N0WmFzSkYzUExkc3Z4NjdFNEpVYmhCQkE9PQo="
 }
