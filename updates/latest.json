@@ -1,9 +1,9 @@
 {
-  "version": "3.0.83",
-  "notes": "- The Hook Box title has a faint drop shadow under its letters, like the Hook Boxes on Hormozi's page. Without it the IG Classic letters looked flat on the box.\n- IG Classic is now the default font everywhere: brands, the Hook Box title and captions. It replaces General Sans. A brand's own font, or a font picked for a caption style, still takes over.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.83.dmg",
+  "version": "3.0.84",
+  "notes": "- New short-form format: Fireside. The whole 16:9 take in the middle of the frame with the speaker centred, and small lowercase captions either side of the head at mouth height. Each phrase is split in two and written word by word as it is said, every word coming in soft. No title, no B-roll, no big words. Built from 54 calm talking reels read frame by frame.\n- New short-form format: Retention. A fast retention edit in a 4:3 picture: the picture changes on almost every phrase, between the speaker (punched in and out) and your own B-roll from the folders in your profile, graded with your LUT when it is log, plus a black card for a blunt line. Phrases built word by word in the open space beside or under the speaker, holding still across cuts, a few points stacked small over big, and a few concept words huge in your special font under the words leading into them. Built from 50 fast-edited reels read frame by frame.\n- Wraparound's captions now follow Fireside's rules: each phrase split either side of the head at mouth height, lowercase, written word by word with a soft entrance. Its headline stays. When the speaker sits off-centre, a phrase moves to the side with room instead of shrinking.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.84.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.83/Revive-3.0.83.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.84/Revive-3.0.84.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVNmczhPa2hYcnhTSWl0S2FzTFg3ZFlrM0o1WWtHYTBmQkVTSWlxdGl5NEJYUHA5SjhNdXMvTldRcWdRUURYSTB5MXMzS0pqL0RNS0Y0WlpPRDlqaUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM3MzU4CWZpbGU6UmV2aXZlLTMuMC44My5kbWcKTEJ6aUROcWZEWFZTbHEyWEh5ejRsd3IxdzdLR25iN3p1MUh6cVBkaHo3cDFzTS9WbDlqU29iYWxYNlRtL25WUUcrU0ZRTFllejJ6TGNFbUVHZGJjQnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJnelNxcnlubjFZb3g2eDN6T3VxYURKMDBhTUpHeU1yQzlsT1BUa0NVay8zakNMMlEyWlRNRFRZQlIvckh2RGFiWndjcWRTRDBuQTJiS1BGNXJOWFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM4MDQ5CWZpbGU6UmV2aXZlLTMuMC44NC5kbWcKbU0yWDY4MlhmKzQwZm56anJkZFR6NncvTHV4V2hPTTNmVWZ2SDVEVmlaUDhsMnIwRmNjYWpZRjdyVWY2ODdkandQQ1cvaWJJa1ZOQ0NaeU1obG9TRFE9PQo="
 }
