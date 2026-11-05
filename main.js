@@ -29,7 +29,24 @@
     if (e.isIntersecting) { if (v.preload === "none") v.preload = "auto"; if (!reduce) v.play().catch(() => {}); }
     else v.pause();
   }), { threshold: 0.25 });
-  document.querySelectorAll("video").forEach((v) => vio.observe(v));
+  document.querySelectorAll("video:not(#promo)").forEach((v) => vio.observe(v));
+
+  // ---- the promo film: muted on arrival; the button starts it over with sound, then toggles mute ----
+  const promo = document.getElementById("promo"), sound = document.getElementById("sound");
+  if (promo && sound) {
+    const box = promo.parentElement, label = sound.firstElementChild;
+    let heard = false;
+    if (reduce) { promo.removeAttribute("autoplay"); promo.pause(); }
+    sound.addEventListener("click", () => {
+      if (!heard) { heard = true; promo.currentTime = 0; promo.muted = false; promo.play().catch(() => {}); }
+      else promo.muted = !promo.muted;
+      box.classList.toggle("loud", !promo.muted);
+      sound.setAttribute("aria-pressed", String(!promo.muted));
+      label.textContent = promo.muted ? "Sound on" : "Sound off";
+    });
+    // off screen it pauses; back on screen it carries on
+    new IntersectionObserver(([e]) => { if (e.isIntersecting) { if (!reduce || heard) promo.play().catch(() => {}); } else promo.pause(); }, { threshold: 0.25 }).observe(promo);
+  }
 
   // ---- reveal on arrival ----
   const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -10% 0px", threshold: 0.12 });
@@ -45,8 +62,10 @@
     const y = scrollY;
     nav.classList.toggle("scrolled", y > 24);
     if (!reduce && reel) {
-      // the fan opens over the first half screen of scroll, on an ease-out
-      const t = Math.min(1, y / (innerHeight * 0.5));
+      // the fan opens on an ease-out
+      // it sits under the promo film now, so it opens as it rises through the screen
+      const top = reel.getBoundingClientRect().top;
+      const t = Math.min(1, Math.max(0, (innerHeight - top) / (innerHeight * 0.6)));
       reel.style.setProperty("--open", (1 - Math.pow(1 - t, 3)).toFixed(3));
     }
     story();
