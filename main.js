@@ -31,7 +31,7 @@
   }), { threshold: 0.25 });
   document.querySelectorAll("video:not([data-player])").forEach((v) => vio.observe(v));
 
-  // ---- the promo film and the long-form sample, in the app's own player (enhanceVideo in splittr/desktop/ui/app.js) ----
+  // ---- the promo film, in the app's own player (enhanceVideo in splittr/desktop/ui/app.js) ----
   // Before the first press it is a muted, looping preview with the play button up. Play starts it over with sound;
   // from then on it is the app's player: the glass pill, scrub with the time under the pointer, volume, fullscreen and keys.
   const RV = {
@@ -129,8 +129,6 @@
       else if (k === "arrowup") go(() => { v.muted = false; v.volume = Math.min(1, v.volume + 0.1); });
       else if (k === "arrowdown") go(() => (v.volume = Math.max(0, v.volume - 0.1)));
     });
-    // data-from: where the muted preview opens (the long-form opens on the host; the preview shows the guest)
-    if (v.dataset.from) { const go = () => { if (!live) v.currentTime = Number(v.dataset.from); }; v.readyState ? go() : v.addEventListener("loadedmetadata", go, { once: true }); }
     if (reduce) { v.removeAttribute("autoplay"); v.pause(); }
     // the muted preview rests off screen; once they press play it is theirs to stop
     new IntersectionObserver(([e]) => { if (live) return; if (e.isIntersecting) { if (!reduce) v.play().catch(() => {}); } else v.pause(); }, { threshold: 0.25 }).observe(w);

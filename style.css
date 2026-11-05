@@ -146,9 +146,10 @@ h3 { font-size: 21px; font-weight: 600; line-height: 1.2; letter-spacing: -0.03e
 .tile:hover .art-short video:nth-child(2) { transform: translateY(-8px); }
 .tile:hover .art-short video:nth-child(3) { transform: translate(10px, 10px) rotate(9deg); }
 .art-long { position: relative; }
-.art-long .rvp { width: 84%; border-radius: 16px; box-shadow: none; }
-.art-long .rvp video { object-fit: cover; }
-.art-long .rv-big { width: 56px; height: 56px; margin: -28px 0 0 -28px; } .art-long .rv-big svg { width: 20px; height: 20px; margin-left: 1.5px; }
+.art-long video { width: 84%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; border: 1px solid var(--line-strong); background: var(--dnavy); }
+.art-long i { position: absolute; left: 12%; right: 12%; bottom: 10%; height: 3px; border-radius: 2px; background: rgba(244, 241, 234, 0.25); overflow: hidden; }
+.art-long i::after { content: ""; position: absolute; inset: 0; background: var(--off); transform-origin: 0 50%; animation: lf 8s linear infinite; }
+@keyframes lf { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .art-car img { width: 34%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; border: 1px solid var(--line-strong); margin-left: -10%; box-shadow: 0 20px 40px rgba(3, 5, 12, 0.45); transition: transform 0.9s var(--ease); }
 .art-car img:first-child { margin-left: 0; position: relative; z-index: 3; }
 .art-car img:nth-child(2) { z-index: 2; position: relative; }
