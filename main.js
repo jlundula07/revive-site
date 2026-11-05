@@ -129,6 +129,8 @@
       else if (k === "arrowup") go(() => { v.muted = false; v.volume = Math.min(1, v.volume + 0.1); });
       else if (k === "arrowdown") go(() => (v.volume = Math.max(0, v.volume - 0.1)));
     });
+    // data-from: where the muted preview opens (the long-form opens on the host; the preview shows the guest)
+    if (v.dataset.from) { const go = () => { if (!live) v.currentTime = Number(v.dataset.from); }; v.readyState ? go() : v.addEventListener("loadedmetadata", go, { once: true }); }
     if (reduce) { v.removeAttribute("autoplay"); v.pause(); }
     // the muted preview rests off screen; once they press play it is theirs to stop
     new IntersectionObserver(([e]) => { if (live) return; if (e.isIntersecting) { if (!reduce) v.play().catch(() => {}); } else v.pause(); }, { threshold: 0.25 }).observe(w);
