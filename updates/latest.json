@@ -1,9 +1,9 @@
 {
-  "version": "3.0.95",
-  "notes": "- Onboarding now opens on a two-minute video: how to use Revive. Watch it, then press Next to carry on with the same walkthrough and questions as before.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.95.dmg",
+  "version": "3.0.96",
+  "notes": "- The walkthrough and the drop box now say the real footage limit: up to 2 TB a file, as many files as you like.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.96.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.95/Revive-3.0.95.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.96/Revive-3.0.96.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFib2xOTG9WVjAzbHVqZkgzaU5GME5BUGUwRmg3UWczRTJuaUpFMVovYU14djh1MjIxSEJCOVNtbUloQzRYMlVrZWRvUHdFYlhES2JmbDQ3QSs3OHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk1NzM2CWZpbGU6UmV2aXZlLTMuMC45NS5kbWcKdGJxSWc2aTEzV3hJSU5INnYydzltY0lzckZXZXpib2NCaTExSGVNeFZFVmkvZVVKbzcxaWRURlBzMjM3ZDFLTVJRalk3TjdyblpYWTJNYTlrcXNQQ3c9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVliWm9WSDZZdjExVGFQNFh0UlBNWDFMc2lXVVhML3hFcThkdXJFRVh2RlFiLzgvSmp4eDZQbUdqeTR6Q2RLT2tMa2RPQ0YwUHNqYkdpcC9ISUxENkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk2MzM4CWZpbGU6UmV2aXZlLTMuMC45Ni5kbWcKUGs5cFVvMTdkYjV5M2RScFJKYWxtaG5aaGNmZUVzMlc3T0g0QjR1ZUMyTEpaNG8vOXRFZ1Z6TzhyR24rbmtSUkJwRlVWSFpkVEU0NHpGYmFnQjBlQWc9PQo="
 }
