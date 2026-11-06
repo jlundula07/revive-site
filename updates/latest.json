@@ -1,9 +1,9 @@
 {
-  "version": "3.0.99",
-  "notes": "- Revive is now signed and notarized by Apple, so macOS opens it without the unidentified-developer warning, and the folder permissions you give it (Downloads, Movies and so on) stay across updates instead of being asked again. Revive no longer looks in Movies or Documents for files you did not give it.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.99.dmg",
+  "version": "3.0.100",
+  "notes": "- Fixed: after signing out, the login screen no longer loses the \\\"Continue with Google\\\" button (it came back only after reopening the app).",
+  "url": "https://revivestudio.app/updates/Revive-3.0.100.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.99/Revive-3.0.99.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.100/Revive-3.0.100.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRHVS84SCtwSHlEeFRZUENrMWcrOFdQRW1sMlVXNFRwa0ExM3U2Szd5ekZ5UGhjclVtT2VXcFR2c1YvRGxKQzJXbXlNTzBxQzZMNEtuaG1DOE1wUndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4NTc2CWZpbGU6UmV2aXZlLTMuMC45OS5kbWcKalAyN1h1cWg3dzF0S3dsVU9VVWxBRDBBWElBbEdBbkYrV1JUSXM3bTZJNHlrTE1TTVhIdHgvV2lCV09hajVpRmhpejQ3czFQcTQwYWcxbzZPYmlMQmc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVl5RDZFY294cGpwTzd1UzdKS1R4V1dXcis2WUhPY3lZdTh6V0ZwSi9hME92eHY1QTBnQ29Bc2Eyd0dOcjFJcHNSZmZTSm9nUzQrejlQNElkRnZCSEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4ODY5CWZpbGU6UmV2aXZlLTMuMC4xMDAuZG1nCnFNNm9Rdnp2WmpRRitLZGVPcU45dGlNMjROWnBscEd1OTYrai9pL3ZUdFVXanRxK3QvMmwzMHpBUVNmc0NUK09UZ0FsNk5iT2JQV2dENXlGNHZFbUF3PT0K"
 }
