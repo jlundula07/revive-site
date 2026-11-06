@@ -7,6 +7,9 @@ const SERVER_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSI
 
 export const supabase = createClient(SERVER_URL, SERVER_KEY, { auth: { persistSession: true, detectSessionInUrl: true, flowType: "pkce" } });
 
+// While payments are on hold, signing in is the pass: an account goes straight to the download. Flip to false at full launch.
+export const EARLY_ACCESS = true;
+
 export const PLAN_NAMES = { hobbyist: "Hobbyist", creator: "Creator", agency: "Agency" };
 
 // A plan counts while it is paid up, while Commas is retrying a failed renewal, or after a cancel until the paid period ends.

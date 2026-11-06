@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20261106c" />
+  <link rel="stylesheet" href="style.css?v=20261106d" />
   <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
@@ -40,7 +40,7 @@
   </main>
 
   <script type="module">
-    import { supabase, PLAN_NAMES, planActive, mySubscription } from "./account.js";
+    import { supabase, EARLY_ACCESS, PLAN_NAMES, planActive, mySubscription } from "./account.js";
     const $ = (id) => document.getElementById(id);
     requestAnimationFrame(() => document.querySelectorAll(".r").forEach((el) => el.classList.add("in")));
     const ready = (row, email) => {
@@ -52,7 +52,16 @@
       $("fine").textContent = "Revive for Mac · Apple silicon";
     };
     const { data: { session } } = await supabase.auth.getSession();
-    if (!session) {
+    if (EARLY_ACCESS && new URLSearchParams(location.search).has("early")) {
+      // early access: the account is the pass. No account, no download.
+      if (!session) location.replace("start.html");
+      $("mark").classList.remove("spin");
+      $("title").textContent = "Welcome to the studio.";
+      $("plan").textContent = "You're in early access, so Revive is free for now.";
+      $("acct").textContent = `Log in as ${session.user.email}.`;
+      $("steps").hidden = false; $("cta").hidden = false;
+      $("fine").textContent = "Revive for Mac · Apple silicon";
+    } else if (!session) {
       $("title").textContent = "Log in to see your plan.";
       $("plan").innerHTML = 'Your payment is tied to your Revive account. <a href="start.html?mode=login">Log in</a>';
     } else {

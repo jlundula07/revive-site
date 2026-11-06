@@ -1,7 +1,7 @@
 // Get started: sign in (or create the account), choose a plan, pay. The landing page's pricing buttons arrive here with
 // ?plan=…&billing=…, which pre-select the choice. Paying opens a Commas checkout made for this account (the `checkout`
 // server function); Commas then sends the buyer to welcome.html, which waits for the signed payment notice.
-import { supabase, SERVER_URL, PLAN_NAMES, planActive, mySubscription, say } from "./account.js";
+import { supabase, EARLY_ACCESS, SERVER_URL, PLAN_NAMES, planActive, mySubscription, say } from "./account.js";
 
 const $ = (id) => document.getElementById(id);
 const q = new URLSearchParams(location.search);
@@ -96,6 +96,7 @@ async function route() {
   if (!session) { show("paneAuth"); drawAuth(); return; }
   // already paying: straight to the welcome page and the download
   if (planActive(await mySubscription().catch(() => null))) return location.replace("welcome.html");
+  if (EARLY_ACCESS) return location.replace("welcome.html?early=1");
   show("panePlan"); drawPlan();
 }
 
