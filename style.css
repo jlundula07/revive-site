@@ -74,8 +74,8 @@ h3 { font-size: 21px; font-weight: 600; line-height: 1.2; letter-spacing: -0.03e
 @media (max-height: 760px) { .hero .lead { display: none; } }
 .hero-top { width: 100%; height: calc(100vh - 104px); height: calc(100svh - 104px); min-height: 400px; display: flex; flex-direction: column; align-items: center; }
 /* the promo film sits where the lead line was, the buttons under it. Its player is the app's own (.rvp, copied from splittr/desktop/ui/style.css) */
-.promo { width: 100%; max-width: 1040px; margin: 0 0 clamp(12px, 3vh, 28px); flex: 1 1 0; min-height: 0; display: flex; justify-content: center; }
-.rvp { position: relative; display: block; width: auto; max-width: 100%; height: 100%; aspect-ratio: 16 / 9; border-radius: 28px; overflow: hidden; background: #000; border: 1px solid var(--line-strong); box-shadow: 0 50px 120px rgba(3, 5, 12, 0.6); container-type: inline-size; outline: none; user-select: none; -webkit-user-select: none; }
+.promo { width: 100%; max-width: 1040px; margin: 0 0 clamp(12px, 3vh, 28px); flex: 1 1 0; min-height: 0; display: flex; justify-content: center; align-items: center; container-type: size; }
+.rvp { position: relative; display: block; width: min(100cqw, 100cqh * 16 / 9); height: auto; aspect-ratio: 16 / 9; flex: none; border-radius: 28px; overflow: hidden; background: #000; border: 1px solid var(--line-strong); box-shadow: 0 50px 120px rgba(3, 5, 12, 0.6); container-type: inline-size; outline: none; user-select: none; -webkit-user-select: none; }
 .rvp video { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; cursor: pointer; }
 .rvp:fullscreen { border-radius: 0; border: 0; aspect-ratio: auto; }
 .rv-spin img { width: 40px; height: 40px; }
