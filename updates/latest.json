@@ -1,9 +1,9 @@
 {
-  "version": "3.0.105",
-  "notes": "- Out of credits during early access? “Choose a plan” now tells you plans open soon and how to get more credits, instead of opening a checkout.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.105.dmg",
+  "version": "3.0.106",
+  "notes": "- A credits ring sits in the bottom right corner: a blue ring that thins away clockwise as you use your credits, with no number. Click it for the same sheet as Menu, Credits.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.106.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.105/Revive-3.0.105.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.106/Revive-3.0.106.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVMUFFNRVRkVzlMV3FnQXJhWldYQTcyQXlSS2VwalB6OHpZcTR1NUhSNXBOTEU4ZVNHc2U1RzZPOGMycjgxLytzaFhlWkNYcERmU0xjdFQ5N1Frb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA2OTc1CWZpbGU6UmV2aXZlLTMuMC4xMDUuZG1nCm9pNnBrNUlLTFVEWU8vdGlYYTJJTzNTeUdUZU1yYktUWmFBc2lsQWxqeHJqclRodjR0U3NmUWFEdEpBTGdZM2RDRkkwdW1VN2RMSXl2V01qMUoyRUN3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlOUUxUV3lVZWhqTkgvSjNhSFM5Smpya1VnbFoySmNHSFJpZW9hN0U1UUVTN01JTGhuMHVOYmR5b1BOYzU0SlJqODJ2aXN1K1FGUVlFemxaNG5RbmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA3ODI5CWZpbGU6UmV2aXZlLTMuMC4xMDYuZG1nCkdqY2xsZHE1QkwxMVJQeGcrSHY0czdLV1hyWmZyOU13ZjM0d0FFZ2hJbVpoekwybGU4WlZlNmZmSVFMS3JzNStTeTNwSFlJN29Sd2dSNFFHeVlZa0FRPT0K"
 }
