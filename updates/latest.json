@@ -1,9 +1,9 @@
 {
-  "version": "3.0.103",
-  "notes": "- Credits now live on your Revive account, so they follow you to any Mac. Each clip is charged when it starts and given back if it fails.\n- When you run out of credits, Revive says so and shows where to choose a plan.\n- The Account page shows your credits: what's left, what you've used and your plan.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.103.dmg",
+  "version": "3.0.104",
+  "notes": "- The old name is gone from the app, its folders and its files. Your projects, brand kit and settings move over automatically the first time you open this version.\n- macOS may ask once more for access to your folders, because the app has a new identity.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.104.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.103/Revive-3.0.103.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.104/Revive-3.0.104.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQycmxmZUVRMHY0UWlUekxDRDRiRzhURWZuUC9KRHBSV2JkRkNudDVsQ1paVXVCb0JVd3d1UHBlaVpwcituNkZ2UHVSVTJIWGVBaWFoUVM1TklLVXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA1MDIxCWZpbGU6UmV2aXZlLTMuMC4xMDMuZG1nClNKdkdCUlNLdkpJRFdlZGFzalduUm1mWUorM3pVVGNSeitpMklSYjc3WE5yZkE3c0hiWElIcGdmaG1MZnh0NCtqYjhRS0NmbXc4RHFKaFRMWHdCMUJBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVsZHNkcWRoMkJQZzA1U01NdkNmcGg5aERrZWtYM1NxM0c2MUlZMDVncHBmQlRTT1dBRnRlKy9YeDNITlpScXlkc3lYSFJnYWFweUZLK043alVaa2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA1OTc4CWZpbGU6UmV2aXZlLTMuMC4xMDQuZG1nCmJ4TUQvUVVKUllWbUJma3kzb3Jwd0UxZEV2VEtLZExudFFBMTBCdGV2aDg0bU9HRDNlUGx4K09RTnlXWFJZUU44amQxamZ5eDZDamxyWm84YmdxUkJRPT0K"
 }
