@@ -31,7 +31,7 @@
   }), { threshold: 0.25 });
   document.querySelectorAll("video:not([data-player])").forEach((v) => vio.observe(v));
 
-  // ---- the promo film, in the app's own player (enhanceVideo in splittr/desktop/ui/app.js) ----
+  // ---- the promo film, in the app's own player (enhanceVideo in revive/desktop/ui/app.js) ----
   // Before the first press it is a muted, looping preview with the play button up. Play starts it over with sound;
   // from then on it is the app's player: the glass pill, scrub with the time under the pointer, volume, fullscreen and keys.
   const RV = {

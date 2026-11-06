@@ -1,5 +1,5 @@
 // Revive accounts on the website: the same account server the app uses (Supabase project "revive"). The anon key is
-// public by design; what it can reach is limited by row level security (splittr/docs/supabase/*.sql).
+// public by design; what it can reach is limited by row level security (revive/docs/supabase/*.sql).
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm";
 
 export const SERVER_URL = "https://reuiwbicnphzqgckkxbp.supabase.co";
