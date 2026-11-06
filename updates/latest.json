@@ -1,9 +1,9 @@
 {
-  "version": "3.0.104",
-  "notes": "- The old name is gone from the app, its folders and its files. Your projects, brand kit and settings move over automatically the first time you open this version.\n- macOS may ask once more for access to your folders, because the app has a new identity.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.104.dmg",
+  "version": "3.0.105",
+  "notes": "- Out of credits during early access? \\\"Choose a plan\\\" now tells you plans open soon and how to get more credits, instead of opening a checkout.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.105.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.104/Revive-3.0.104.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.105/Revive-3.0.105.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVsZHNkcWRoMkJQZzA1U01NdkNmcGg5aERrZWtYM1NxM0c2MUlZMDVncHBmQlRTT1dBRnRlKy9YeDNITlpScXlkc3lYSFJnYWFweUZLK043alVaa2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA1OTc4CWZpbGU6UmV2aXZlLTMuMC4xMDQuZG1nCmJ4TUQvUVVKUllWbUJma3kzb3Jwd0UxZEV2VEtLZExudFFBMTBCdGV2aDg0bU9HRDNlUGx4K09RTnlXWFJZUU44amQxamZ5eDZDamxyWm84YmdxUkJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVMUFFNRVRkVzlMV3FnQXJhWldYQTcyQXlSS2VwalB6OHpZcTR1NUhSNXBOTEU4ZVNHc2U1RzZPOGMycjgxLytzaFhlWkNYcERmU0xjdFQ5N1Frb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA2OTc1CWZpbGU6UmV2aXZlLTMuMC4xMDUuZG1nCm9pNnBrNUlLTFVEWU8vdGlYYTJJTzNTeUdUZU1yYktUWmFBc2lsQWxqeHJqclRodjR0U3NmUWFEdEpBTGdZM2RDRkkwdW1VN2RMSXl2V01qMUoyRUN3PT0K"
 }
