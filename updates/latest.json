@@ -1,9 +1,9 @@
 {
-  "version": "3.0.98",
-  "notes": "- Behind the scenes: a beta plan (75 credits, one time) and test logins that start fresh every time, so the first-run walkthrough can be checked as a brand-new user and as a beta tester.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.98.dmg",
+  "version": "3.0.99",
+  "notes": "- Revive is now signed and notarized by Apple, so macOS opens it without the unidentified-developer warning, and the folder permissions you give it (Downloads, Movies and so on) stay across updates instead of being asked again. Revive no longer looks in Movies or Documents for files you did not give it.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.99.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.98/Revive-3.0.98.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.99/Revive-3.0.99.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWU1MEZwRiszTjl2clQrSmladmtTS0toVTBwOFBMMENNVzZQc003bnFQZ1hPSXVKWmo0bEdmdi95Z3FPRHF1dlIyM1FhdFluN3FsSFZUem9UWUdpcWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4Mjk0CWZpbGU6UmV2aXZlLTMuMC45OC5kbWcKRzlWVG1JM3AyQjFybXZwa0VDd0VteDFXTlkreDJWSVZpWHJZK2ExdXRRUzhWYkk4RzBESUxrbG9LL1JVakloSXBpRkFLRU91S3AyNktaNU5TSUVSQ3c9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRHVS84SCtwSHlEeFRZUENrMWcrOFdQRW1sMlVXNFRwa0ExM3U2Szd5ekZ5UGhjclVtT2VXcFR2c1YvRGxKQzJXbXlNTzBxQzZMNEtuaG1DOE1wUndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4NTc2CWZpbGU6UmV2aXZlLTMuMC45OS5kbWcKalAyN1h1cWg3dzF0S3dsVU9VVWxBRDBBWElBbEdBbkYrV1JUSXM3bTZJNHlrTE1TTVhIdHgvV2lCV09hajVpRmhpejQ3czFQcTQwYWcxbzZPYmlMQmc9PQo="
 }
