@@ -49,20 +49,22 @@
     <section class="pane" id="panePlan" hidden>
       <h1>Choose your plan.</h1>
       <p class="lead">Your credits are ready the moment payment goes through.</p>
-      <div class="seg" role="group" aria-label="Billing period" id="billSeg">
-        <span class="seg-pill" id="billPill"></span>
-        <button class="on" data-billing="monthly">Monthly</button>
-        <button data-billing="yearly">Yearly <small>2 months free</small></button>
-      </div>
       <div class="choices" id="choices">
-        <button class="choice" data-plan="hobbyist"><b>Hobbyist</b><small>30 clips a month · 1 creator</small><em data-m="$49/mo" data-y="$490/yr">$49/mo</em></button>
-        <button class="choice on" data-plan="creator"><b>Creator</b><small>150 clips a month · up to 3 creators</small><em data-m="$249/mo" data-y="$2,490/yr">$249/mo</em></button>
-        <button class="choice" data-plan="agency"><b>Agency</b><small>500 clips a month · up to 15 creators</small><em data-m="$699/mo" data-y="$6,990/yr">$699/mo</em></button>
+        <button class="choice" data-plan="hobbyist"><b>Hobbyist</b><small>30 clips a month · 1 creator</small><em>$50/mo</em></button>
+        <button class="choice on" data-plan="creator"><b>Creator</b><small>200 clips a month · up to 3 creators</small><em>$250/mo</em></button>
+        <button class="choice" data-plan="agency"><b>Agency</b><small>500 clips a month · up to 15 creators</small><em>$750/mo</em></button>
       </div>
       <p class="error" id="planErr" role="alert"></p>
       <button class="btn wide" id="pay">Continue to payment</button>
       <p class="fine">Secure checkout by Commas. Use any card and any email for your receipt.</p>
       <button class="link" id="signout">Not you? Sign out</button>
+    </section>
+
+    <!-- from the app's "Choose a plan" while payments are closed (FAKE_PAYMENT): no plans to buy yet -->
+    <section class="pane" id="paneSoon" hidden>
+      <h1>Plans open soon.</h1>
+      <p class="lead">You're in early access, so there's nothing to buy yet. Need more credits? Email us and we'll add them to your account.</p>
+      <a class="btn wide" href="mailto:john@odysseymedia.io?subject=More%20Revive%20credits">Email us</a>
     </section>
 
     <!-- working -->
@@ -72,6 +74,6 @@
     </section>
   </main>
 
-  <script type="module" src="start.js?v=20261106g"></script>
+  <script type="module" src="start.js?v=20261106h"></script>
 </body>
 </html>

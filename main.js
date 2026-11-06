@@ -1,4 +1,4 @@
-// Revive landing: reveals, the pinned "how it works" window, the formats rail, the billing switch and the FAQ.
+// Revive landing: reveals, the pinned "how it works" window, the formats rail and the FAQ.
 // Every move uses the app's curves (style.css --ease / --inout). Nothing here is needed to read the page.
 (() => {
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -194,21 +194,6 @@
   next.onclick = () => rail.scrollBy({ left: page(), behavior: "smooth" });
   rail.addEventListener("scroll", ends, { passive: true });
   ends();
-
-  // ---- billing switch: the pill glides, the numbers swap ----
-  const seg = document.querySelector(".seg"), pill = document.getElementById("segPill"), opts = [...seg.querySelectorAll("button")];
-  const place = (b) => { pill.style.width = `${b.offsetWidth}px`; pill.style.transform = `translateX(${b.offsetLeft}px)`; };
-  opts.forEach((b) => (b.onclick = () => {
-    if (b.classList.contains("on")) return;
-    opts.forEach((o) => o.classList.toggle("on", o === b)); place(b);
-    const k = b.dataset.bill;
-    document.querySelectorAll(".price span").forEach((s) => { s.classList.add("swap"); setTimeout(() => { s.textContent = `$${s.dataset[k]}`; s.classList.remove("swap"); }, reduce ? 0 : 220); });
-    document.querySelectorAll(".billed").forEach((s) => (s.textContent = s.dataset[k]));
-    // the plan buttons carry the billing period through to sign-in and checkout
-    document.querySelectorAll("a[data-plan]").forEach((a) => (a.href = `start.html?plan=${a.dataset.plan}&billing=${k === "y" ? "yearly" : "monthly"}`));
-  }));
-  const placeOn = () => place(seg.querySelector("button.on"));
-  document.fonts?.ready.then(placeOn); placeOn(); addEventListener("resize", placeOn);
 
   // ---- FAQ: open and close with the height easing instead of snapping ----
   document.querySelectorAll(".faq details").forEach((d) => {

@@ -1,19 +1,19 @@
 // Get started: sign in (or create the account), choose a plan, pay. The landing page's pricing buttons arrive here with
-// ?plan=…&billing=…, which pre-select the choice. Paying opens a Commas checkout made for this account (the `checkout`
+// ?plan=…, which pre-selects the choice. Paying opens a Commas checkout made for this account (the `checkout`
 // server function); Commas then sends the buyer to welcome.html, which waits for the signed payment notice.
 import { supabase, EARLY_ACCESS, FAKE_PAYMENT, SERVER_URL, PLAN_NAMES, planActive, mySubscription, say } from "./account.js?v=20261106f";
 
 const $ = (id) => document.getElementById(id);
 const q = new URLSearchParams(location.search);
 let plan = PLAN_NAMES[q.get("plan")] ? q.get("plan") : "creator";
-let billing = q.get("billing") === "yearly" ? "yearly" : "monthly";
+const billing = "monthly"; // yearly plans are dropped for now (pricing PDF, 2026-11-06)
 let mode = q.get("mode") === "login" ? "login" : "signup";
 try {
   const saved = JSON.parse(sessionStorage.getItem("revive-choice") || "null");
-  if (saved && !q.has("plan")) { if (PLAN_NAMES[saved.plan]) plan = saved.plan; if (saved.billing === "yearly") billing = "yearly"; }
+  if (saved && !q.has("plan")) { if (PLAN_NAMES[saved.plan]) plan = saved.plan; }
 } catch {}
 
-const show = (id) => ["paneAuth", "panePlan", "paneWait"].forEach((p) => {
+const show = (id) => ["paneAuth", "panePlan", "paneWait", "paneSoon"].forEach((p) => {
   const el = $(p);
   el.hidden = p !== id;
   if (p === id) { el.classList.remove("in"); requestAnimationFrame(() => el.classList.add("in")); }
@@ -61,16 +61,12 @@ $("google").onclick = async () => {
 
 // ---- step 2: plan ----
 function drawPlan() {
-  document.querySelectorAll("[data-billing]").forEach((b) => b.classList.toggle("on", b.dataset.billing === billing));
   document.querySelectorAll(".choice").forEach((c) => {
     c.classList.toggle("on", c.dataset.plan === plan);
-    const price = c.querySelector("em"); price.textContent = billing === "yearly" ? price.dataset.y : price.dataset.m;
   });
-  glide($("billSeg"), $("billPill"));
   $("pay").textContent = `Continue to payment · ${PLAN_NAMES[plan]}`;
   $("planErr").textContent = "";
 }
-document.querySelectorAll("[data-billing]").forEach((b) => (b.onclick = () => { billing = b.dataset.billing; drawPlan(); }));
 document.querySelectorAll(".choice").forEach((c) => (c.onclick = () => { plan = c.dataset.plan; drawPlan(); }));
 
 $("pay").onclick = async () => {
@@ -100,6 +96,8 @@ $("signout").onclick = async () => { await supabase.auth.signOut(); mode = "logi
 
 // ---- where this person belongs ----
 async function route() {
+  // the app's "Choose a plan" (out of credits) while payments are closed: say so, and how to get more
+  if (FAKE_PAYMENT && q.get("from") === "app") { show("paneSoon"); return; }
   const { data: { session } } = await supabase.auth.getSession();
   const who = $("who");
   who.hidden = !session; who.textContent = session?.user?.email || "";
