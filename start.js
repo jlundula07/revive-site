@@ -8,6 +8,10 @@ const q = new URLSearchParams(location.search);
 let plan = PLAN_NAMES[q.get("plan")] ? q.get("plan") : "creator";
 let billing = q.get("billing") === "yearly" ? "yearly" : "monthly";
 let mode = q.get("mode") === "login" ? "login" : "signup";
+try {
+  const saved = JSON.parse(sessionStorage.getItem("revive-choice") || "null");
+  if (saved && !q.has("plan")) { if (PLAN_NAMES[saved.plan]) plan = saved.plan; if (saved.billing === "yearly") billing = "yearly"; }
+} catch {}
 
 const show = (id) => ["paneAuth", "panePlan", "paneWait"].forEach((p) => {
   const el = $(p);
@@ -48,10 +52,10 @@ $("authForm").onsubmit = async (e) => {
 };
 
 $("google").onclick = async () => {
-  // Google comes back to this page with the same plan choice
-  const back = new URL(location.href);
-  back.searchParams.set("plan", plan); back.searchParams.set("billing", billing);
-  const { error } = await supabase.auth.signInWithOAuth({ provider: "google", options: { redirectTo: back.toString() } });
+  // Google must come back to exactly the address on Supabase's redirect list: any ?query makes it fall back to the
+  // Site URL (the Mac app's 127.0.0.1 callback). So the plan choice rides in sessionStorage, not the URL.
+  try { sessionStorage.setItem("revive-choice", JSON.stringify({ plan, billing })); } catch {}
+  const { error } = await supabase.auth.signInWithOAuth({ provider: "google", options: { redirectTo: `${location.origin}/start.html` } });
   if (error) $("authErr").textContent = say(error);
 };
 
