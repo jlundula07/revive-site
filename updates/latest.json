@@ -1,9 +1,9 @@
 {
-  "version": "3.0.97",
-  "notes": "- General Sans is the default font again, for brands, the Hook Box title and captions. The faint drop shadow under the Hook Box title stays. A brand's own font, or a font picked for a caption style, still takes over.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.97.dmg",
+  "version": "3.0.98",
+  "notes": "- Behind the scenes: a beta plan (75 credits, one time) and test logins that start fresh every time, so the first-run walkthrough can be checked as a brand-new user and as a beta tester.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.98.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.97/Revive-3.0.97.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.98/Revive-3.0.98.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWMwcGZESXFTWVNFZml6N0dqWlNaN1ZLQzNjSDBGQzNEbDJUOW8rWG9HcDVYVXBMSnJETEI0WUF4N2NBbjZtZjdUcnVMVXN2NkFrdkhDQTFwd0pLT1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkzOTUzCWZpbGU6UmV2aXZlLTMuMC45Ny5kbWcKbE1ROFkxUkpJOTdjTXhWc2ppMFhnRG01ZjlZNWdHdnF5NmMxMVViWTFScnpTU0RUbkpuVWFQR2JYYWt4RVI3VC9kZGNqalpwelJGUDVFT0JLR244Qnc9PQo="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWU1MEZwRiszTjl2clQrSmladmtTS0toVTBwOFBMMENNVzZQc003bnFQZ1hPSXVKWmo0bEdmdi95Z3FPRHF1dlIyM1FhdFluN3FsSFZUem9UWUdpcWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4Mjk0CWZpbGU6UmV2aXZlLTMuMC45OC5kbWcKRzlWVG1JM3AyQjFybXZwa0VDd0VteDFXTlkreDJWSVZpWHJZK2ExdXRRUzhWYkk4RzBESUxrbG9LL1JVakloSXBpRkFLRU91S3AyNktaNU5TSUVSQ3c9PQo="
 }
