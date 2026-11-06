@@ -95,6 +95,7 @@ $("pay").onclick = async () => {
   $("planErr").textContent = res?.status === 401 ? "Your sign-in ran out. Log in again." : body.error || "Checkout couldn't open. Try again in a moment.";
 };
 
+$("logout").onclick = async () => { await supabase.auth.signOut(); location.replace("./"); };
 $("signout").onclick = async () => { await supabase.auth.signOut(); mode = "login"; route(); };
 
 // ---- where this person belongs ----
@@ -102,6 +103,7 @@ async function route() {
   const { data: { session } } = await supabase.auth.getSession();
   const who = $("who");
   who.hidden = !session; who.textContent = session?.user?.email || "";
+  $("logout").hidden = !session;
   if (!session) { show("paneAuth"); drawAuth(); return; }
   // already paying: straight to the welcome page and the download
   if (planActive(await mySubscription().catch(() => null))) return location.replace("welcome.html");

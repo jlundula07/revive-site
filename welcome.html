@@ -11,13 +11,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20261106d" />
+  <link rel="stylesheet" href="style.css?v=20261106g" />
   <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
   <header class="nav" id="nav">
     <div class="nav-in">
       <a class="brand" href="./" aria-label="Revive home"><img src="assets/logo.svg" alt="revive" width="108" height="32" /></a>
+      <span class="who" id="who" hidden></span>
+      <button class="logout" id="logout" hidden>Log out</button>
     </div>
   </header>
 
@@ -52,6 +54,8 @@
       $("fine").textContent = "Revive for Mac · Apple silicon";
     };
     const { data: { session } } = await supabase.auth.getSession();
+    if (session) { $("who").textContent = session.user.email; $("who").hidden = false; $("logout").hidden = false; }
+    $("logout").onclick = async () => { await supabase.auth.signOut(); location.replace("./"); };
     const q = new URLSearchParams(location.search);
     if (FAKE_PAYMENT && q.has("paid")) {
       // stand-in payment: no account, no download; otherwise treat the chosen plan as paid

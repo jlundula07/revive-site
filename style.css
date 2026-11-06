@@ -448,6 +448,8 @@ html:not(.js) .faq .a { grid-template-rows: 1fr; }
 
 /* ---- get started (sign in, then plan) ---- */
 .nav .who { margin-left: auto; font-size: 13px; color: var(--dim); }
+.nav .logout { height: 34px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: none; color: var(--muted); font: inherit; font-size: 13px; cursor: pointer; transition: color 0.3s var(--ease), border-color 0.3s var(--ease); }
+.nav .logout:hover { color: var(--off); border-color: var(--off); }
 .gate { min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 120px 20px 80px; text-align: center; }
 .gate .final-mark { width: 56px; height: 56px; margin-bottom: 28px; }
 .pane { width: min(460px, 100%); display: flex; flex-direction: column; align-items: stretch; opacity: 0; transform: translateY(18px); filter: blur(4px); transition: opacity 0.8s var(--ease), transform 0.9s var(--ease), filter 0.8s var(--ease); }
