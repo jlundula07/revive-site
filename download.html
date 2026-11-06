@@ -14,7 +14,7 @@
   <p id="msg">Starting your download…</p>
   <script type="module">
     // the download is for signed-in accounts: no account, back to the studio's door
-    import { supabase } from "./account.js";
+    import { supabase } from "./account.js?v=20261106f";
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) location.replace("start.html");
     else await fetch("updates/latest.json", { cache: "no-store" })

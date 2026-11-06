@@ -1,7 +1,7 @@
 // Get started: sign in (or create the account), choose a plan, pay. The landing page's pricing buttons arrive here with
 // ?plan=…&billing=…, which pre-select the choice. Paying opens a Commas checkout made for this account (the `checkout`
 // server function); Commas then sends the buyer to welcome.html, which waits for the signed payment notice.
-import { supabase, EARLY_ACCESS, SERVER_URL, PLAN_NAMES, planActive, mySubscription, say } from "./account.js";
+import { supabase, EARLY_ACCESS, FAKE_PAYMENT, SERVER_URL, PLAN_NAMES, planActive, mySubscription, say } from "./account.js?v=20261106f";
 
 const $ = (id) => document.getElementById(id);
 const q = new URLSearchParams(location.search);
@@ -75,6 +75,11 @@ document.querySelectorAll(".choice").forEach((c) => (c.onclick = () => { plan = 
 
 $("pay").onclick = async () => {
   $("pay").disabled = true;
+  if (FAKE_PAYMENT) {
+    wait("Confirming your payment.");
+    await new Promise((r) => setTimeout(r, 1400));
+    return location.assign(`welcome.html?plan=${plan}&paid=1`);
+  }
   wait("Opening checkout.");
   const { data: { session } } = await supabase.auth.getSession();
   const res = await fetch(`${SERVER_URL}/functions/v1/checkout`, {
