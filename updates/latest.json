@@ -1,9 +1,9 @@
 {
-  "version": "3.0.100",
-  "notes": "- Fixed: after signing out, the login screen no longer loses the \\\"Continue with Google\\\" button (it came back only after reopening the app).",
-  "url": "https://revivestudio.app/updates/Revive-3.0.100.dmg",
+  "version": "3.0.101",
+  "notes": "- Credits now match the plans: a clip costs 5 credits, and Hobbyist gives 150 credits a month (30 clips), Creator 1,000 (200 clips) and Agency 2,500 (500 clips). The old test numbers (500, 2,000 and 8,000) are gone.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.101.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.100/Revive-3.0.100.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.101/Revive-3.0.101.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVl5RDZFY294cGpwTzd1UzdKS1R4V1dXcis2WUhPY3lZdTh6V0ZwSi9hME92eHY1QTBnQ29Bc2Eyd0dOcjFJcHNSZmZTSm9nUzQrejlQNElkRnZCSEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk4ODY5CWZpbGU6UmV2aXZlLTMuMC4xMDAuZG1nCnFNNm9Rdnp2WmpRRitLZGVPcU45dGlNMjROWnBscEd1OTYrai9pL3ZUdFVXanRxK3QvMmwzMHpBUVNmc0NUK09UZ0FsNk5iT2JQV2dENXlGNHZFbUF3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNJb0Z5OXpPWHlxQ1VVV2ZGaXdsQnVheVBqNTFaU0M5dnJ4aUsvR0l3MEluK0J2NGFtU29FQUpJOWR1OUZVczJDQXlnbnVIZWFxa1hCVnRHamkvemdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTk5NTIwCWZpbGU6UmV2aXZlLTMuMC4xMDEuZG1nCnBMYmVUTGtyYU1ndWVOdTREUTdlZTV6VE04cU1DNHhVNTJKc2N6cWJNaXBpSlFMa04yTlVISjUxRmJ4NEFqcm0rdzNZNVlDa2R4SFIyV2VVQUxRMURnPT0K"
 }
