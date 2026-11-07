@@ -1,9 +1,9 @@
 {
-  "version": "3.0.124",
+  "version": "3.0.125",
   "notes": "- All your clips render at the same time again, so a batch finishes sooner. Your Mac's fans may spin up while it works. To keep it quieter, set Outputs at a time in Account to 1 or 2.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.124.dmg",
+  "url": "https://revivestudio.app/updates/Revive-3.0.125.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.124/Revive-3.0.124.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.125/Revive-3.0.125.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZDZ3VNcjA2WVRPSGwyQTdGdDNYY3FIOXI2cmRSY3NWVVNqYlhuUkdIMSsyZVBuZUR0cTRRLysyNkczZjhESzg3VWdtSlVQYmMzRElMVnV1U0drZ3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDkzNDEwCWZpbGU6UmV2aXZlLTMuMC4xMjQuZG1nCkQ3NTEyMzcwUStCNkEydE5jSU5VQmt2WloxYWZoSHIydDJvNWVZZTNYWm1hdldqTzJJVEE2dEFDd1FOcTd4djhNa0ZvQlJqZFgyZkVzRUs1ZmEzSkJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFDR3N1WlErNElGZjZadTBYWEVxWi9xTkhpa1M4TElHM09mTEFEckI3TG1CRzRQK0s4YVAzNytZWUE5OWYrY0o5K21GV2JnMzV2UVlORHJmd2RaMWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk0NDk5CWZpbGU6UmV2aXZlLTMuMC4xMjUuZG1nClJiTmhLL1BjMzMyaUlmY0prenVpVFJUTmp1SGxtb2tJR0JLVmgzODlSUzB0NG5HL2VEbXpMb0xlM3NSRXNleGJTT0s3VzU5dnNjcVhSYW42b0lxSUFnPT0K"
 }
