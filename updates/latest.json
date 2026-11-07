@@ -1,9 +1,9 @@
 {
-  "version": "3.0.116",
-  "notes": "- In close shots of more than one person, the camera follows whoever is actually talking (their mouth moving with the sound), not whoever faces the camera.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.116.dmg",
+  "version": "3.0.117",
+  "notes": "- A clip is never lost because its captions couldn't be timed from the finished sound: Revive tries again, then times them from the recording itself.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.117.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.116/Revive-3.0.116.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.117/Revive-3.0.117.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVFNVhPQmlwdlBZQmh3WDhTMHVRYytBV29VM2xVVTlrWExZVFFwMHJaMG40WkNYZlhEVC9LNzFBV0JTdTFxTlgwa0NPUTlXQzdjZXFqTFduLzlrdlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQ4OTg3CWZpbGU6UmV2aXZlLTMuMC4xMTYuZG1nCmcxRi9RdjM4VUprTlRUc3J6NFJPdE00UUVhM1hJY21PRitCMlN4V1NmK3U0Um54SW8xUVJqNnhjSWFCYTdBTVVkZ3psaXY0K1lFeDVrdFlCaUtmeUN3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQxT01TeTczeG1zMXA2V0xBSnNock1wSHdsL3o4ZEtPdjBuaFRrRUlxRTFFR0dkQm5EMXJJdUUwVkVaUko1ZUtpOVcrdWZpUHhCdGZOaWZZNCs4akFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUxODMwCWZpbGU6UmV2aXZlLTMuMC4xMTcuZG1nCnkwTzRKUFU2YjR6UFpuU3JwUVE4SnZUSnFQb05vaUYvQU5GMk5xbHpNbVlvUFJ6aU1WOVhJYmFGUkgxdjFVS0c2ZytFL3F2Qk1mZmdPNjVFVU1KUkRRPT0K"
 }
