@@ -1,9 +1,9 @@
 {
-  "version": "3.0.120",
-  "notes": "- Captions never run across the title: they sit just under it. And Revive's text stays off any words already in the video (its own subtitles, comment bubbles).",
-  "url": "https://revivestudio.app/updates/Revive-3.0.120.dmg",
+  "version": "3.0.121",
+  "notes": "- On Framed carousel slides, a long line no longer covers the speaker's mouth: the picture moves up to make room for the words.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.121.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.120/Revive-3.0.120.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.121/Revive-3.0.121.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZJV2FGa0pEcVdvRzUwSmdyd2JMcHk0ZG9rVllnTWxWYmpUQmQrTFlnQUpYVDg4d2VSRUFLZHB6dElzclR2eW40WTRzK085V1dNaS9VaDZacCttMkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzNTcyCWZpbGU6UmV2aXZlLTMuMC4xMjAuZG1nCnViOS9TZTNYTnZaYXRlTG9oaklHWkYzdUg4ZTQyZ3krT2c3R3RSNlBRQUNZamNuWjZaS2trWHRtditORnJ0Ym9td1QvcU8zUUxpNzBTT3VEY01HdUFnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFvcmliQVNpYTllVnJnUkxRYnAyay8vQXZ5SWZ2WTZxSEFaV2lKNys5WFRoNWhKRlNPa1ZwMFA4aFlja1hxM3M4Ny9OcmtVVVNmN3pBdityVytPSFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY2Mzg0CWZpbGU6UmV2aXZlLTMuMC4xMjEuZG1nCnFwaXpxY1lSVUNuS0hCQUtCbTVTU2dBTmdKSCtLaU9OWThWVUxXTHJHSFpheW5jTjFiWFJ5ZnlIYjlVV1pSRXpMckd6cGp1anRvQjRrTytic0xOZ0JBPT0K"
 }
