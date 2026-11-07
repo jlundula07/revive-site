@@ -1,9 +1,9 @@
 {
-  "version": "3.0.125",
-  "notes": "- All your clips render at the same time again, so a batch finishes sooner. Your Mac's fans may spin up while it works. To keep it quieter, set Outputs at a time in Account to 1 or 2.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.125.dmg",
+  "version": "3.0.126",
+  "notes": "- Clips no longer drop viewers into the middle of a conversation. Revive checks every clip's opening: if a stranger wouldn't know what it's about, it plays the question or line that sets the topic up first, taken from the video. When that line can't be cut in cleanly, the title on screen says what the clip is about instead.\n- Titles now say what a clip is about, not just the name of a method (\\\"Brief TikTok Shop creators\\\", not \\\"The 5x4 creator brief\\\").\n- A clip no longer opens on half of \\\"you know\\\".",
+  "url": "https://revivestudio.app/updates/Revive-3.0.126.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.125/Revive-3.0.125.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.126/Revive-3.0.126.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFDR3N1WlErNElGZjZadTBYWEVxWi9xTkhpa1M4TElHM09mTEFEckI3TG1CRzRQK0s4YVAzNytZWUE5OWYrY0o5K21GV2JnMzV2UVlORHJmd2RaMWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk0NDk5CWZpbGU6UmV2aXZlLTMuMC4xMjUuZG1nClJiTmhLL1BjMzMyaUlmY0prenVpVFJUTmp1SGxtb2tJR0JLVmgzODlSUzB0NG5HL2VEbXpMb0xlM3NSRXNleGJTT0s3VzU5dnNjcVhSYW42b0lxSUFnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZvWlR4Wmp0ZzA2ZnE3ZVVMZVVkYUhxZHU5L0dPbTZxRWRaZjFiaklQWG51bk1LY0x1ZXFScUlzdXBUL0FkQ0IvSU9KNXEvMjM2OVh1cVBZdFBNQWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk1MDU2CWZpbGU6UmV2aXZlLTMuMC4xMjYuZG1nCmF6Q3pIaXN3ZFhQdW11bm4xaHZYS01DVUVBU2YwRlQ5akFQVWpmaEV2YW00cUJrZVpOWDZCVWt6d3lXQWlnWnZaZlF5enVSMTUxR0w2NlJWbHdyMkFBPT0K"
 }
