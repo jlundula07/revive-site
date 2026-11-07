@@ -1,9 +1,9 @@
 {
-  "version": "3.0.108",
-  "notes": "- Double-click the top of the window and Revive fills the screen, the way any Mac window does (not full screen: the menu bar stays). Double-click again to put it back. Anywhere along the top works, including beside and inside the menu bar and in the editor, and it follows your Mac's setting for title-bar double-clicks.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.108.dmg",
+  "version": "3.0.109",
+  "notes": "- Wide shots are centred on the people themselves: someone sitting side-on no longer ends up at the edge of the frame.\n- Stutters and repeated words play once (\\\"I, I, I thank\\\" becomes \\\"I thank\\\"), cut cleanly on the start of the next word even when there is no pause.\n- The music is set to the level you picked.\n- The on-screen text hook (two lines, the second in brackets) is only on formats with text above the picture: Letterbox, Headline and Wraparound. Hook Box and the others keep a short one-line hook.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.109.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.108/Revive-3.0.108.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.109/Revive-3.0.109.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVpKK2VLUzJVMWZDcXZzb1VzQndqWDVsajJOTDliNTYwOVkyU2o4Vi9NYnRTbm1lQjRUK0JnRWpKWXdWM3NwdGZnMTQrdTQxK1NadVhabnBSQy9OS2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMxMTU3CWZpbGU6UmV2aXZlLTMuMC4xMDguZG1nCktDYlpydUdTS244S3NMQzgwSFd6SWNrRnhsY0s5RDIyYmM1YnNEakYwRHRlYWRHYkNleWNiM01FVlVrYk1qY2VFYUkwTysydHhmNU41dHVWSGFiNkJ3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFsVkFpSUNKTE05eTZnVndSOHhRdThOQlZ5aVN0VGVRZlBjNmtKYXY0UTVrMmhPYjFOYzhCUXhrcGEwYkV3WVNsZThUSzdkQVZGQTlPemtoSS8rRkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMxODQ4CWZpbGU6UmV2aXZlLTMuMC4xMDkuZG1nCkh3Ny9LcnZNZmdpY2dpdW1CcHlRY09ER1NSTVUweXE0VUFrQ0YzZlN0Uk9Vc3hucjBQWWZGaVZEYkJoUExLMDNZRk96QXdSTjFPM2xpUFNwWmVyVEFnPT0K"
 }
