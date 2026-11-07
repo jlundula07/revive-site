@@ -1,9 +1,9 @@
 {
-  "version": "3.0.121",
-  "notes": "- On Framed carousel slides, a long line no longer covers the speaker's mouth: the picture moves up to make room for the words.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.121.dmg",
+  "version": "3.0.122",
+  "notes": "- Revive keeps your Mac cooler and quieter while it makes clips: it uses the Mac's video chip, makes two clips at a time and lets your other apps go first. Clips can take a little longer.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.122.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.121/Revive-3.0.121.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.122/Revive-3.0.122.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFvcmliQVNpYTllVnJnUkxRYnAyay8vQXZ5SWZ2WTZxSEFaV2lKNys5WFRoNWhKRlNPa1ZwMFA4aFlja1hxM3M4Ny9OcmtVVVNmN3pBdityVytPSFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY2Mzg0CWZpbGU6UmV2aXZlLTMuMC4xMjEuZG1nCnFwaXpxY1lSVUNuS0hCQUtCbTVTU2dBTmdKSCtLaU9OWThWVUxXTHJHSFpheW5jTjFiWFJ5ZnlIYjlVV1pSRXpMckd6cGp1anRvQjRrTytic0xOZ0JBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWIrOGl6ZzQ1TXd3WVVJcXdreXRzUHh0VXdFZ1ducU4yRExKK0tuWlNLenp6WkZPTENrT25hS0ZSaGJrTzhPdUFrUlJFenIwSTBmV2t1ZkFmMWpUTmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc3NjMwCWZpbGU6UmV2aXZlLTMuMC4xMjIuZG1nCmU2aEcxajhrMUVvT0pCbkJ0aDdtQm95SS9BOXJaa3ZTTGlyUlorSWxtZUhBcFdyNHRFR3RYRFEvV3hqSWpVdm4rMDNiMVNOelFyVlNkWDgvZkhRUUJRPT0K"
 }
