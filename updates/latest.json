@@ -1,9 +1,9 @@
 {
-  "version": "3.0.117",
-  "notes": "- A clip is never lost because its captions couldn't be timed from the finished sound: Revive tries again, then times them from the recording itself.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.117.dmg",
+  "version": "3.0.118",
+  "notes": "- Fixed clips that could get stuck on \\\"Rendering\\\" forever, and one stuck clip can no longer stop the others from being made.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.118.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.117/Revive-3.0.117.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.118/Revive-3.0.118.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQxT01TeTczeG1zMXA2V0xBSnNock1wSHdsL3o4ZEtPdjBuaFRrRUlxRTFFR0dkQm5EMXJJdUUwVkVaUko1ZUtpOVcrdWZpUHhCdGZOaWZZNCs4akFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUxODMwCWZpbGU6UmV2aXZlLTMuMC4xMTcuZG1nCnkwTzRKUFU2YjR6UFpuU3JwUVE4SnZUSnFQb05vaUYvQU5GMk5xbHpNbVlvUFJ6aU1WOVhJYmFGUkgxdjFVS0c2ZytFL3F2Qk1mZmdPNjVFVU1KUkRRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFEc0tMaWdoRjNIRzFlVnNVUEhJNkZHMlAwYWRpMThDOFhKMnhDbDBlYU9QYmh3L3lkVVNFZ3c2SW5WaTlVdytIUVBacENIUU9IWWk0SkhzbzhJaXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU1ODc2CWZpbGU6UmV2aXZlLTMuMC4xMTguZG1nCkt0dHdtVC9vci9HU3htMGtrRjVLYi9lQW9BS2NuMFIzbFVCb3QzVnFrYndGdlowRytqd2h4dEQwMm1xU0JYT043U1pzQ3d3anJiNktzb3pNMWxXZUNnPT0K"
 }
