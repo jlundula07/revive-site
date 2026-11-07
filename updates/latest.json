@@ -1,9 +1,9 @@
 {
-  "version": "3.0.113",
-  "notes": "- \\\"Check the cuts\\\" only shows on a clip with a cut on someone talking, not on clips whose cuts are all clean.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.113.dmg",
+  "version": "3.0.114",
+  "notes": "- Captions and titles never sit on someone's face: when they would, the clip is made with them in one clear place for the whole clip, so nothing jumps around.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.114.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.113/Revive-3.0.113.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.114/Revive-3.0.114.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWQ5RXJ0ZmpLZ2VjYkxZdlg2M3pVbzlIQWpQMDlEaUkwUjJmT3dXUVRXREFGU05kL09WaTVsVjZodGlBWFovbVlhNHYwUm1NTGJsVGRwVmJvYjZZd2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyMjAzCWZpbGU6UmV2aXZlLTMuMC4xMTMuZG1nCjRoNmZQeVVRRFcxK1A2VmFJMjgxZkk5bW9KRDBRRXhPUDdVT3BzQlMyZWVPSkM0M3ppRTR0dzFGbTA0b2RmcytTbWhvemZZT0prVEZqWE5CU0NzaUR3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWJObWo0dUlMZWxxVTN0TEhFM3pPK0lQUG1xQ1J2bEtKTTFhUVRWMks4eUZHWVRZVzV3UDdSRTFPUTdMSGlNbmRjWjRJZHZrT3hiOUNqV0FSd29FU3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQzMDU5CWZpbGU6UmV2aXZlLTMuMC4xMTQuZG1nCkJMRlZXUnZOcWxydy92RTRJYXhTYisza1lNOUE0eXVwREM3cmIxVUJVRXg0bHFPanNrbzN6Ujl1aEZKTnB5anI1VDFVVkJPRlU4R25TdDFVaFcvK0FBPT0K"
 }
