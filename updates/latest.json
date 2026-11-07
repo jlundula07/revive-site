@@ -1,9 +1,9 @@
 {
-  "version": "3.0.106",
-  "notes": "- A credits ring sits in the bottom right corner: a blue ring that thins away clockwise as you use your credits, with no number. Click it for the same sheet as Menu, Credits.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.106.dmg",
+  "version": "3.0.107",
+  "notes": "- Clips play at the same loudness as the rest of the feed (-14 LUFS), and the music sits closer under the voice so you can hear it.\n- The on-screen hook is written to the OST rules: 6 to 8 words, a second line in brackets, something the speaker doesn't already say, and checked a second time before the clip is made. Titles are never cut off.\n- The Hook Box title is bold.\n- Wide shots fill the frame, centred on the people, with no stretched edges or black band.\n- Captions beside the speaker move to the other side when the shot cuts to the person across from them; they never join two people's words.\n- Clips start and end on whole sentences, never on a reply like \\\"Gotcha\\\" or a line like \\\"the second reason\\\". Recordings whose transcript lost its punctuation are fixed when opened.\n- No more stray capitals (\\\"The\\\", \\\"A\\\") in captions; brands keep their spelling (YouTube); captions never show words nobody said.\n- No flash of another shot at a clip's start or end; titles leave on the next shot change; captions, punch-ins and the framing all switch on the exact frame of a cut.\n- B-roll never shows someone other than the speaker; Type Stack finds B-roll in subfolders.\n- A clip whose cuts couldn't be made perfectly clean says \\\"Check the cuts\\\".",
+  "url": "https://revivestudio.app/updates/Revive-3.0.107.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.106/Revive-3.0.106.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.107/Revive-3.0.107.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlOUUxUV3lVZWhqTkgvSjNhSFM5Smpya1VnbFoySmNHSFJpZW9hN0U1UUVTN01JTGhuMHVOYmR5b1BOYzU0SlJqODJ2aXN1K1FGUVlFemxaNG5RbmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDA3ODI5CWZpbGU6UmV2aXZlLTMuMC4xMDYuZG1nCkdqY2xsZHE1QkwxMVJQeGcrSHY0czdLV1hyWmZyOU13ZjM0d0FFZ2hJbVpoekwybGU4WlZlNmZmSVFMS3JzNStTeTNwSFlJN29Sd2dSNFFHeVlZa0FRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVWL2FCR2FTNHdTL0pqeFRXMkZyeEgrUnRFTEFUdzA3SStIR2ZHSHpWNFYwcjBUcVJrZitEZ1dFVytDK05xcU5Fa1U2NXkwcFBNQ05uZFlibWtHOGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDI5NzQyCWZpbGU6UmV2aXZlLTMuMC4xMDcuZG1nClRHeEtiZ2ZiYnZBWCs2ZFdld3QyZ2NoQUk2VWpIQnlUT21IeS9OOCtPWnRkbWZqWEV6eEthYXhHWGtpTENVVmZkQnpnS2tqa05PQVVoZFg1dUJ6RURRPT0K"
 }
