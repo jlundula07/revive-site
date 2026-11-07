@@ -1,9 +1,9 @@
 {
-  "version": "3.0.115",
-  "notes": "- White captions on a white wall or a bright sky get a stronger shadow so they can always be read.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.115.dmg",
+  "version": "3.0.116",
+  "notes": "- In close shots of more than one person, the camera follows whoever is actually talking (their mouth moving with the sound), not whoever faces the camera.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.116.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.115/Revive-3.0.115.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.116/Revive-3.0.116.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVKc3RzZk1USlcva3dEOEJ6ME5VcFFxcVlTbTZhQ25ZRDZCaWc2NFc0ZDlVYWNVc2wrVlRmaC9sNGJHNzh2Q0RtRHZtZHVidzlhc0RWUGlEOHhiT3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQ1Mzk2CWZpbGU6UmV2aXZlLTMuMC4xMTUuZG1nCktrK013Q0hTQUo3MTFFN0pKd3BSMkw0dUltM0w4S2wrT3BZeTBOY1pjZjgyckMvYlRxM1YvVmoxcUpHcjNlbWYvUW5hckc2dFFqSkFBcmIvUCtnREFBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVFNVhPQmlwdlBZQmh3WDhTMHVRYytBV29VM2xVVTlrWExZVFFwMHJaMG40WkNYZlhEVC9LNzFBV0JTdTFxTlgwa0NPUTlXQzdjZXFqTFduLzlrdlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQ4OTg3CWZpbGU6UmV2aXZlLTMuMC4xMTYuZG1nCmcxRi9RdjM4VUprTlRUc3J6NFJPdE00UUVhM1hJY21PRitCMlN4V1NmK3U0Um54SW8xUVJqNnhjSWFCYTdBTVVkZ3psaXY0K1lFeDVrdFlCaUtmeUN3PT0K"
 }
