@@ -1,9 +1,9 @@
 {
-  "version": "3.0.118",
-  "notes": "- Fixed clips that could get stuck on \\\"Rendering\\\" forever, and one stuck clip can no longer stop the others from being made.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.118.dmg",
+  "version": "3.0.119",
+  "notes": "- Long moments with many camera changes are read properly again, so their wide shots and framing are found (and long punch-ins in Colour Block can't fail).",
+  "url": "https://revivestudio.app/updates/Revive-3.0.119.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.118/Revive-3.0.118.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.119/Revive-3.0.119.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFEc0tMaWdoRjNIRzFlVnNVUEhJNkZHMlAwYWRpMThDOFhKMnhDbDBlYU9QYmh3L3lkVVNFZ3c2SW5WaTlVdytIUVBacENIUU9IWWk0SkhzbzhJaXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU1ODc2CWZpbGU6UmV2aXZlLTMuMC4xMTguZG1nCkt0dHdtVC9vci9HU3htMGtrRjVLYi9lQW9BS2NuMFIzbFVCb3QzVnFrYndGdlowRytqd2h4dEQwMm1xU0JYT043U1pzQ3d3anJiNktzb3pNMWxXZUNnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWJGdmFUWXVyZnFXQmdQVHhGOFNqQ1BlUUdSR3NORVhNRE1xMWJkUFdmVWt3elZmMy9LRk1jYVgyUUxpWmw0ZlFzY1huWkFxYVAzb3ZqMXozUHp6Qnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU5MzQwCWZpbGU6UmV2aXZlLTMuMC4xMTkuZG1nClR6amtIUmMvek5XSFRjK3JMZnBxWXNTRHNRaGlGbC95RCs1WTRxRTZzZzJ2ZjhUQXdsQTJVY3ZWVEIwWTRLaG9RZkNwN29VUkRISVd2VE45WS9UQ0R3PT0K"
 }
