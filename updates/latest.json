@@ -1,9 +1,9 @@
 {
-  "version": "3.0.114",
-  "notes": "- Captions and titles never sit on someone's face: when they would, the clip is made with them in one clear place for the whole clip, so nothing jumps around.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.114.dmg",
+  "version": "3.0.115",
+  "notes": "- White captions on a white wall or a bright sky get a stronger shadow so they can always be read.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.115.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.114/Revive-3.0.114.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.115/Revive-3.0.115.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWJObWo0dUlMZWxxVTN0TEhFM3pPK0lQUG1xQ1J2bEtKTTFhUVRWMks4eUZHWVRZVzV3UDdSRTFPUTdMSGlNbmRjWjRJZHZrT3hiOUNqV0FSd29FU3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQzMDU5CWZpbGU6UmV2aXZlLTMuMC4xMTQuZG1nCkJMRlZXUnZOcWxydy92RTRJYXhTYisza1lNOUE0eXVwREM3cmIxVUJVRXg0bHFPanNrbzN6Ujl1aEZKTnB5anI1VDFVVkJPRlU4R25TdDFVaFcvK0FBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVKc3RzZk1USlcva3dEOEJ6ME5VcFFxcVlTbTZhQ25ZRDZCaWc2NFc0ZDlVYWNVc2wrVlRmaC9sNGJHNzh2Q0RtRHZtZHVidzlhc0RWUGlEOHhiT3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQ1Mzk2CWZpbGU6UmV2aXZlLTMuMC4xMTUuZG1nCktrK013Q0hTQUo3MTFFN0pKd3BSMkw0dUltM0w4S2wrT3BZeTBOY1pjZjgyckMvYlRxM1YvVmoxcUpHcjNlbWYvUW5hckc2dFFqSkFBcmIvUCtnREFBPT0K"
 }
