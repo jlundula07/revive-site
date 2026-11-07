@@ -1,9 +1,9 @@
 {
-  "version": "3.0.119",
-  "notes": "- Long moments with many camera changes are read properly again, so their wide shots and framing are found (and long punch-ins in Colour Block can't fail).",
-  "url": "https://revivestudio.app/updates/Revive-3.0.119.dmg",
+  "version": "3.0.120",
+  "notes": "- Captions never run across the title: they sit just under it. And Revive's text stays off any words already in the video (its own subtitles, comment bubbles).",
+  "url": "https://revivestudio.app/updates/Revive-3.0.120.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.119/Revive-3.0.119.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.120/Revive-3.0.120.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWJGdmFUWXVyZnFXQmdQVHhGOFNqQ1BlUUdSR3NORVhNRE1xMWJkUFdmVWt3elZmMy9LRk1jYVgyUUxpWmw0ZlFzY1huWkFxYVAzb3ZqMXozUHp6Qnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU5MzQwCWZpbGU6UmV2aXZlLTMuMC4xMTkuZG1nClR6amtIUmMvek5XSFRjK3JMZnBxWXNTRHNRaGlGbC95RCs1WTRxRTZzZzJ2ZjhUQXdsQTJVY3ZWVEIwWTRLaG9RZkNwN29VUkRISVd2VE45WS9UQ0R3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZJV2FGa0pEcVdvRzUwSmdyd2JMcHk0ZG9rVllnTWxWYmpUQmQrTFlnQUpYVDg4d2VSRUFLZHB6dElzclR2eW40WTRzK085V1dNaS9VaDZacCttMkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzNTcyCWZpbGU6UmV2aXZlLTMuMC4xMjAuZG1nCnViOS9TZTNYTnZaYXRlTG9oaklHWkYzdUg4ZTQyZ3krT2c3R3RSNlBRQUNZamNuWjZaS2trWHRtditORnJ0Ym9td1QvcU8zUUxpNzBTT3VEY01HdUFnPT0K"
 }
