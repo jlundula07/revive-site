@@ -1,9 +1,9 @@
 {
-  "version": "3.0.122",
-  "notes": "- Revive keeps your Mac cooler and quieter while it makes clips: it uses the Mac's video chip, makes two clips at a time and lets your other apps go first. Clips can take a little longer.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.122.dmg",
+  "version": "3.0.123",
+  "notes": "- No more slow zoom-ins: the picture holds still in every format (Colour Block, B-Roll Story, Studio Podcast, Type Stack) and only changes on a cut.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.123.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.122/Revive-3.0.122.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.123/Revive-3.0.123.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWIrOGl6ZzQ1TXd3WVVJcXdreXRzUHh0VXdFZ1ducU4yRExKK0tuWlNLenp6WkZPTENrT25hS0ZSaGJrTzhPdUFrUlJFenIwSTBmV2t1ZkFmMWpUTmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc3NjMwCWZpbGU6UmV2aXZlLTMuMC4xMjIuZG1nCmU2aEcxajhrMUVvT0pCbkJ0aDdtQm95SS9BOXJaa3ZTTGlyUlorSWxtZUhBcFdyNHRFR3RYRFEvV3hqSWpVdm4rMDNiMVNOelFyVlNkWDgvZkhRUUJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVpoVzdPUHhhOTVMOWlrcytCQVdyb3JhWFZhZXFHdXFQWlVoVXVMWE5kSHpyNlJtSGpUU2NHQm45bytIb1B6cFFwVDh6b0VKRmRHTWR0WHZSanFGbFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDg2NTAzCWZpbGU6UmV2aXZlLTMuMC4xMjMuZG1nCkxjWnZaMEtXTmtEaVY1bzI0YzFtcTZNTkFBb3pWQ3lPNWMwdUdLTlIrRllndEtQa21NNVJDOHBpSTZmMFZjdDdBQUo3dEJmRDQ3UzFET3l6Y3A5M0RBPT0K"
 }
