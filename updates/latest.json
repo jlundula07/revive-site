@@ -1,9 +1,9 @@
 {
-  "version": "3.0.127",
-  "notes": "- Clips no longer end while the speaker is still mid-thought. Revive reads what is said next and plays on to where the point lands.\n- Fast talkers who never pause between sentences now get clean starts and endings: Revive cuts right on the edge of the words instead of running into the next sentence (no more endings like \\\"make money and\\\").",
-  "url": "https://revivestudio.app/updates/Revive-3.0.127.dmg",
+  "version": "3.0.128",
+  "notes": "- A cut between two sentences no longer keeps the first sound of the next word (an ending like \\\"doing well. S\\\"): Revive now hears soft sounds like s, f and sh and cuts before them.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.128.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.127/Revive-3.0.127.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.128/Revive-3.0.128.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVoySDMxR3lQNTgxY2o5eHBDN1ZNSTFnNTUvR0V5QzNCSTZXc3VzY2RGMkFkQ0h1SEoxVUo4eU1EVnFqMnJHckdPKzFQeWo1OC93aXFoZUNNd004Y0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk2MzkyCWZpbGU6UmV2aXZlLTMuMC4xMjcuZG1nCnRsUkRZQWU0MlIxMlJQVTZVeW5EVmNoUFZIRlp4ZVVpRUVBWEtRMzVNTGFCNnRtWkVCOEczMVMwYS8zVW90c0J2Nkkxd1ZPNVo2bzdQZitOMGV6SUJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRZRFlFeXlMNWY3TGRmT3YrTHZzSDhGaHhQcUhXUzZ6cTFUOEwvblMwVDVIa1VIWjhEOWNSUU0yMGdwU1FwSFAzZXM3OXYvbXRLSE9jS0g4Y3RZcndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk3MjI1CWZpbGU6UmV2aXZlLTMuMC4xMjguZG1nCjdHL2dGelppMWlXRktPdW5JVit3T0xzWXZNbW1kNmh3SXcrbDhBMW1hazlvRWZZNUVLVG9VbDVGR0gvU3p2VFhzYXhleVlMQmZXS0VBcjRiN2FkZ0RRPT0K"
 }
