@@ -1,9 +1,9 @@
 {
-  "version": "3.0.129",
-  "notes": "- New creator: Revive Promos. It has the Revive creator's Brand DNA and no business details. For every video made with it, Revive first reads the whole transcript to learn who the video is for, their problems and goals, its point and its lessons, then finds the clips that serve that audience.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.129.dmg",
+  "version": "3.0.130",
+  "notes": "- Revive now uses Claude Opus, Anthropic's strongest model, for every clip: finding the moments, the edit, and everything it writes.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.130.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.129/Revive-3.0.129.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.130/Revive-3.0.130.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZsclFndWRSaTZnSjZ1ODJHM3FOMTNaL21GdTVuNnlGczduTHNNUnV6S3B3SktqdmdwWEtDVW9XUGw0MmNlazh3NDM1cEw5UUdKOFlBQlJPUXNia2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk3NDcwCWZpbGU6UmV2aXZlLTMuMC4xMjkuZG1nCnR4czU2aWZCOEh3RzMvNmpuYmVXS0xrMXZuN0hCQkZyODFvMnNpaHFYNUk5RkRiSFUzeEkvdTlUN09jNU5WSG9ycEV0ZERjSG5WbzZIa1FFZ1l5UUN3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlSc0I2WUdzM3NpUzVrY2F5dFJMMlpBSFhKeStWZXp6dkNzT1RnZGlNOXB2anF0MmJDOEZlOW5vMlVhRkNuS2FJSmtiemI5Wk1vZk1SMzVVVVQrM3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk4MTM0CWZpbGU6UmV2aXZlLTMuMC4xMzAuZG1nCndtcnNuMzBwRDVOdjVCaWduNzFsaHRsQ2ZDQXpXOE5ISS9hVDdxZFRWZE1OdjJKTGtsNEIycTF1NTVZRzNMRkM3aGxqR0FPRGZOYWhnWlV2eUdRVEJBPT0K"
 }
