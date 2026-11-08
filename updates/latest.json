@@ -1,9 +1,9 @@
 {
-  "version": "3.0.128",
-  "notes": "- A cut between two sentences no longer keeps the first sound of the next word (an ending like \\\"doing well. S\\\"): Revive now hears soft sounds like s, f and sh and cuts before them.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.128.dmg",
+  "version": "3.0.129",
+  "notes": "- New creator: Revive Promos. It has the Revive creator's Brand DNA and no business details. For every video made with it, Revive first reads the whole transcript to learn who the video is for, their problems and goals, its point and its lessons, then finds the clips that serve that audience.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.129.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.128/Revive-3.0.128.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.129/Revive-3.0.129.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRZRFlFeXlMNWY3TGRmT3YrTHZzSDhGaHhQcUhXUzZ6cTFUOEwvblMwVDVIa1VIWjhEOWNSUU0yMGdwU1FwSFAzZXM3OXYvbXRLSE9jS0g4Y3RZcndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk3MjI1CWZpbGU6UmV2aXZlLTMuMC4xMjguZG1nCjdHL2dGelppMWlXRktPdW5JVit3T0xzWXZNbW1kNmh3SXcrbDhBMW1hazlvRWZZNUVLVG9VbDVGR0gvU3p2VFhzYXhleVlMQmZXS0VBcjRiN2FkZ0RRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZsclFndWRSaTZnSjZ1ODJHM3FOMTNaL21GdTVuNnlGczduTHNNUnV6S3B3SktqdmdwWEtDVW9XUGw0MmNlazh3NDM1cEw5UUdKOFlBQlJPUXNia2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk3NDcwCWZpbGU6UmV2aXZlLTMuMC4xMjkuZG1nCnR4czU2aWZCOEh3RzMvNmpuYmVXS0xrMXZuN0hCQkZyODFvMnNpaHFYNUk5RkRiSFUzeEkvdTlUN09jNU5WSG9ycEV0ZERjSG5WbzZIa1FFZ1l5UUN3PT0K"
 }
