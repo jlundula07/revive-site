@@ -1,9 +1,9 @@
 {
-  "version": "3.0.131",
-  "notes": "- Wide shots where the two people sit too far apart for a vertical frame are now a split screen: one person in the top half, the other in the bottom, the captions on the line between them. Before, the frame sat on the empty space between them. When a split can't be made, the frame holds the speaker with their body in the middle of the screen.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.131.dmg",
+  "version": "3.0.133",
+  "notes": "- Stutters and repeated words are cut far more often (\\\"don't even, don't even try\\\" plays \\\"don't even try\\\"): Revive now listens to each stutter cut before keeping it, so it never takes the wrong word.\n- Ums, uhs and ahs are always cut, including ones that run straight into the next word or end a sentence, each checked by ear.\n- Revive also listens to the whole clip once for ums and repeats the transcript missed.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.133.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.131/Revive-3.0.131.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.133/Revive-3.0.133.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlSZlpYVmN1RUUrSXZDRkxRamFvMElvTXNxTUdvRDlEUzdqcWdzVjBDZUpFeSsrUFJYWXlteG5Vakp6NkxWaVRtT05BdDRncUhiTG1HdmlnTzE5VUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk4MzA1CWZpbGU6UmV2aXZlLTMuMC4xMzEuZG1nCk45eURiYkZiMUdzdXliRG1icXIrZzZWZjhBWjVTVXZpcVJXczZvd0NqeTkva2hscTRmWDNkbWh3M2l3V1hYV3NqYWlzQzhtaVIyR1Q4WVZGN3hPWEJnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVhRa01Vbjg3Q2dUbCs3N3ZMWWlRYkRCbmc0dUM3ZjdMQUR1Y3FSZmpUOTQvcXVTZTFmdjBwYjA0cVBuRmIrcmhsRVJuMzBHa2VCeFJWUXRDV2M0cFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk5MjQ4CWZpbGU6UmV2aXZlLTMuMC4xMzMuZG1nCkpHTjFoa0YwWnpLTVUvcDVXb2c2eEM2bGx1Y1pqdkF0S3F4OE5hd0RMc2M5WVk5d3l2VXJrZnhDeFRRVDRwbUFMWXM0REhJZ05YM2xHalZVT1dMeERBPT0K"
 }
