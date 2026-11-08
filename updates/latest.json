@@ -1,9 +1,9 @@
 {
-  "version": "3.0.133",
-  "notes": "- Stutters and repeated words are cut far more often (\\\"don't even, don't even try\\\" plays \\\"don't even try\\\"): Revive now listens to each stutter cut before keeping it, so it never takes the wrong word.\n- Ums, uhs and ahs are always cut, including ones that run straight into the next word or end a sentence, each checked by ear.\n- Revive also listens to the whole clip once for ums and repeats the transcript missed.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.133.dmg",
+  "version": "3.0.134",
+  "notes": "- When a moment runs longer than its clip allows, Revive now trims the middle (extra examples, lists, asides) instead of cutting off the setup and ending, and never falls back to a plain cut that leaves out the main point.\n- Cleaner cuts between sentences for people who talk without pausing: a breath between sentences is cut at its quietest point, and a leftover scrap like \\\"So you have\\\" is dropped.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.134.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.133/Revive-3.0.133.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.134/Revive-3.0.134.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVhRa01Vbjg3Q2dUbCs3N3ZMWWlRYkRCbmc0dUM3ZjdMQUR1Y3FSZmpUOTQvcXVTZTFmdjBwYjA0cVBuRmIrcmhsRVJuMzBHa2VCeFJWUXRDV2M0cFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDk5MjQ4CWZpbGU6UmV2aXZlLTMuMC4xMzMuZG1nCkpHTjFoa0YwWnpLTVUvcDVXb2c2eEM2bGx1Y1pqdkF0S3F4OE5hd0RMc2M5WVk5d3l2VXJrZnhDeFRRVDRwbUFMWXM0REhJZ05YM2xHalZVT1dMeERBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlmaklrVFNyM3BSZlVBQmZBZ1g5ZFdpOHdnU2hILzdsNk9pRDQxUHNxaENDcFBQbng3cVlNQ2hpQVRQTVp2dWxjbjFGZHVSenRub0s0SzFJWFZ3eFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTAyNzQxCWZpbGU6UmV2aXZlLTMuMC4xMzQuZG1nCkpYRTk2Z1Jrd25ZQ1FIUitBd3Z6WmRlL01UaVRpWmNTRllueDcxTUdYQ0NJU2sySDBtRmo0YU1qc0daN3hCWS84QzNBT3ByUjhBd0dIN2RmaTU1ckRBPT0K"
 }
