@@ -1,9 +1,9 @@
 {
-  "version": "3.0.134",
-  "notes": "- When a moment runs longer than its clip allows, Revive now trims the middle (extra examples, lists, asides) instead of cutting off the setup and ending, and never falls back to a plain cut that leaves out the main point.\n- Cleaner cuts between sentences for people who talk without pausing: a breath between sentences is cut at its quietest point, and a leftover scrap like \\\"So you have\\\" is dropped.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.134.dmg",
+  "version": "3.0.135",
+  "notes": "- Colour Block is coming soon: it shows greyed out in the format pickers while we finish it. Projects that had it picked make their other formats (or Hook Box) instead, and clips already made in Colour Block stay as they are.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.135.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.134/Revive-3.0.134.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.135/Revive-3.0.135.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlmaklrVFNyM3BSZlVBQmZBZ1g5ZFdpOHdnU2hILzdsNk9pRDQxUHNxaENDcFBQbng3cVlNQ2hpQVRQTVp2dWxjbjFGZHVSenRub0s0SzFJWFZ3eFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTAyNzQxCWZpbGU6UmV2aXZlLTMuMC4xMzQuZG1nCkpYRTk2Z1Jrd25ZQ1FIUitBd3Z6WmRlL01UaVRpWmNTRllueDcxTUdYQ0NJU2sySDBtRmo0YU1qc0daN3hCWS84QzNBT3ByUjhBd0dIN2RmaTU1ckRBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVo1dHpOWTNMenpYK1dkQ2FCdDFER0xtZS83dXpaOHd4RkhoOGZDVW40TThuZHIwSlRSVVp1bUJGTDNXUDB2YXZsWXJZWENBNS96MjY4K0IrU3JxTndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU4MjYwCWZpbGU6UmV2aXZlLTMuMC4xMzUuZG1nCjI3OFFYNUhMNEMwYkhPY01ML1hKTFEreTNEZkNQcVlMQk91dGhoNmYzamx5TCs5UDFDOVNDM05ZaktsNjhMZjU1QmV5RmZJYUlpZUpTWXB2RWpsNUJRPT0K"
 }
