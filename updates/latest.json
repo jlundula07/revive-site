@@ -1,9 +1,9 @@
 {
-  "version": "3.0.135",
-  "notes": "- Colour Block is coming soon: it shows greyed out in the format pickers while we finish it. Projects that had it picked make their other formats (or Hook Box) instead, and clips already made in Colour Block stay as they are.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.135.dmg",
+  "version": "3.0.136",
+  "notes": "- New short-form format: Horizontal B-roll. A horizontal 4:3 video with the camera held still on you (it never follows your head), one line of captions low in the picture, and cutaways to your own B-roll on the lines that can be shown. The B-roll is chosen by what each line means, spread across your folders, always sharp, never zoomed, and centred on its subject. No title card or hook box.\n- The first time you use it, Revive looks through your B-roll folder once and remembers what is in each clip, so later clips start straight away.\n- Captions in Documentary, Movie Captions and Headline always write \\\"I\\\" as a capital.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.136.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.135/Revive-3.0.135.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.136/Revive-3.0.136.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVo1dHpOWTNMenpYK1dkQ2FCdDFER0xtZS83dXpaOHd4RkhoOGZDVW40TThuZHIwSlRSVVp1bUJGTDNXUDB2YXZsWXJZWENBNS96MjY4K0IrU3JxTndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU4MjYwCWZpbGU6UmV2aXZlLTMuMC4xMzUuZG1nCjI3OFFYNUhMNEMwYkhPY01ML1hKTFEreTNEZkNQcVlMQk91dGhoNmYzamx5TCs5UDFDOVNDM05ZaktsNjhMZjU1QmV5RmZJYUlpZUpTWXB2RWpsNUJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZVOHlNR0k1WUxJMWlrQWdMYVFUc0NkM09KOFZGL0pWTDc2b3hOVFVrY2dpZU1NYzRDVkNPTytyZzlQZ29IcTdwb1daL3kvL0xHMThCV2hvc0Z3MkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjYzNjEyCWZpbGU6UmV2aXZlLTMuMC4xMzYuZG1nCnFmellTTXhvU3gwMkdKbFBUUXFRbHVQSGcxdnhXZ2VWOXo3UVpwczA5aVo1UWRQU3ZjS0hiU2VydUhNbjdpRHlXNkRiOE5DRUMwOEhVSjBHQ0l5dkF3PT0K"
 }
