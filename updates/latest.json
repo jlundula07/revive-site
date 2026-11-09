@@ -1,9 +1,9 @@
 {
-  "version": "3.0.137",
+  "version": "3.0.138",
   "notes": "- With Head camera off, the picture now holds one position for each camera take, the one that keeps your head in the middle most of the time, and stays there through every cut instead of moving a little on each one. Leaning in or out no longer counts as a new camera angle. A different camera, a wide shot or a screen still gets its own framing.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.137.dmg",
+  "url": "https://revivestudio.app/updates/Revive-3.0.138.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.137/Revive-3.0.137.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.138/Revive-3.0.138.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZobzBzVStldTUrK2NVUE8rZzAvOWJHUXhXdzlDb1U5K1BjSnZCcFVBS3pEMWdYMFo4Q3RpYzNhTTNNSHcyWCt5N1lqM3krRUhsTElvSGc3MTYzbGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjY0MDQ3CWZpbGU6UmV2aXZlLTMuMC4xMzcuZG1nCjZURDk3cVZ0NjFUTFhwVG80ZStES1IwN0FDMElXb0xLUmtKQkt2R1J2UVF2Z05mMm1NNWYvMy95WDViOHlFeVkvQW5MNnZRMENaUU9qWG9VcElMT0NBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWF0Vm5wUVUySVF4Rk1rdU9mR0RtWitoL3JzTTc2UUNNaFY3ZmxoME1QMG1OV0F5YzM1RnpZM0F5ZmErYTNPOU91QkFxSGlBZzNXd2x0cWJxeXFPeXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjY0MzA1CWZpbGU6UmV2aXZlLTMuMC4xMzguZG1nCmtNRUlzQ0xYQzhCVFFtMVhaZWhHUVp4WXpGZGM2b1B2KzNlL2U4YlU0M0owdTkraytJUEl1d0ZGZzUzZDA4TU9kcy9PdTUrdHV6WUxOOEFXVGRzd0N3PT0K"
 }
