@@ -1,9 +1,9 @@
 {
-  "version": "3.0.139",
-  "notes": "- Quality now shows drafts scoring 7.5 or more by default, up from 6. If yours was still on the old 6, it moves to 7.5 on its own; a score you picked yourself is kept.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.139.dmg",
+  "version": "3.0.140",
+  "notes": "- Revive now makes four clips at a time instead of all of them at once, so each clip finishes sooner and a big batch comes back faster. The rest wait their turn and start as soon as one is done. You can still pick 1 to 8 under Outputs at a time in Account.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.140.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.139/Revive-3.0.139.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.140/Revive-3.0.140.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWZLRlRpOElEUE1ROWs3ZUZrNDVyMy9rdUhNbWtENzUyOWtGWVlTM3JadE5OTWpFaUVoV1NWUUtZalBoVEtUVTdsVXJPS0NERjZyL0s0SWpXalFhTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIwODc4CWZpbGU6UmV2aXZlLTMuMC4xMzkuZG1nCkhxWVIyeEQzOHhXc3pjQkgxcm1aR1Y2bHR0VlVzVkVveDRvTFAzdFJRTVlxU1NIOS9zTllEUi9FT1h6cEVxSWpCOXk4UEVsTVpXTVpFdzVTaVR4YUFBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZrbmQyV3ZTNWUyRzEyYkgrZ3F0Q3BINWFVV3JXU0hYbi9pQnR0TEZJdUw1UFQ5V2dPalNtTytnR0IyTUd2YkZaNUtMYm41emgzdGl0eFc2b29ON3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIyMzgyCWZpbGU6UmV2aXZlLTMuMC4xNDAuZG1nCnpiSGk2Qjh4WnlUa2tYZDFlQ2djcWpmZlRTQ2pMZUdVTlN5Z3V1Y3lyY1IveUhVWGZEd0FwdUlVQXkxTGRoUUQ4V2NMMXF6U2l0L2drb3hldHhoK0J3PT0K"
 }
