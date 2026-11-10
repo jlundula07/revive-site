@@ -1,9 +1,9 @@
 {
-  "version": "3.0.140",
-  "notes": "- Revive now makes four clips at a time instead of all of them at once, so each clip finishes sooner and a big batch comes back faster. The rest wait their turn and start as soon as one is done. You can still pick 1 to 8 under Outputs at a time in Account.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.140.dmg",
+  "version": "3.0.141",
+  "notes": "- Carousel slides never show you with your eyes closed: every picture is checked and an open-eyed one is chosen.\n- When a moment is a screen share with you in a small webcam box, the slide uses another point in the video where you fill the shot.\n- Carousel pictures stay sharp: a picture is never blown up, and the sharpest frame of each line is chosen.\n- Captions on carousel slides are two lines at most. A longer line is split across two pictures instead.\n- Tweet-style slides now show your picture, your name with the blue check lined up beside it, and your @handle under it.\n- Click any carousel (or the expand button under it) to see it almost full screen, with arrows either side. Use the arrow keys to move, Esc to close.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.141.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.140/Revive-3.0.140.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.141/Revive-3.0.141.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZrbmQyV3ZTNWUyRzEyYkgrZ3F0Q3BINWFVV3JXU0hYbi9pQnR0TEZJdUw1UFQ5V2dPalNtTytnR0IyTUd2YkZaNUtMYm41emgzdGl0eFc2b29ON3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIyMzgyCWZpbGU6UmV2aXZlLTMuMC4xNDAuZG1nCnpiSGk2Qjh4WnlUa2tYZDFlQ2djcWpmZlRTQ2pMZUdVTlN5Z3V1Y3lyY1IveUhVWGZEd0FwdUlVQXkxTGRoUUQ4V2NMMXF6U2l0L2drb3hldHhoK0J3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVJMThoTWVaWVgvKzhVVHNKUXVhOW1HLzkwcU1lNVJabG5HYUFOcmZYckZCc3FtQzNxQ0xwYTFSOTVTOWlVdU1EbTJ2ejhreEo3ZW9tQ3FZVC9WekFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIzMjc0CWZpbGU6UmV2aXZlLTMuMC4xNDEuZG1nCkRaemxtQytRKzMyVnF4NHd0aElJQVdLRGIvQzFYQ2FrTjdrSWFrclhQWGEzcXVxWW8wSHRvT3FmbndIRjIwMGltbmRVRGw5L2ltTFhuUndpNDdrbEJ3PT0K"
 }
