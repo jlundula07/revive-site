@@ -1,9 +1,9 @@
 {
-  "version": "3.0.143",
-  "notes": "- Punchy removes every silence: any pause from about a seventh of a second, including the silence at the start and end of each cut and inside screen shares and B-roll.\n- Silences are found much better at every pace: the level that counts as silence was set under the room's own background noise on some recordings, so pauses were heard as sound and kept.\n- The on-screen text makes sense to someone who has never seen the video: no phrases, nicknames or names that only the clip explains, and no quotation marks.\n- Better music: a confident business clip never gets a sad, dreamy or epic song, and a song that ends before the clip is only used when nothing longer fits.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.143.dmg",
+  "version": "3.0.144",
+  "notes": "- 4K footage is read once and saved: Revive makes a small working copy of a heavy recording when you start a project (a few minutes, once) and every step that looks at the footage reads it, so clips from the same recording are made much faster. Your final videos still come from the original.\n- B-roll pictures are read once and saved too, instead of again for every clip.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.144.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.143/Revive-3.0.143.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.144/Revive-3.0.144.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVLcVVjZW5Ta055N3FjTHpoZ3UrbmZPRGtPWjM0eTFCNzdjZjhrYnBFZkhqeGlLZ2NlTnBQNWg5NVU0YkJoMzU3QUphOTgvTitBL0M0WXBTVllTSWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQwNTYyCWZpbGU6UmV2aXZlLTMuMC4xNDMuZG1nCkdIWXYrTFVaUktXOW1sVWNhVnhXY3FSU2FlMVlaaTlhSGk5VmxZd3VUZ3RGY296R2VESVU5QUd6VGV2QkdZNWlEOXhUR3g1Mmt2RVNUVTBhWG5nbEJBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVp1MjV1Q3ZIRzZuMlNKczZjSE1lYmZuakoyOWpnd05WaTBFWVpqa0xXY05NTndIVkdxTVhjTE1LMG1HblFMWXFIdTErVnpjVlNQWFNGdGJFdzBKK1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQwOTkxCWZpbGU6UmV2aXZlLTMuMC4xNDQuZG1nClJwQ3didVViZTNtbnJzLzFIVHZnSDc3eFFkOWJ3ZThvV2J5RXlXb2JoYnRsNXMweEh1eTFpUjJEekhmOHorczdEd2k2QVNYYnJEczJkVmxkQThmQkR3PT0K"
 }
