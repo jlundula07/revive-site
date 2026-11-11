@@ -1,9 +1,9 @@
 {
-  "version": "3.0.142",
-  "notes": "- Clips from the same recording are made much faster: each part of the video is read once and shared by every clip and every try, instead of being read again each time.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.142.dmg",
+  "version": "3.0.143",
+  "notes": "- Punchy removes every silence: any pause from about a seventh of a second, including the silence at the start and end of each cut and inside screen shares and B-roll.\n- Silences are found much better at every pace: the level that counts as silence was set under the room's own background noise on some recordings, so pauses were heard as sound and kept.\n- The on-screen text makes sense to someone who has never seen the video: no phrases, nicknames or names that only the clip explains, and no quotation marks.\n- Better music: a confident business clip never gets a sad, dreamy or epic song, and a song that ends before the clip is only used when nothing longer fits.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.143.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.142/Revive-3.0.142.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.143/Revive-3.0.143.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlOQUtDNW8wbUI2dXVScG45YlpMMnJZMEgvOEQzRXg5bXBFejlzYWw1emQva2srNTdXNll6NVVzK05FdEJSbnFDZ1VNaVEvM2hIalRBYjVXZjZpMXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDM3NTk4CWZpbGU6UmV2aXZlLTMuMC4xNDIuZG1nCmkrTCtRY0ZuY0VncXZ1dFRpL2plMW5BZXkzUlRHUnVicFVJTTRTSHRnajVkR0tiK2lTbzVlM2ZwbmEvbSt3QVV2U2xMNGJZK1p3WVdWQ2VwcjhuYUFRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVLcVVjZW5Ta055N3FjTHpoZ3UrbmZPRGtPWjM0eTFCNzdjZjhrYnBFZkhqeGlLZ2NlTnBQNWg5NVU0YkJoMzU3QUphOTgvTitBL0M0WXBTVllTSWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQwNTYyCWZpbGU6UmV2aXZlLTMuMC4xNDMuZG1nCkdIWXYrTFVaUktXOW1sVWNhVnhXY3FSU2FlMVlaaTlhSGk5VmxZd3VUZ3RGY296R2VESVU5QUd6VGV2QkdZNWlEOXhUR3g1Mmt2RVNUVTBhWG5nbEJBPT0K"
 }
