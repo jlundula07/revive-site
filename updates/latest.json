@@ -1,9 +1,9 @@
 {
-  "version": "3.0.144",
-  "notes": "- 4K footage is read once and saved: Revive makes a small working copy of a heavy recording when you start a project (a few minutes, once) and every step that looks at the footage reads it, so clips from the same recording are made much faster. Your final videos still come from the original.\n- B-roll pictures are read once and saved too, instead of again for every clip.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.144.dmg",
+  "version": "3.0.145",
+  "notes": "- Each song is used once per project: no two clips of a project share a song, even when they are made at the same time.\n- Owners: Remake on the latest update, on any clip (More) or several at once. The moment is made again with the newest version, beside the old clip, for free.\n- Owners: Teach the editor. Write a lesson in your own words from any clip (More) or in Account settings, Editor lessons. Every AI decision in Revive follows it from then on.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.145.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.144/Revive-3.0.144.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.145/Revive-3.0.145.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVp1MjV1Q3ZIRzZuMlNKczZjSE1lYmZuakoyOWpnd05WaTBFWVpqa0xXY05NTndIVkdxTVhjTE1LMG1HblFMWXFIdTErVnpjVlNQWFNGdGJFdzBKK1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQwOTkxCWZpbGU6UmV2aXZlLTMuMC4xNDQuZG1nClJwQ3didVViZTNtbnJzLzFIVHZnSDc3eFFkOWJ3ZThvV2J5RXlXb2JoYnRsNXMweEh1eTFpUjJEekhmOHorczdEd2k2QVNYYnJEczJkVmxkQThmQkR3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVpRU284SW1HcEdZTmhQK200K21veHVaaFkvNGRlREg2dUsxK0tYSEc0YVdpVzRtVTdZRFhYa3o4RkxFMWIrQ2dqL3hPMi9lYzNoTVZFTzJ0RENPU1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQzNTY2CWZpbGU6UmV2aXZlLTMuMC4xNDUuZG1nCmlTNUhjVEtXQVBqdU8zVFRBamFBdk5QU2hscTFZOUNxeGRXMHNseEEraTVQWDNTenBhZWlnb2FDUUhVdFordW96UW5iVnV3Q0NNd1N0UFR0RkdOekJBPT0K"
 }
