@@ -1,9 +1,9 @@
 {
-  "version": "3.0.148",
-  "notes": "- Owners: a clip being remade glows, with its progress on it. Its row in the progress list says Remake, and hovering either one lights up the other. When it's done, \\\"Remade \u00b7 see new version\\\" takes you to the new clip.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.148.dmg",
+  "version": "3.0.149",
+  "notes": "- Captions: a word after a pause now appears the moment you hear it, in every format.\n- Colour Block: three B-roll clips for every colour card, no black-and-white, and the small label on a card only when it helps (at most one a video, never repeating its own word).\n- Colour Block clips are made last, and each one is checked against the reference reels and redone up to three times before you get it.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.149.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.148/Revive-3.0.148.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.149/Revive-3.0.149.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVd3NXM1c3gvQUt0RWNaK0lpbEZNYlc2OTliOHE5bXV4eGFYaDRiRnRiZm1PaFVFQlA4VGNIUzNsbFFOQVFteXFVY0x1U3hGWDViaXdrcGo2WHBkZlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ2NDE5CWZpbGU6UmV2aXZlLTMuMC4xNDguZG1nCktpWGdqRkFrREplb0ZNQ2h3R05IRDgxckNKbmt2MUhSU1gxbFk4RU5WQzFPVGVPdzBWbmhJZk1YZ3pOOGtlU0NNQnh4YktGd1J1dU5QTHZ0N210aERnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNHdzJMK0lPSWNSQXhiOHZORlQveWJ1L3E5WjNWOUZScDZuR1VLYzNhYjR4dGpnZko2YW0rUWFrOHhlOG9yamZpRFdwa2ZSVVZVTXUxNkpiZFlCZ1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTE4MjkzCWZpbGU6UmV2aXZlLTMuMC4xNDkuZG1nCk1rTU1FMEVpY2I2YWtxd2RZVW1YTFg0VE42U2FnZ1dVODR4QkhheGh6MWllRlRDQlRyemhFQXpZWW1acUpkM1VQRGRScW5QTWNrVGlWU09GZzl1UkJnPT0K"
 }
