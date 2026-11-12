@@ -1,9 +1,9 @@
 {
-  "version": "3.0.145",
-  "notes": "- Each song is used once per project: no two clips of a project share a song, even when they are made at the same time.\n- Owners: Remake on the latest update, on any clip (More) or several at once. The moment is made again with the newest version, beside the old clip, for free.\n- Owners: Teach the editor. Write a lesson in your own words from any clip (More) or in Account settings, Editor lessons. Every AI decision in Revive follows it from then on.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.145.dmg",
+  "version": "3.0.146",
+  "notes": "- Owners: Admin, in Account settings. Tell Revive what's wrong in a chat; it fixes its own code in a separate copy, tests it against every clip you've rejected and saves the change. Press Release to send the update to everyone.\n- Owners: server setup on the Admin page copies the lessons setup and opens Supabase, ready to paste and run.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.146.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.145/Revive-3.0.145.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.146/Revive-3.0.146.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVpRU284SW1HcEdZTmhQK200K21veHVaaFkvNGRlREg2dUsxK0tYSEc0YVdpVzRtVTdZRFhYa3o4RkxFMWIrQ2dqL3hPMi9lYzNoTVZFTzJ0RENPU1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQzNTY2CWZpbGU6UmV2aXZlLTMuMC4xNDUuZG1nCmlTNUhjVEtXQVBqdU8zVFRBamFBdk5QU2hscTFZOUNxeGRXMHNseEEraTVQWDNTenBhZWlnb2FDUUhVdFordW96UW5iVnV3Q0NNd1N0UFR0RkdOekJBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNhcEs1K2dqbDNDLzJZYUpUQ0h4cFoyaDM5Wk1CcUdNWmNSeDFPMU5xUTVRUEFvckNMKzVwYzVRcFRLUjZ3cFdYZEdGRW84dUZ2TUYrckVoM3VKWWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ0NDk1CWZpbGU6UmV2aXZlLTMuMC4xNDYuZG1nCmNXRUc2ZjNQN0taT1RQZGFOUnYvUVd2SEszblF3SzRsUjUzU2tyVXVJL25XcW1vcmZtVC9hU25BckNJQlNuN3Ryb3BtV3YvbThpZ29ueG9meGRtMERBPT0K"
 }
