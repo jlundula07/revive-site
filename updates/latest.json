@@ -1,9 +1,9 @@
 {
-  "version": "3.0.152",
-  "notes": "- Titles and captions are kept off faces in every style, including Documentary's big opening title and captions on dark boxes.\n- A title is never drawn under Instagram's like and comment buttons: it is drawn a little smaller instead.\n- On-screen text is now also read by someone who hasn't seen the clip: any word only the clip explains is rewritten in plain words.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.152.dmg",
+  "version": "3.0.153",
+  "notes": "- Colour Block is no longer coming soon: you can pick it again in every format picker, and Revive can choose it for your clips.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.153.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.152/Revive-3.0.152.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.153/Revive-3.0.153.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVQzQ1J0RnRhOGJqQnRzd3VidTNOb2ZJMGcxQzNocFRWSDJOd0VTSWJUUDRqNHVRZzRla3NwQnlZNWtXWXRPSDg1L2dvaFRXaFY3TVlvekVyUFduL1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI3MDk1CWZpbGU6UmV2aXZlLTMuMC4xNTIuZG1nCmhKSkY1dkhTcHFnbC9OVnZ2eFF4THJ0ek1PaGlsbDduMmJLZzQrbkcyVklxZ2VkTEdQYUhMaUw2bXh5SzByTU00WHYyUlozd1MxbDJnT0FaVnpZckFRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFibkQ5TC9zVGdlNjIvSElEUWpRanNJeWNMRVVONW1OeHpjZ0x4TER0L0dTRzU3ZGJaZ3YvM3dKUTBnRGkyS3VUVzArektVSlg3aDhSTnRzU2U5MGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI3NTI4CWZpbGU6UmV2aXZlLTMuMC4xNTMuZG1nCjJvY2xZbTVEVlJqOGRMYkx4WjA1bEdPMlB2KzBGZUdoYVM4T29OT1lZVjBmQVJ4VWFqbUV3bDJqcDdNTDBJZ2Rjc2FHNWhpNko4d1lsb1QxT1FtUUN3PT0K"
 }
