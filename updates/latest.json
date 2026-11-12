@@ -1,9 +1,9 @@
 {
-  "version": "3.0.150",
-  "notes": "- Captions: a clip that can't be heard in one go is now heard in short pieces, instead of falling back to the recording's timing (which was up to a second off).\n- Captions: a word left starting in the middle of a pause now appears on the frame the voice starts again.\n- B-Roll Story now uses your whole B-roll library, like Horizontal B-roll, instead of the same few shots in every clip.\n- A title moved off someone's face stays off it: the captions go under it.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.150.dmg",
+  "version": "3.0.151",
+  "notes": "- Music: songs are now chosen from your own taste. The AI learns from the 38 clips you judged in the music lab (the song you chose, the ones that also work, the ones that were wrong), instead of matching tags.\n- Music: every song starts where you marked it. Your Start plays at the first frame; otherwise your downbeat lands right after the clip's hook; otherwise the song plays from its beginning.\n- Music: Strings + 808 + Beat, Andante in C Minor and Theme Variation are kept for the most dramatic clips only, about 3 in every 1,000.\n- Music: no song goes under more than 3 of your last 20 clips, so a few songs don't take over.\n- Music: starly, Melting Glass and Night Rider are out of the library, and AKAI is your version.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.151.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.150/Revive-3.0.150.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.151/Revive-3.0.151.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRLSm5rbG5DMzlIL0VXMG5vQU5GSWtWYnc4RTNHVXRUM2V2QlA1TEVsTGZjSmNlcVBETnFhR0tQRHVkNVpTNHg0UUtyVWxodk53NktxZUhVdUlXNWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTIwODAxCWZpbGU6UmV2aXZlLTMuMC4xNTAuZG1nCks5Smp0eTY5MkVSc1JCZDE3QlFMd1Z4dWF6Z0N3QnpiZDN3SjRpT2p1aDZPRFVsS3VSRXRGd1NzZVFIdVRmVHc3YkFLNjVSYVZDVlc3WFUyUU5CeUNnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVNlZ2FTZi9LckR5UlgydHNaZS9IYUNUVXp2b2liRDMyQUovNjVjNmxmVnNnZzJHSjgyMTIvdk1wL29aVWtSWjRJQVVvYWdmNzA2K1dORGZvMTVRTVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI1MjUwCWZpbGU6UmV2aXZlLTMuMC4xNTEuZG1nCjlkMTRJL2FsL0VhNlRPeXpSTkRSVURqNlhCQlE3bzBjbVQ1dU1JQXc1VDd5a1djbXVRWHhuQ25uRWFDZzQ1L2xvNmg1YzdrNEZ3KzhPTTdjam1rZENRPT0K"
 }
