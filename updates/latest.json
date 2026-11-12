@@ -1,9 +1,9 @@
 {
-  "version": "3.0.149",
-  "notes": "- Captions: a word after a pause now appears the moment you hear it, in every format.\n- Colour Block: three B-roll clips for every colour card, no black-and-white, and the small label on a card only when it helps (at most one a video, never repeating its own word).\n- Colour Block clips are made last, and each one is checked against the reference reels and redone up to three times before you get it.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.149.dmg",
+  "version": "3.0.150",
+  "notes": "- Captions: a clip that can't be heard in one go is now heard in short pieces, instead of falling back to the recording's timing (which was up to a second off).\n- Captions: a word left starting in the middle of a pause now appears on the frame the voice starts again.\n- B-Roll Story now uses your whole B-roll library, like Horizontal B-roll, instead of the same few shots in every clip.\n- A title moved off someone's face stays off it: the captions go under it.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.150.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.149/Revive-3.0.149.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.150/Revive-3.0.150.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNHdzJMK0lPSWNSQXhiOHZORlQveWJ1L3E5WjNWOUZScDZuR1VLYzNhYjR4dGpnZko2YW0rUWFrOHhlOG9yamZpRFdwa2ZSVVZVTXUxNkpiZFlCZ1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTE4MjkzCWZpbGU6UmV2aXZlLTMuMC4xNDkuZG1nCk1rTU1FMEVpY2I2YWtxd2RZVW1YTFg0VE42U2FnZ1dVODR4QkhheGh6MWllRlRDQlRyemhFQXpZWW1acUpkM1VQRGRScW5QTWNrVGlWU09GZzl1UkJnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRLSm5rbG5DMzlIL0VXMG5vQU5GSWtWYnc4RTNHVXRUM2V2QlA1TEVsTGZjSmNlcVBETnFhR0tQRHVkNVpTNHg0UUtyVWxodk53NktxZUhVdUlXNWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTIwODAxCWZpbGU6UmV2aXZlLTMuMC4xNTAuZG1nCks5Smp0eTY5MkVSc1JCZDE3QlFMd1Z4dWF6Z0N3QnpiZDN3SjRpT2p1aDZPRFVsS3VSRXRGd1NzZVFIdVRmVHc3YkFLNjVSYVZDVlc3WFUyUU5CeUNnPT0K"
 }
