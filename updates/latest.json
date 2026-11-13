@@ -1,9 +1,9 @@
 {
-  "version": "3.0.154",
-  "notes": "- Presets: the last question is now \u201cSave this as a preset?\u201d. A preset keeps every answer after the creator (what to make, formats, B-roll, pace), except the notes.\n- Next time, right after you pick the creator, \u201cWhich preset?\u201d lets you choose one and go straight to the notes. \u201cChange answers\u201d lets you adjust it, and you can update the preset or save a new one at the end.\n- Presets are kept per creator. Delete one with the small \u00d7 on its card.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.154.dmg",
+  "version": "3.0.155",
+  "notes": "- Aspect ratios: formats that can be more than one shape now have a ratio pill under them in \u201cWhich short-form formats?\u201d. Pick 9:16, 4:3, 1:1 or 16:9; picking one also picks the format.\n- Letterbox, Headline and Wraparound start at 16:9, Cinema Box at 4:3, B-roll at 4:3, the rest at 9:16. Hook Box, Split screen and Documentary stay 9:16.\n- B-Roll Story is replaced by B-roll (was Horizontal B-roll). Margin Vertical is now Margin at 9:16.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.155.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.154/Revive-3.0.154.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.155/Revive-3.0.155.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWV5REJldmViYVpjYmxSL0F1TXJoLy8rTVN6SU45SE80VE1pUlVLTEpiN2RnUGlwYVNGdGRzRFRoWmRYb1NVSGVZRU81b29Fblh0cHhtZ0diKy9SVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI4MDQ4CWZpbGU6UmV2aXZlLTMuMC4xNTQuZG1nCmRndFZBcVZKQk1vZzBDYjgxV3YyelFNOUlkSTRpbVEzcDlhbzI0ODg2Nmg5OEdKNExqbmFDMWhPNHFnMlE4eVNWeTlHd1d6ZjZXbFRZdjh0TmpyV0FBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVh2L09yZCtSU3lmbU5ydHUxdlRUa3JWbG14MXF3ZGgyY0tQZ1VzbGUrTEdDc1BxS1M2UXFtUW5OUFl4V0hXaG5ycEZBWUFBSHNRUEJCVGxDZlV0SGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTMwNTE2CWZpbGU6UmV2aXZlLTMuMC4xNTUuZG1nCnNTRlJJUi9HcGtuQ1dxZHlEZVdmdVZsRERKeFFMMlBNbWplM05PdWxFcDg3aVFmWmZjYlhZdFN1eHpvSFc3WENYZGlyTFo2S0kzNUtCRTU2dkRMbEJnPT0K"
 }
