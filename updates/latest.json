@@ -1,9 +1,9 @@
 {
-  "version": "3.0.153",
-  "notes": "- Colour Block is no longer coming soon: you can pick it again in every format picker, and Revive can choose it for your clips.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.153.dmg",
+  "version": "3.0.154",
+  "notes": "- Presets: the last question is now \u201cSave this as a preset?\u201d. A preset keeps every answer after the creator (what to make, formats, B-roll, pace), except the notes.\n- Next time, right after you pick the creator, \u201cWhich preset?\u201d lets you choose one and go straight to the notes. \u201cChange answers\u201d lets you adjust it, and you can update the preset or save a new one at the end.\n- Presets are kept per creator. Delete one with the small \u00d7 on its card.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.154.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.153/Revive-3.0.153.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.154/Revive-3.0.154.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFibkQ5TC9zVGdlNjIvSElEUWpRanNJeWNMRVVONW1OeHpjZ0x4TER0L0dTRzU3ZGJaZ3YvM3dKUTBnRGkyS3VUVzArektVSlg3aDhSTnRzU2U5MGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI3NTI4CWZpbGU6UmV2aXZlLTMuMC4xNTMuZG1nCjJvY2xZbTVEVlJqOGRMYkx4WjA1bEdPMlB2KzBGZUdoYVM4T29OT1lZVjBmQVJ4VWFqbUV3bDJqcDdNTDBJZ2Rjc2FHNWhpNko4d1lsb1QxT1FtUUN3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWV5REJldmViYVpjYmxSL0F1TXJoLy8rTVN6SU45SE80VE1pUlVLTEpiN2RnUGlwYVNGdGRzRFRoWmRYb1NVSGVZRU81b29Fblh0cHhtZ0diKy9SVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTI4MDQ4CWZpbGU6UmV2aXZlLTMuMC4xNTQuZG1nCmRndFZBcVZKQk1vZzBDYjgxV3YyelFNOUlkSTRpbVEzcDlhbzI0ODg2Nmg5OEdKNExqbmFDMWhPNHFnMlE4eVNWeTlHd1d6ZjZXbFRZdjh0TmpyV0FBPT0K"
 }
