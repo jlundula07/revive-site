@@ -1,9 +1,9 @@
 {
-  "version": "3.0.155",
-  "notes": "- Aspect ratios: formats that can be more than one shape now have a ratio pill under them in \u201cWhich short-form formats?\u201d. Pick 9:16, 4:3, 1:1 or 16:9; picking one also picks the format.\n- Letterbox, Headline and Wraparound start at 16:9, Cinema Box at 4:3, B-roll at 4:3, the rest at 9:16. Hook Box, Split screen and Documentary stay 9:16.\n- B-Roll Story is replaced by B-roll (was Horizontal B-roll). Margin Vertical is now Margin at 9:16.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.155.dmg",
+  "version": "3.0.156",
+  "notes": "- More B-roll: every format with B-roll now shows at least 4 B-roll clips, and B-roll, Type Stack and Colour Block far more (about one every 6 seconds on Standard: 8 in a 45-second clip, 10 in a minute; Heavy more still).\n- When the first plan has too few, Revive adds B-roll on more of the speaker's lines and looks at more of your clips before giving up on a line. A clip that doesn't fit the line is still never used.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.156.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.155/Revive-3.0.155.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.156/Revive-3.0.156.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVh2L09yZCtSU3lmbU5ydHUxdlRUa3JWbG14MXF3ZGgyY0tQZ1VzbGUrTEdDc1BxS1M2UXFtUW5OUFl4V0hXaG5ycEZBWUFBSHNRUEJCVGxDZlV0SGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTMwNTE2CWZpbGU6UmV2aXZlLTMuMC4xNTUuZG1nCnNTRlJJUi9HcGtuQ1dxZHlEZVdmdVZsRERKeFFMMlBNbWplM05PdWxFcDg3aVFmWmZjYlhZdFN1eHpvSFc3WENYZGlyTFo2S0kzNUtCRTU2dkRMbEJnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWNPMUI3NzJBcVd2bU8wMnhYTHd5WFFlaFRhR0JVMlZXMU52TndlQ2pHa3NXNzhURkdZSW1EZXcvUDhVcnN2dlZtMURtRW1CaWhIbDBmZ3YremRLWUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjA1MzI0CWZpbGU6UmV2aXZlLTMuMC4xNTYuZG1nCjd5NVhleHgxQ25rVGFteTdoOUVQQmt1NmNNN0xtN1hXanR5V3dCbEtVK3hZbElneExicjBPdDFWam9xQ3pmKzhPZHlzMXRDQUpNZlhheDZ6dU9pa0RBPT0K"
 }
