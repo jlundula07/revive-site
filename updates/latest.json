@@ -1,9 +1,9 @@
 {
-  "version": "3.0.164",
-  "notes": "- Video calls with two people are read as two people the whole time, so split screen works on them (a person whose body blends into the wall was being missed)\n- Try again on a split-screen clip looks at the footage again instead of trusting an older reading",
-  "url": "https://revivestudio.app/updates/Revive-3.0.164.dmg",
+  "version": "3.0.165",
+  "notes": "- A clip made again after a change keeps every caption exactly as it was left",
+  "url": "https://revivestudio.app/updates/Revive-3.0.165.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.164/Revive-3.0.164.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.165/Revive-3.0.165.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVBbm9KQ2hNSERYSnl6K2RYY3hHTW5ZUFloeThSVFVWbHc0b25IZFBOT0lhMDRRNEVMdkY5ODk4enlCSXRsRVlKS2RHRStoV1Mxa2xRai81QnhsOEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzgyNDgwCWZpbGU6UmV2aXZlLTMuMC4xNjQuZG1nClRoSTR6NllBYnRoamcvUEUxbFhmR0l4eVNZL2lVTk5SM3ZwczBYVW5BWi9HVXMzaDJHaFJVYnZ1OGtlVW5ZQmlLSkFnU1EzL1p4alVFQkVpYmRGM0FRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJCVlRoR2l5bWpXYnF2QkZVRkRvVGdsSUY3YU5aYWYvSGsyNDdySDQ2dXc2cm9wZlptRU5pN0gzWnphaXlZQVlxRXZKRmRuQmNWOURhVzB5ZFU2SlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzg0MjIzCWZpbGU6UmV2aXZlLTMuMC4xNjUuZG1nCkE0UW5pQWFnL1RqUmdSeUliUDlwUzNyZkRFVEpodVFkS3VkVzhxZUNxTVE5N01lYUN4VGxNbnpVNmRWa0hIY3NDSzUrT1owY1BEZ0svU1RiSVBGbkJRPT0K"
 }
