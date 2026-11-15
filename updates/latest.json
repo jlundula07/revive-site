@@ -1,9 +1,9 @@
 {
-  "version": "3.0.159",
-  "notes": "- Fixed clips freezing mid-way (stuck at the same percent with the time left not moving): when one clip re-listened to its words, it could wait on itself forever and hold up every other clip in the batch. Clips that were stuck start again when you reopen Revive.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.159.dmg",
+  "version": "3.0.162",
+  "notes": "- Owner accounts never drop to 0 credits when a sign-in runs out: Revive keeps who you are until you log in again\n- A sign-in can no longer be ended by a test copy of your data refreshing it, or by several clips refreshing it at once",
+  "url": "https://revivestudio.app/updates/Revive-3.0.162.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.159/Revive-3.0.159.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.162/Revive-3.0.162.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFPWGNrTDc1UUp3Q0FvSWd0K2dBcnM0RHlJYVJybXdiSHp5VXBuUXcra2d3ZlZkakdtZ0ZyaHN6L3dwMEUwWCtCUmwvRlFPUVZwL3EybFpOQU5tVFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzExMTI1CWZpbGU6UmV2aXZlLTMuMC4xNTkuZG1nCkNpaW8wYk02b3FER0xzdlgweGR2RktubWpUMUNFclVhL0xGdGRvNHpVcmIwUWZTZ0EvWlBGb1cxOTBJT3BkQmd3TGFEQ0xaNjAwSkNIcVRNK2FhZ0RBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVWSW1UTHhXRHhXY24zeFBvSWg0Q3JoMGpad1MxRFozZitSVzFyU0RtSHNKSlg1YTl4M01IM3EwUDZwUkdWVjZaRllGVTV0bkhDSk9kenV2SlNHc2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzc4MjY2CWZpbGU6UmV2aXZlLTMuMC4xNjIuZG1nCnplM3haQmQ5dER6TS9oaGVFTkNJVHNpU2pMNEV2Z1prV2NkODRrQ0xYd3V0aEJ3MzIvT29aN1RMeWVtNCtBb05pK05vbHNFZFNmbTdMUUFIY3hoS0JnPT0K"
 }
