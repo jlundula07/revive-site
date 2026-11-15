@@ -1,9 +1,9 @@
 {
-  "version": "3.0.158",
-  "notes": "- Hook Box, Documentary, Split screen and Letterbox now show at least 4 B-roll clips too, chosen from your B-roll folders the same careful way as the B-roll format (they used to get 2 at most, often none). These stay mostly on your face: B-roll covers about a fifth to a third of the clip.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.158.dmg",
+  "version": "3.0.159",
+  "notes": "- Fixed clips freezing mid-way (stuck at the same percent with the time left not moving): when one clip re-listened to its words, it could wait on itself forever and hold up every other clip in the batch. Clips that were stuck start again when you reopen Revive.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.159.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.158/Revive-3.0.158.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.159/Revive-3.0.159.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZIUE1sZGxLemUvd1JCOTlZRndoSXRhNTZmTEs5UVpjaFM1WmRmRWdxN2orbUV5VFI2UGdXQmRQUkw4d0c2ZVpnMDU4enlIVUtqYURMbjg0WTZjT3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjA2NzY0CWZpbGU6UmV2aXZlLTMuMC4xNTguZG1nCktkQk5PdU4rdUdXN0l2VEpOd0hNMjhGZU9xclJWVHRraStnRVhHUmdrN3pBMzNZVTRVSGRYRUh6K2YvZ2RDSkRZTCtGS0p4VzZZK0dDV3ZrdjNXcUF3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFPWGNrTDc1UUp3Q0FvSWd0K2dBcnM0RHlJYVJybXdiSHp5VXBuUXcra2d3ZlZkakdtZ0ZyaHN6L3dwMEUwWCtCUmwvRlFPUVZwL3EybFpOQU5tVFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzExMTI1CWZpbGU6UmV2aXZlLTMuMC4xNTkuZG1nCkNpaW8wYk02b3FER0xzdlgweGR2RktubWpUMUNFclVhL0xGdGRvNHpVcmIwUWZTZ0EvWlBGb1cxOTBJT3BkQmd3TGFEQ0xaNjAwSkNIcVRNK2FhZ0RBPT0K"
 }
