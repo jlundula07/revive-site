@@ -1,9 +1,9 @@
 {
-  "version": "3.0.162",
-  "notes": "- Owner accounts never drop to 0 credits when a sign-in runs out: Revive keeps who you are until you log in again\n- A sign-in can no longer be ended by a test copy of your data refreshing it, or by several clips refreshing it at once",
-  "url": "https://revivestudio.app/updates/Revive-3.0.162.dmg",
+  "version": "3.0.163",
+  "notes": "- Split screen has a new look: black captions on a white box right on the seam, and the hook under it (with its second line) for the whole clip\n- Split screen of a video call (Google Meet, Zoom) cuts each person from inside their own tile: no grey edges or name tags, and both people centred\n- Split screen captions stay up through short pauses, and the format picker plays the new reference",
+  "url": "https://revivestudio.app/updates/Revive-3.0.163.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.162/Revive-3.0.162.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.163/Revive-3.0.163.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVWSW1UTHhXRHhXY24zeFBvSWg0Q3JoMGpad1MxRFozZitSVzFyU0RtSHNKSlg1YTl4M01IM3EwUDZwUkdWVjZaRllGVTV0bkhDSk9kenV2SlNHc2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzc4MjY2CWZpbGU6UmV2aXZlLTMuMC4xNjIuZG1nCnplM3haQmQ5dER6TS9oaGVFTkNJVHNpU2pMNEV2Z1prV2NkODRrQ0xYd3V0aEJ3MzIvT29aN1RMeWVtNCtBb05pK05vbHNFZFNmbTdMUUFIY3hoS0JnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVZpQlBjZWg2VG95VTRjRXRZblFBTXh1Znp4MFBkTTQxL21qMGtuQVYzY1V2VTUxcklGM3VOeXhMVUR3NFFCMnVwMTQ3eFJYR1hCTXNseVlxSjVDbWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzgxNzA0CWZpbGU6UmV2aXZlLTMuMC4xNjMuZG1nClNvWkY1RVAwZUhkaWxMU0FlS2lObTJCcWdWaENDSmFhNEMvd2J4S1NlMHdnSXEzcVl4NVVJSG55anhORkNncXlNdFVMVzM1U2hzQVF1NStCQXNxT0NnPT0K"
 }
