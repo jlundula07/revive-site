@@ -1,9 +1,9 @@
 {
-  "version": "3.0.165",
-  "notes": "- A clip made again after a change keeps every caption exactly as it was left",
-  "url": "https://revivestudio.app/updates/Revive-3.0.165.dmg",
+  "version": "3.0.166",
+  "notes": "- A clip made again after a change keeps its framing exactly where it was moved, up, down or sideways",
+  "url": "https://revivestudio.app/updates/Revive-3.0.166.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.165/Revive-3.0.165.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.166/Revive-3.0.166.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVJCVlRoR2l5bWpXYnF2QkZVRkRvVGdsSUY3YU5aYWYvSGsyNDdySDQ2dXc2cm9wZlptRU5pN0gzWnphaXlZQVlxRXZKRmRuQmNWOURhVzB5ZFU2SlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzg0MjIzCWZpbGU6UmV2aXZlLTMuMC4xNjUuZG1nCkE0UW5pQWFnL1RqUmdSeUliUDlwUzNyZkRFVEpodVFkS3VkVzhxZUNxTVE5N01lYUN4VGxNbnpVNmRWa0hIY3NDSzUrT1owY1BEZ0svU1RiSVBGbkJRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFxL3k1SWRwNGdpOTIweWhGS0xtcGV3czNQTlNlMXkxa1phTFZwR0dERC9zdTJ5TU8wUnFpaGhkT1hvaUsrd1dLS0pYVTJIZHFRTnA3U0ZqWWpualEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODExOTAzCWZpbGU6UmV2aXZlLTMuMC4xNjYuZG1nCnJyMmhDOFZCSG80c3dFNHI2aVhvNllQOXMrK2tIaGFwT1pGbTFvK0VGYi9ZZmRBVElnSllxT3FNYmhvY3NCNlo1NnN6enNDSkY1enpRTVE2U0c0U0NBPT0K"
 }
