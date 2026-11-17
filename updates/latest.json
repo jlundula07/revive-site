@@ -1,9 +1,9 @@
 {
-  "version": "3.0.171",
-  "notes": "- No more two voices in the editor: the clip's player behind the editor can no longer start playing while you edit",
-  "url": "https://revivestudio.app/updates/Revive-3.0.171.dmg",
+  "version": "3.0.172",
+  "notes": "- Auto add captions in the editor (the button at the top of the Captions panel, or Shift+C): any part of your clip without captions is listened to and captioned, and your captions stay as they are",
+  "url": "https://revivestudio.app/updates/Revive-3.0.172.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.171/Revive-3.0.171.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.172/Revive-3.0.172.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVdPOURyVFR6UUNLQ2FmUFl1Q1RKdUhQWTd5R090Mzh0eVB0QzVZSnNnOEFSQXV5WHhvYm10aitaUDRoOCtFS1Y0RW81ZGh3ZVg3UVdoMHVWWEN1UUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODk0NTYwCWZpbGU6UmV2aXZlLTMuMC4xNzEuZG1nCnorNVRseDF0aFdOalJaSUxoN1p6NkxLYURTVGYzTkJvUGhvVzN1U1JnaGN2SXcwN08xd0dvNjg5NitRZ0paQ1FpMzVweWVnQ3ZqZkk5dFQram8zT0F3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWUxVDFEOC96QVNreGxuQWwrTjI3VE9KQTJCVGtkazh5cXdFdnJJRFc4c0xud0dleUtBcS9KQmZBMFk2Z0dlVjNQUi9wckR3R1FTVzJhaE9XNnVUK1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODk2MjU0CWZpbGU6UmV2aXZlLTMuMC4xNzIuZG1nCk5yM1R0ZXJEMDllU2cvV3BSSW56Q3NON2hlVFBLQlltOGFBWTU4UE5PMFlOQUdwa2drVGhGQnRsVkZMV0dsVDJianFXWG1oaHUrckJJNHNHOHpEcUJ3PT0K"
 }
