@@ -1,9 +1,9 @@
 {
-  "version": "3.0.167",
-  "notes": "- Clips come back much sooner: the quality check now reads every clip once, at full depth, instead of three times, and fixes it in one go",
-  "url": "https://revivestudio.app/updates/Revive-3.0.167.dmg",
+  "version": "3.0.168",
+  "notes": "- The editor plays your clip live: trims, extends and cuts show at once, with no waiting for a preview, and the clip is made when you export\n- Smooth sound from cut to cut, and you hear the sound as you drag the playhead\n- Edit the hook like any text: its words, font, size, position and how long it stays\n- Split screen has a top and a bottom layer, each with its own position and zoom\n- W, Cmd+K and the Razor cut any track; Q and E trim any selected block",
+  "url": "https://revivestudio.app/updates/Revive-3.0.168.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.167/Revive-3.0.167.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.168/Revive-3.0.168.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVNLVG1TTERpUCtkT004a25DUjZIaEQ0bjVaVE1oN3ltNzArZFJlNTM1cVNvN2RmWWs4eUttU01lUk5kc1I0S1JsV3ZseUQ2eHNvVytWbDFrd053K1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgzNzk2CWZpbGU6UmV2aXZlLTMuMC4xNjcuZG1nClZQUUZDblZxQkFYZ25wYUMwM0NlMklhRWtxWE55V2cwaE5WdXQ3VG5uMTdMSFBheTNNazBkaVc5c2UwdDBlc3RUMnFaQTdUM0dqeXRvOUJWd0ZlSER3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVlwN1IyZGphQ3M3VHEwRWNKUThDeG0yWUxnVmlRN1hyWGhYVzlSbHlXS09VMnVLblNqQ0tQTkR2bXZudzIvUUpHVmlmVnZlNGd4b2o0aGY4Q3BMOWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODg3Njg4CWZpbGU6UmV2aXZlLTMuMC4xNjguZG1nClUzWVFoeVNIMTkyVFFJVWFGaVBCNmR5bTltL1J3dXk1dDFUekR6dEVkT01LS1ZrL1M0SStpRStNT3RBVFFaRkxiU3l6R3NLOHE5Nk9Pem95R0o1RURRPT0K"
 }
