@@ -1,9 +1,9 @@
 {
-  "version": "3.0.173",
-  "notes": "- Split screen on a video call stays Split screen: when only one of the two faces is picked up (tinted glasses, a dim tile), the other tile is still counted as a person, so a project set to Split screen only no longer gets Hook Box clips.\n- Remaking a clip that had fallen back to a format you didn't pick makes it again in the format you picked.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.173.dmg",
+  "version": "3.0.174",
+  "notes": "- A line break you type into a hook (Shift+Enter) now starts a new line, in every format. Before, split screen and Headline hooks drew a small empty box where the break was.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.174.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.173/Revive-3.0.173.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.174/Revive-3.0.174.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWFmK0xiVWhKQUhTZ1RXcWdXeGJyQWZGcVdwQjdGN3FIdndZenJ1TENZUC9CYVJqcVFnT3Q1YUtjSFA3TithQ0pHNGpoNno0alBYNjJsc0tQVy9zOHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjExNTA3CWZpbGU6UmV2aXZlLTMuMC4xNzMuZG1nClo5ZHVaWWF4TlJRaS9jYzRkMkF1Vmc4NVovaHZHL2VBTmRVWTlwVEpNWmJML1FvV3h5ZW5BUGZsaDRJZ3BCQnNTU3N6NVYzdExwTkNsRjVteXV3Q0FRPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFuRTVOQXZHUHFWNEFjOUJIcDNsOUxQa3pUZEhFQzYzQXhkK3hQajc5MU13MHJBemhDQ2s2RGpyU3VQY2F6Y2dBNmE4NFZ0a3grK3RVMmswc2pEK2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjI1MjA4CWZpbGU6UmV2aXZlLTMuMC4xNzQuZG1nCjRrUDRmZ04yOEZQNFFTNS9XZlE0MXIxSGYrTkpIampPNEdhOG5ZRDBwTnBhSWhlOXBRanMzUXU0eW02STRheHVDaTJscjBMNWI1K0h0bTVvVGh4N0J3PT0K"
 }
