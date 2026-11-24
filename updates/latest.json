@@ -1,9 +1,9 @@
 {
-  "version": "3.0.174",
-  "notes": "- A line break you type into a hook (Shift+Enter) now starts a new line, in every format. Before, split screen and Headline hooks drew a small empty box where the break was.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.174.dmg",
+  "version": "3.0.175",
+  "notes": "- Boxed tweet carousels stay Boxed tweets to the last slide. Before, when a carousel ran out of fresh pictures of the speaker, its last slides turned into black tweet posts.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.175.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.174/Revive-3.0.174.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.175/Revive-3.0.175.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVFuRTVOQXZHUHFWNEFjOUJIcDNsOUxQa3pUZEhFQzYzQXhkK3hQajc5MU13MHJBemhDQ2s2RGpyU3VQY2F6Y2dBNmE4NFZ0a3grK3RVMmswc2pEK2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjI1MjA4CWZpbGU6UmV2aXZlLTMuMC4xNzQuZG1nCjRrUDRmZ04yOEZQNFFTNS9XZlE0MXIxSGYrTkpIampPNEdhOG5ZRDBwTnBhSWhlOXBRanMzUXU0eW02STRheHVDaTJscjBMNWI1K0h0bTVvVGh4N0J3PT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWVmcVRkNGxBUFdyY3lrT2h2bDIvVGw3U3pnUGl0L2d3VzBpWXlNcjg0MXQ2WDZKMXBrb3lGcjhOMzBkdFFQbTMzS2hTeVNaZ0dIdy84NmFZOTZ0MVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTA0NDA1CWZpbGU6UmV2aXZlLTMuMC4xNzUuZG1nCmVoc1l3bU1SanBTakZ1OVpRbVY0RGZuaUNXdGhJSitKS0k1djhURmVoWnpXNlRhaHVHM3RhbzVoczI3d3cyVmhlZWZlV0FCYXIva1lwL1dFb051dkFnPT0K"
 }
