@@ -1,9 +1,9 @@
 {
-  "version": "3.0.177",
-  "notes": "- Hide a clip you don't want to see: More, then Hide this video (failed clips have a Hide button). It stays hidden after a refresh or a restart. Undo shows for a few seconds, and Show hidden videos at the bottom of the page brings any clip back with Unhide.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.177.dmg",
+  "version": "3.0.178",
+  "notes": "- The editor's picture shows up in about 30 seconds on a 4K recording, not 6 minutes of black. Revive now prepares only the parts of the recording the clip uses, never the whole recording, and says \\\"Getting the picture ready\u2026\\\" while it does.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.178.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.177/Revive-3.0.177.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.178/Revive-3.0.178.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRKWFVXN0hlWmlzMU1aNnJSZ0lZVG1OeDBWemlZSk9Nd2hRVHNWR0hZUEgweFBMSDlob1ZTQnlxU0JncFZWMC8veFJnYTdlaGRua2hkcXBPaWJET3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE4MzI1CWZpbGU6UmV2aXZlLTMuMC4xNzcuZG1nCk5KbWxOb3F2WGhucmtRZXZheXlTMGVjTlF4bFd4YkN2cEVUNURINExISTllanRoRDA4NHQ1M3JCTjhBOG1qQTNLdloyellXdXNCZ3pKcGppcm1ZZERBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRNM1B6amhyMlc1UWxYa0hsdmZIckE1bGpKM2htTjVwYW5FWHJSQVcrN0w2NjJ0T3RWTm91bENIbkVtYkpVMkhCMFlKbW9zbFBraEpSRyt0ZGpsdHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODIyODg3CWZpbGU6UmV2aXZlLTMuMC4xNzguZG1nCkQ2cHl2U0pjekd5eFJheVEwTDUxa3B4djhCL2VDbEZPYjRVa040ZElFSXVxZ3RpWjdtY3dFOUJnZTdYNFJQTkZxY0oxYzZHRFoxb0g2T3hXTmU4dURBPT0K"
 }
