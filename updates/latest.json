@@ -1,9 +1,9 @@
 {
-  "version": "3.0.176",
-  "notes": "- The format you pick is kept. When Revive couldn't look at the footage (for example the AI's login had run out), it used to read that as nobody on screen and swap Split screen for Hook Box; now it looks again, uses the whole recording's look, and if it still can't, the clip says so and Remake tries again. Split screen also stays in video calls where one person's face isn't found.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.176.dmg",
+  "version": "3.0.177",
+  "notes": "- Hide a clip you don't want to see: More, then Hide this video (failed clips have a Hide button). It stays hidden after a refresh or a restart. Undo shows for a few seconds, and Show hidden videos at the bottom of the page brings any clip back with Unhide.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.177.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.176/Revive-3.0.176.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.177/Revive-3.0.177.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVVKTzIrM3NEY2YwTE9ObEJSRDRBZ0daZVhLOHAvbWw3TmlBWEVXNEM0VTRua1piTzhETXNRb1J3NVRSOHdpckp6NVRkU0NBTGtUME1zTjF4Mlh1b0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzIxMjM1CWZpbGU6UmV2aXZlLTMuMC4xNzYuZG1nCmFaTUM0V3lscmo1Qi94S1FHMzQ3VnFyYWl6K1p5cUZXS0k1Nm9ldEJnNWMzWnc0TXZuak5wTWVBbkVJaXRZbm5ndkJhemxPRVBCY1J0MHFNSHd2WEJnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYWRKWFVXN0hlWmlzMU1aNnJSZ0lZVG1OeDBWemlZSk9Nd2hRVHNWR0hZUEgweFBMSDlob1ZTQnlxU0JncFZWMC8veFJnYTdlaGRua2hkcXBPaWJET3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE4MzI1CWZpbGU6UmV2aXZlLTMuMC4xNzcuZG1nCk5KbWxOb3F2WGhucmtRZXZheXlTMGVjTlF4bFd4YkN2cEVUNURINExISTllanRoRDA4NHQ1M3JCTjhBOG1qQTNLdloyellXdXNCZ3pKcGppcm1ZZERBPT0K"
 }
