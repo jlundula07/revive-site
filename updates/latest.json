@@ -1,9 +1,9 @@
 {
-  "version": "3.0.179",
-  "notes": "- The Revive Editor opens in one go: a short \\\"Opening the editor\\\" screen, then the picture, captions, sound, waveform and filmstrip are all there at once (no more three loads). On 4K footage the picture comes from the copy Revive already keeps, and each clip's layout is worked out when the clip is finished, so opening takes about half a second.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.179.dmg",
+  "version": "3.0.180",
+  "notes": "- Opening the Revive Editor shows the \\\"Opening the editor\\\" screen the moment you click, and closing it takes you straight back to your clips, with no pause either way.\n- Clips on the clips page can play at 1\u00d7, 1.5\u00d7, 2\u00d7 or 3\u00d7: press the speed pill on the picture. The speed you pick holds for every clip.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.180.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.179/Revive-3.0.179.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.180/Revive-3.0.180.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVMva2tiZ1QxbjdIYmoyeDdqaDFNc3B5ODdHMENqRlBCOXNEZXV5UEk0cTlhWlpDRlpzVjhKaFFVMG5oN0RFR3hja0VoUEZ6QkxRWXhMVGlRdUFCMWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODI2NzA0CWZpbGU6UmV2aXZlLTMuMC4xNzkuZG1nCnhFQyswNWJ6Ujdua3BHMlROM1NyNkJpOXZMNkpvWHBTNkE2cG5kUVVhMXJjM2QwMXRTRWxvOFQxbDg5djBRZWsyaU5LM3RibG9Yazk0WUM1Q1pDbUNnPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVg0QXMwS3JtRTg4ZlN1aUtYWW8yVmx4b1VBRC9tTDF1UEFJakUzd1BLZHQwcThiRkhuQ2RtY1hSUGc1Ri9GamMvRnNHOWtTdDVwRGsxV1Ruc00yUmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODgxMzkxCWZpbGU6UmV2aXZlLTMuMC4xODAuZG1nCmJTWmJISnkyUERWZGp2VWNUQ0xMR2M1WXUrUUJCYW1yQTM4NmJsaVlEbGtSM2JKN2dWMHREaVdyRkh6eWMwdUM5Q2tacHlMMGowSkxQYWdWWUtRaUJnPT0K"
 }
