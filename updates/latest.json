@@ -1,9 +1,9 @@
 {
-  "version": "3.0.178",
-  "notes": "- The editor's picture shows up in about 30 seconds on a 4K recording, not 6 minutes of black. Revive now prepares only the parts of the recording the clip uses, never the whole recording, and says \\\"Getting the picture ready\u2026\\\" while it does.",
-  "url": "https://revivestudio.app/updates/Revive-3.0.178.dmg",
+  "version": "3.0.179",
+  "notes": "- The Revive Editor opens in one go: a short \\\"Opening the editor\\\" screen, then the picture, captions, sound, waveform and filmstrip are all there at once (no more three loads). On 4K footage the picture comes from the copy Revive already keeps, and each clip's layout is worked out when the clip is finished, so opening takes about half a second.",
+  "url": "https://revivestudio.app/updates/Revive-3.0.179.dmg",
   "mirrors": [
-    "https://github.com/jlundula07/revive-site/releases/download/v3.0.178/Revive-3.0.178.dmg"
+    "https://github.com/jlundula07/revive-site/releases/download/v3.0.179/Revive-3.0.179.dmg"
   ],
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVRNM1B6amhyMlc1UWxYa0hsdmZIckE1bGpKM2htTjVwYW5FWHJSQVcrN0w2NjJ0T3RWTm91bENIbkVtYkpVMkhCMFlKbW9zbFBraEpSRyt0ZGpsdHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODIyODg3CWZpbGU6UmV2aXZlLTMuMC4xNzguZG1nCkQ2cHl2U0pjekd5eFJheVEwTDUxa3B4djhCL2VDbEZPYjRVa040ZElFSXVxZ3RpWjdtY3dFOUJnZTdYNFJQTkZxY0oxYzZHRFoxb0g2T3hXTmU4dURBPT0K"
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbEFZeExIMWhXYVMva2tiZ1QxbjdIYmoyeDdqaDFNc3B5ODdHMENqRlBCOXNEZXV5UEk0cTlhWlpDRlpzVjhKaFFVMG5oN0RFR3hja0VoUEZ6QkxRWXhMVGlRdUFCMWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODI2NzA0CWZpbGU6UmV2aXZlLTMuMC4xNzkuZG1nCnhFQyswNWJ6Ujdua3BHMlROM1NyNkJpOXZMNkpvWHBTNkE2cG5kUVVhMXJjM2QwMXRTRWxvOFQxbDg5djBRZWsyaU5LM3RibG9Yazk0WUM1Q1pDbUNnPT0K"
 }
